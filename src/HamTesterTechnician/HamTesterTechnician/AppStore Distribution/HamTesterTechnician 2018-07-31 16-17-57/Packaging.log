@@ -1,0 +1,1250 @@
+2018-07-31 21:17:41 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7ff9252ce5a0; archive(resolved)='<IDEArchive: 0x7ff923e4e400>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreExport: 0x7ff924f291c0>', team(resolved)='<IDEProvisioningBasicTeam: 0x7ff9256b6990; teamID='8DT5Y3HP4L', teamName='Gene Backlin'>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7ff9252ce5a0; archive = '<IDEArchive: 0x7ff923e4e400>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7ff924f291c0>', team='<IDEProvisioningBasicTeam: 0x7ff9256b6990; teamID='8DT5Y3HP4L', teamName='Gene Backlin'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7ff924e65010; archive = '<IDEArchive: 0x7ff923e4e400>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7ff924f291c0>', team='<IDEProvisioningBasicTeam: 0x7ff9256b6990; teamID='8DT5Y3HP4L', teamName='Gene Backlin'>'>
+	<IDEDistributionContext: 0x7ff9257298f0; archive = '<IDEArchive: 0x7ff923e4e400>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7ff924f291c0>', team='<IDEProvisioningBasicTeam: 0x7ff9256b6990; teamID='8DT5Y3HP4L', teamName='Gene Backlin'>'>
+	<IDEDistributionContext: 0x7ff920a9ba90; archive = '<IDEArchive: 0x7ff923e4e400>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7ff924f291c0>', team='<IDEProvisioningBasicTeam: 0x7ff9256b6990; teamID='8DT5Y3HP4L', teamName='Gene Backlin'>'>
+	<IDEDistributionContext: 0x7ff9204cdcd0; archive = '<IDEArchive: 0x7ff923e4e400>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7ff924f291c0>', team='<IDEProvisioningBasicTeam: 0x7ff9256b6990; teamID='8DT5Y3HP4L', teamName='Gene Backlin'>'>
+	<IDEDistributionContext: 0x7ff9256702d0; archive = '<IDEArchive: 0x7ff923e4e400>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7ff924f291c0>', team='<IDEProvisioningBasicTeam: 0x7ff9256b6990; teamID='8DT5Y3HP4L', teamName='Gene Backlin'>'>
+	<IDEDistributionContext: 0x7ff9256398e0; archive = '<IDEArchive: 0x7ff923e4e400>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7ff924f291c0>', team='<IDEProvisioningBasicTeam: 0x7ff9256b6990; teamID='8DT5Y3HP4L', teamName='Gene Backlin'>'>
+	<IDEDistributionContext: 0x7ff92568a8c0; archive = '<IDEArchive: 0x7ff923e4e400>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7ff924f291c0>', team='<IDEProvisioningBasicTeam: 0x7ff9256b6990; teamID='8DT5Y3HP4L', teamName='Gene Backlin'>'>
+	<IDEDistributionContext: 0x7ff92563a8e0; archive = '<IDEArchive: 0x7ff923e4e400>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7ff924f291c0>', team='<IDEProvisioningBasicTeam: 0x7ff9256b6990; teamID='8DT5Y3HP4L', teamName='Gene Backlin'>'>
+	<IDEDistributionContext: 0x7ff924f97e00; archive = '<IDEArchive: 0x7ff923e4e400>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7ff924f291c0>', team='(null)'>
+	<IDEDistributionContext: 0x7ff925271990; archive = '<IDEArchive: 0x7ff923e4e400>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7ff9252ce5a0>
+2018-07-31 21:17:41 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-07-31 21:17:41 +0000  Processing step: IDEDistributionCopyItemStep
+2018-07-31 21:17:41 +0000  Running /usr/bin/ditto '-V' '/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app'
+2018-07-31 21:17:41 +0000  >>> Copying /Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app 
+2018-07-31 21:17:41 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-07-31 21:17:41 +0000  39608 bytes for ./_CodeSignature/CodeResources
+2018-07-31 21:17:41 +0000  copying file ./AppIcon20x20@2x.png ... 
+2018-07-31 21:17:41 +0000  4568 bytes for ./AppIcon20x20@2x.png
+copying file ./AppIcon20x20@3x.png ... 
+2018-07-31 21:17:41 +0000  8256 bytes for ./AppIcon20x20@3x.png
+copying file ./Pool.plist ... 
+2018-07-31 21:17:41 +0000  163228 bytes for ./Pool.plist
+copying file ./AppIcon60x60@2x.png ... 
+2018-07-31 21:17:41 +0000  23383 bytes for ./AppIcon60x60@2x.png
+2018-07-31 21:17:41 +0000  copying file ./AppIcon29x29@2x.png ... 
+2018-07-31 21:17:41 +0000  7819 bytes for ./AppIcon29x29@2x.png
+2018-07-31 21:17:41 +0000  copying file ./AppIcon40x40@3x.png ... 
+2018-07-31 21:17:41 +0000  23383 bytes for ./AppIcon40x40@3x.png
+copying file ./AppIcon29x29~ipad.png ... 
+2018-07-31 21:17:41 +0000  2973 bytes for ./AppIcon29x29~ipad.png
+2018-07-31 21:17:41 +0000  copying file ./AppIcon40x40@2x.png ... 
+2018-07-31 21:17:41 +0000  12510 bytes for ./AppIcon40x40@2x.png
+2018-07-31 21:17:41 +0000  copying file ./AppIcon29x29@3x.png ... 
+2018-07-31 21:17:41 +0000  14483 bytes for ./AppIcon29x29@3x.png
+copying file ./AppIcon60x60@3x.png ... 
+2018-07-31 21:17:41 +0000  41684 bytes for ./AppIcon60x60@3x.png
+2018-07-31 21:17:41 +0000  copying file ./Base.lproj/Main.storyboardc/ViewController.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:41 +0000  1305 bytes for ./Base.lproj/Main.storyboardc/ViewController.nib/objects-11.0+.nib
+2018-07-31 21:17:41 +0000  copying file ./Base.lproj/Main.storyboardc/ViewController.nib/runtime.nib ... 
+2018-07-31 21:17:41 +0000  1305 bytes for ./Base.lproj/Main.storyboardc/ViewController.nib/runtime.nib
+2018-07-31 21:17:41 +0000  copying file ./Base.lproj/Main.storyboardc/BOv-ga-c2N-view-V0W-ez-Ug4.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:41 +0000  2801 bytes for ./Base.lproj/Main.storyboardc/BOv-ga-c2N-view-V0W-ez-Ug4.nib/objects-11.0+.nib
+2018-07-31 21:17:41 +0000  copying file ./Base.lproj/Main.storyboardc/BOv-ga-c2N-view-V0W-ez-Ug4.nib/runtime.nib ... 
+2018-07-31 21:17:41 +0000  2911 bytes for ./Base.lproj/Main.storyboardc/BOv-ga-c2N-view-V0W-ez-Ug4.nib/runtime.nib
+2018-07-31 21:17:41 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-Oez-UM-wUg.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:41 +0000  816 bytes for ./Base.lproj/Main.storyboardc/UIViewController-Oez-UM-wUg.nib/objects-11.0+.nib
+2018-07-31 21:17:41 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-Oez-UM-wUg.nib/runtime.nib ... 
+2018-07-31 21:17:41 +0000  816 bytes for ./Base.lproj/Main.storyboardc/UIViewController-Oez-UM-wUg.nib/runtime.nib
+copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2018-07-31 21:17:41 +0000  551 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2018-07-31 21:17:41 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:41 +0000  2721 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-11.0+.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib ... 
+2018-07-31 21:17:41 +0000  2846 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib
+2018-07-31 21:17:41 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:41 +0000  860 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-11.0+.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib ... 
+2018-07-31 21:17:41 +0000  860 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib
+2018-07-31 21:17:41 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-07-31 21:17:41 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-07-31 21:17:41 +0000  copying file ./Assets.car ... 
+2018-07-31 21:17:41 +0000  1503992 bytes for ./Assets.car
+copying file ./AppIcon40x40@2x~ipad.png ... 
+2018-07-31 21:17:41 +0000  12510 bytes for ./AppIcon40x40@2x~ipad.png
+2018-07-31 21:17:41 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2018-07-31 21:17:41 +0000  32311 bytes for ./AppIcon76x76@2x~ipad.png
+2018-07-31 21:17:41 +0000  copying file ./AppIcon83.5x83.5@2x~ipad.png ... 
+2018-07-31 21:17:41 +0000  37060 bytes for ./AppIcon83.5x83.5@2x~ipad.png
+copying file ./HamTesterTechnician ... 
+2018-07-31 21:17:41 +0000  523952 bytes for ./HamTesterTechnician
+copying file ./AppIcon29x29@2x~ipad.png ... 
+2018-07-31 21:17:41 +0000  7819 bytes for ./AppIcon29x29@2x~ipad.png
+copying file ./AppIcon40x40~ipad.png ... 
+2018-07-31 21:17:41 +0000  4589 bytes for ./AppIcon40x40~ipad.png
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/_CodeSignature/CodeResources ... 
+2018-07-31 21:17:41 +0000  17492 bytes for ./Frameworks/HamTester.framework/_CodeSignature/CodeResources
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/Mwn-Df-KOj-view-q1k-2H-3l4.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:41 +0000  4658 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/Mwn-Df-KOj-view-q1k-2H-3l4.nib/objects-11.0+.nib
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/Mwn-Df-KOj-view-q1k-2H-3l4.nib/runtime.nib ... 
+2018-07-31 21:17:41 +0000  4800 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/Mwn-Df-KOj-view-q1k-2H-3l4.nib/runtime.nib
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamTableViewController.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:41 +0000  1598 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamTableViewController.nib/objects-11.0+.nib
+copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamTableViewController.nib/runtime.nib ... 
+2018-07-31 21:17:41 +0000  1598 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamTableViewController.nib/runtime.nib
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamResultsDetailTableViewController.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:41 +0000  1486 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamResultsDetailTableViewController.nib/objects-11.0+.nib
+copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamResultsDetailTableViewController.nib/runtime.nib ... 
+2018-07-31 21:17:41 +0000  1486 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamResultsDetailTableViewController.nib/runtime.nib
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/PoolGroupQuestionDetailTableViewController.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:41 +0000  1498 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/PoolGroupQuestionDetailTableViewController.nib/objects-11.0+.nib
+copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/PoolGroupQuestionDetailTableViewController.nib/runtime.nib ... 
+2018-07-31 21:17:41 +0000  1498 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/PoolGroupQuestionDetailTableViewController.nib/runtime.nib
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/KsM-05-RIL-view-8KW-hM-98m.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:41 +0000  8245 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/KsM-05-RIL-view-8KW-hM-98m.nib/objects-11.0+.nib
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/KsM-05-RIL-view-8KW-hM-98m.nib/runtime.nib ... 
+2018-07-31 21:17:41 +0000  8374 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/KsM-05-RIL-view-8KW-hM-98m.nib/runtime.nib
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/6oc-Hb-yz9-view-xPA-Pl-ZpN.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:41 +0000  4662 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/6oc-Hb-yz9-view-xPA-Pl-ZpN.nib/objects-11.0+.nib
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/6oc-Hb-yz9-view-xPA-Pl-ZpN.nib/runtime.nib ... 
+2018-07-31 21:17:41 +0000  4805 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/6oc-Hb-yz9-view-xPA-Pl-ZpN.nib/runtime.nib
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/QuestionDetailTableViewController.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:41 +0000  1480 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/QuestionDetailTableViewController.nib/objects-11.0+.nib
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/QuestionDetailTableViewController.nib/runtime.nib ... 
+2018-07-31 21:17:41 +0000  1480 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/QuestionDetailTableViewController.nib/runtime.nib
+copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/PoolTableViewController.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:41 +0000  1501 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/PoolTableViewController.nib/objects-11.0+.nib
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/PoolTableViewController.nib/runtime.nib ... 
+2018-07-31 21:17:41 +0000  1501 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/PoolTableViewController.nib/runtime.nib
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/XVm-Ew-Y5O-view-COb-q4-o3B.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:41 +0000  4663 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/XVm-Ew-Y5O-view-COb-q4-o3B.nib/objects-11.0+.nib
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/XVm-Ew-Y5O-view-COb-q4-o3B.nib/runtime.nib ... 
+2018-07-31 21:17:41 +0000  4802 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/XVm-Ew-Y5O-view-COb-q4-o3B.nib/runtime.nib
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamResultsTableViewController.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:41 +0000  1425 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamResultsTableViewController.nib/objects-11.0+.nib
+copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamResultsTableViewController.nib/runtime.nib ... 
+2018-07-31 21:17:41 +0000  1425 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamResultsTableViewController.nib/runtime.nib
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/1Lq-75-9FA-view-SiC-oT-yLE.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:41 +0000  6125 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/1Lq-75-9FA-view-SiC-oT-yLE.nib/objects-11.0+.nib
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/1Lq-75-9FA-view-SiC-oT-yLE.nib/runtime.nib ... 
+2018-07-31 21:17:41 +0000  6248 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/1Lq-75-9FA-view-SiC-oT-yLE.nib/runtime.nib
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/div-bI-96u-view-mIs-qM-ECK.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:41 +0000  4661 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/div-bI-96u-view-mIs-qM-ECK.nib/objects-11.0+.nib
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/div-bI-96u-view-mIs-qM-ECK.nib/runtime.nib ... 
+2018-07-31 21:17:41 +0000  4802 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/div-bI-96u-view-mIs-qM-ECK.nib/runtime.nib
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/xEc-G2-d7d-view-lGN-FX-Kch.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:41 +0000  8251 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/xEc-G2-d7d-view-lGN-FX-Kch.nib/objects-11.0+.nib
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/xEc-G2-d7d-view-lGN-FX-Kch.nib/runtime.nib ... 
+2018-07-31 21:17:41 +0000  8383 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/xEc-G2-d7d-view-lGN-FX-Kch.nib/runtime.nib
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/HamTesterTabBarController.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:41 +0000  7537 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/HamTesterTabBarController.nib/objects-11.0+.nib
+copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/HamTesterTabBarController.nib/runtime.nib ... 
+2018-07-31 21:17:41 +0000  7057 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/HamTesterTabBarController.nib/runtime.nib
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/PoolGroupQuestionsTableViewController.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:41 +0000  1455 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/PoolGroupQuestionsTableViewController.nib/objects-11.0+.nib
+copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/PoolGroupQuestionsTableViewController.nib/runtime.nib ... 
+2018-07-31 21:17:41 +0000  1455 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/PoolGroupQuestionsTableViewController.nib/runtime.nib
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/WUh-WC-FiQ-view-L9S-kO-niX.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:41 +0000  8250 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/WUh-WC-FiQ-view-L9S-kO-niX.nib/objects-11.0+.nib
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/WUh-WC-FiQ-view-L9S-kO-niX.nib/runtime.nib ... 
+2018-07-31 21:17:41 +0000  8373 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/WUh-WC-FiQ-view-L9S-kO-niX.nib/runtime.nib
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/BeginExamViewController.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:41 +0000  5336 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/BeginExamViewController.nib/objects-11.0+.nib
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/BeginExamViewController.nib/runtime.nib ... 
+2018-07-31 21:17:41 +0000  4881 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/BeginExamViewController.nib/runtime.nib
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/Info.plist ... 
+2018-07-31 21:17:41 +0000  889 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/Info.plist
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamNavigationViewController.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:41 +0000  2303 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamNavigationViewController.nib/objects-11.0+.nib
+copying file ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamNavigationViewController.nib/runtime.nib ... 
+2018-07-31 21:17:41 +0000  2303 bytes for ./Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamNavigationViewController.nib/runtime.nib
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/Assets.car ... 
+2018-07-31 21:17:41 +0000  27048 bytes for ./Frameworks/HamTester.framework/Assets.car
+2018-07-31 21:17:41 +0000  copying file ./Frameworks/HamTester.framework/HamTester ... 
+2018-07-31 21:17:41 +0000  2804448 bytes for ./Frameworks/HamTester.framework/HamTester
+copying file ./Frameworks/HamTester.framework/Info.plist ... 
+2018-07-31 21:17:41 +0000  708 bytes for ./Frameworks/HamTester.framework/Info.plist
+copying file ./Frameworks/libswiftCoreImage.dylib ... 
+349408 bytes for ./Frameworks/libswiftCoreImage.dylib
+copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+2018-07-31 21:17:41 +0000  595872 bytes for ./Frameworks/libswiftObjectiveC.dylib
+copying file ./Frameworks/libswiftCore.dylib ... 
+2018-07-31 21:17:42 +0000  66704336 bytes for ./Frameworks/libswiftCore.dylib
+copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+2018-07-31 21:17:42 +0000  1637568 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+copying file ./Frameworks/libswiftUIKit.dylib ... 
+2018-07-31 21:17:42 +0000  1084800 bytes for ./Frameworks/libswiftUIKit.dylib
+copying file ./Frameworks/libswiftMetal.dylib ... 
+2018-07-31 21:17:42 +0000  457904 bytes for ./Frameworks/libswiftMetal.dylib
+copying file ./Frameworks/libswiftDispatch.dylib ... 
+2018-07-31 21:17:42 +0000  2764080 bytes for ./Frameworks/libswiftDispatch.dylib
+2018-07-31 21:17:42 +0000  copying file ./Frameworks/libswiftos.dylib ... 
+506160 bytes for ./Frameworks/libswiftos.dylib
+copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+2018-07-31 21:17:42 +0000  299520 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+2018-07-31 21:17:42 +0000  copying file ./Frameworks/libswiftDarwin.dylib ... 
+2018-07-31 21:17:42 +0000  847744 bytes for ./Frameworks/libswiftDarwin.dylib
+2018-07-31 21:17:42 +0000  copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+2018-07-31 21:17:42 +0000  352400 bytes for ./Frameworks/libswiftQuartzCore.dylib
+copying file ./Frameworks/libswiftFoundation.dylib ... 
+2018-07-31 21:17:42 +0000  30207024 bytes for ./Frameworks/libswiftFoundation.dylib
+2018-07-31 21:17:42 +0000  2018-07-31 21:17:42 +0000  /usr/bin/ditto exited with 0
+
+2018-07-31 21:17:42 +0000  copying file ./AppIcon20x20~ipad.png ... 
+1876 bytes for ./AppIcon20x20~ipad.png
+copying file ./embedded.mobileprovision ... 
+7546 bytes for ./embedded.mobileprovision
+copying file ./AppIcon20x20@2x~ipad.png ... 
+4568 bytes for ./AppIcon20x20@2x~ipad.png
+copying file ./Info.plist ... 
+1422 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+8 bytes for ./PkgInfo
+copying file ./AppIcon76x76~ipad.png ... 
+11623 bytes for ./AppIcon76x76~ipad.png
+2018-07-31 21:17:42 +0000  Processing step: IDEDistributionEmbedProfileStep
+2018-07-31 21:17:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff9256615f0 'com.marizack.HamTester' '<DVTFilePath:0x7ff9252b6a10:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/HamTester.framework'>'>
+2018-07-31 21:17:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff9256a1300 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7ff924aaee90:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftCore.dylib'>'>
+2018-07-31 21:17:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff924ac8d50 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7ff924ab3b00:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-07-31 21:17:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff92566adb0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7ff9253447f0:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-07-31 21:17:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff925259d20 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7ff9252df170:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-07-31 21:17:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff9256a51f0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7ff924a9dd80:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-07-31 21:17:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff925701880 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7ff924ac5e30:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-07-31 21:17:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff9256969b0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7ff924acc0a0:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-07-31 21:17:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff92565eac0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7ff924aba990:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftMetal.dylib'>'>
+2018-07-31 21:17:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff9256b1c50 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7ff925653870:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-07-31 21:17:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff925698f10 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7ff924abe930:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-07-31 21:17:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff925642420 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7ff924ab5320:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-07-31 21:17:42 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff92565a120 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7ff924aba0c0:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftos.dylib'>'>
+2018-07-31 21:17:42 +0000  Processing step: IDEDistributionItemRemovalStep
+2018-07-31 21:17:42 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-07-31 21:17:42 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-07-31 21:17:42 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-07-31 21:17:42 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-07-31 21:17:42 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-07-31 21:17:42 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-07-31 21:17:42 +0000  Running /usr/bin/ditto '-V' '/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/BCSymbolMaps/64B93508-D879-3EAB-BF13-0A84707B50A4.bcsymbolmap' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/BCSymbolMaps/64B93508-D879-3EAB-BF13-0A84707B50A4.bcsymbolmap'
+2018-07-31 21:17:42 +0000  >>> Copying /Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/BCSymbolMaps/64B93508-D879-3EAB-BF13-0A84707B50A4.bcsymbolmap 
+2018-07-31 21:17:42 +0000  copying file ./64B93508-D879-3EAB-BF13-0A84707B50A4.bcsymbolmap ... 
+2018-07-31 21:17:42 +0000  96622 bytes for ./64B93508-D879-3EAB-BF13-0A84707B50A4.bcsymbolmap
+2018-07-31 21:17:42 +0000  2018-07-31 21:17:42 +0000  
+
+2018-07-31 21:17:42 +0000  /usr/bin/ditto exited with 0
+2018-07-31 21:17:42 +0000  
+2018-07-31 21:17:42 +0000  2018-07-31 21:17:42 +0000  Running /usr/bin/ditto '-V' '/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/BCSymbolMaps/87BD8320-A312-3D91-BF95-84468516639D.bcsymbolmap' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/BCSymbolMaps/87BD8320-A312-3D91-BF95-84468516639D.bcsymbolmap'
+
+2018-07-31 21:17:42 +0000  >>> Copying /Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/BCSymbolMaps/87BD8320-A312-3D91-BF95-84468516639D.bcsymbolmap 
+2018-07-31 21:17:42 +0000  copying file ./87BD8320-A312-3D91-BF95-84468516639D.bcsymbolmap ... 
+2018-07-31 21:17:42 +0000  96886 bytes for ./87BD8320-A312-3D91-BF95-84468516639D.bcsymbolmap
+2018-07-31 21:17:42 +0000  
+2018-07-31 21:17:42 +0000  2018-07-31 21:17:42 +0000  /usr/bin/ditto exited with 0
+2018-07-31 21:17:42 +0000  
+
+2018-07-31 21:17:42 +0000  Running /usr/bin/ditto '-V' '/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/BCSymbolMaps/841B0836-4D7D-3E5A-9006-4B1F17D901B6.bcsymbolmap' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/BCSymbolMaps/841B0836-4D7D-3E5A-9006-4B1F17D901B6.bcsymbolmap'
+2018-07-31 21:17:42 +0000  >>> Copying /Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/BCSymbolMaps/841B0836-4D7D-3E5A-9006-4B1F17D901B6.bcsymbolmap 
+2018-07-31 21:17:42 +0000  copying file ./841B0836-4D7D-3E5A-9006-4B1F17D901B6.bcsymbolmap ... 
+2018-07-31 21:17:42 +0000  26265 bytes for ./841B0836-4D7D-3E5A-9006-4B1F17D901B6.bcsymbolmap
+2018-07-31 21:17:42 +0000  
+2018-07-31 21:17:42 +0000  2018-07-31 21:17:42 +0000  /usr/bin/ditto exited with 0
+
+2018-07-31 21:17:42 +0000  2018-07-31 21:17:42 +0000  
+
+2018-07-31 21:17:42 +0000  Running /usr/bin/ditto '-V' '/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/BCSymbolMaps/73697E21-5B99-3515-ABFE-C2D24C42503A.bcsymbolmap' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/BCSymbolMaps/73697E21-5B99-3515-ABFE-C2D24C42503A.bcsymbolmap'
+2018-07-31 21:17:42 +0000  >>> Copying /Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/BCSymbolMaps/73697E21-5B99-3515-ABFE-C2D24C42503A.bcsymbolmap 
+2018-07-31 21:17:42 +0000  copying file ./73697E21-5B99-3515-ABFE-C2D24C42503A.bcsymbolmap ... 
+2018-07-31 21:17:42 +0000  26140 bytes for ./73697E21-5B99-3515-ABFE-C2D24C42503A.bcsymbolmap
+2018-07-31 21:17:42 +0000  
+2018-07-31 21:17:42 +0000  2018-07-31 21:17:42 +0000  /usr/bin/ditto exited with 0
+
+2018-07-31 21:17:42 +0000  
+2018-07-31 21:17:42 +0000  Processing step: IDEDistributionSymbolsStep
+2018-07-31 21:17:42 +0000  Excluding symbols for HamTester.framework
+2018-07-31 21:17:42 +0000  Processing symbols for libswiftCore.dylib
+2018-07-31 21:17:42 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftCore.dylib' '--link-dest' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R'
+2018-07-31 21:17:42 +0000  building file list ... 
+2018-07-31 21:17:42 +0000   0 files...2018-07-31 21:17:42 +0000  1 file to consider
+2018-07-31 21:17:42 +0000  
+sent 96 bytes  received 20 bytes  232.00 bytes/sec
+total size is 63.61M  speedup is 575037.38
+2018-07-31 21:17:42 +0000  2018-07-31 21:17:42 +0000  
+2018-07-31 21:17:42 +0000  /usr/bin/rsync exited with 0
+
+2018-07-31 21:17:42 +0000  2018-07-31 21:17:42 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/dSYMs/' '--link-dest' '/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/dSYMs/' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R'
+
+2018-07-31 21:17:42 +0000  building file list ... 
+2018-07-31 21:17:42 +0000   0 files...2018-07-31 21:17:42 +0000  13 files to consider
+2018-07-31 21:17:42 +0000  ./
+2018-07-31 21:17:42 +0000  HamTester.framework.dSYM/
+HamTester.framework.dSYM/Contents/
+2018-07-31 21:17:42 +0000  HamTester.framework.dSYM/Contents/Resources/
+HamTester.framework.dSYM/Contents/Resources/DWARF/
+HamTesterTechnician.app.dSYM/
+HamTesterTechnician.app.dSYM/Contents/
+HamTesterTechnician.app.dSYM/Contents/Resources/
+HamTesterTechnician.app.dSYM/Contents/Resources/DWARF/
+2018-07-31 21:17:42 +0000  
+sent 467 bytes  received 74 bytes  1.06K bytes/sec
+total size is 1.33M  speedup is 2581.87
+2018-07-31 21:17:42 +0000  
+2018-07-31 21:17:42 +0000  2018-07-31 21:17:42 +0000  /usr/bin/rsync exited with 0
+2018-07-31 21:17:42 +0000  
+
+2018-07-31 21:17:42 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Symbols' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftCore.dylib'
+2018-07-31 21:17:43 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftCore.dylib [armv7, 0.321676 seconds]:
+/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftCore.dylib [armv7s, 0.321676 seconds]:
+/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftCore.dylib [arm64, 0.321676 seconds]:
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  
+
+2018-07-31 21:17:43 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  
+
+2018-07-31 21:17:43 +0000  Processing symbols for libswiftCoreFoundation.dylib
+2018-07-31 21:17:43 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftCoreFoundation.dylib' '--link-dest' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R'
+2018-07-31 21:17:43 +0000  building file list ... 
+2018-07-31 21:17:43 +0000   0 files...2018-07-31 21:17:43 +0000  1 file to consider
+2018-07-31 21:17:43 +0000  
+sent 106 bytes  received 20 bytes  252.00 bytes/sec
+total size is 292.50K  speedup is 2377.14
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  /usr/bin/rsync exited with 0
+
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/dSYMs/' '--link-dest' '/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/dSYMs/' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R'
+2018-07-31 21:17:43 +0000  building file list ... 
+2018-07-31 21:17:43 +0000   0 files...2018-07-31 21:17:43 +0000  13 files to consider
+2018-07-31 21:17:43 +0000  ./
+2018-07-31 21:17:43 +0000  HamTester.framework.dSYM/
+HamTester.framework.dSYM/Contents/
+HamTester.framework.dSYM/Contents/Resources/
+HamTester.framework.dSYM/Contents/Resources/DWARF/
+HamTesterTechnician.app.dSYM/
+HamTesterTechnician.app.dSYM/Contents/
+HamTesterTechnician.app.dSYM/Contents/Resources/
+HamTesterTechnician.app.dSYM/Contents/Resources/DWARF/
+2018-07-31 21:17:43 +0000  
+sent 491 bytes  received 98 bytes  1.15K bytes/sec
+total size is 1.33M  speedup is 2371.47
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  
+
+2018-07-31 21:17:43 +0000  /usr/bin/rsync exited with 0
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  
+
+2018-07-31 21:17:43 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Symbols' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftCoreFoundation.dylib'
+2018-07-31 21:17:43 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftCoreFoundation.dylib [armv7, 0.001390 seconds]:
+/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftCoreFoundation.dylib [armv7s, 0.001390 seconds]:
+/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftCoreFoundation.dylib [arm64, 0.001390 seconds]:
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  
+
+2018-07-31 21:17:43 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  Processing symbols for libswiftCoreGraphics.dylib
+2018-07-31 21:17:43 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftCoreGraphics.dylib' '--link-dest' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R'
+2018-07-31 21:17:43 +0000  building file list ... 
+2018-07-31 21:17:43 +0000   0 files...2018-07-31 21:17:43 +0000  1 file to consider
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  sent 104 bytes  received 20 bytes  248.00 bytes/sec
+total size is 1.56M  speedup is 13206.19
+2018-07-31 21:17:43 +0000  /usr/bin/rsync exited with 02018-07-31 21:17:43 +0000  
+
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/dSYMs/' '--link-dest' '/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/dSYMs/' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R'
+2018-07-31 21:17:43 +0000  building file list ... 
+2018-07-31 21:17:43 +0000   0 files...2018-07-31 21:17:43 +0000  13 files to consider
+2018-07-31 21:17:43 +0000  ./
+2018-07-31 21:17:43 +0000  HamTester.framework.dSYM/
+HamTester.framework.dSYM/Contents/
+HamTester.framework.dSYM/Contents/Resources/
+HamTester.framework.dSYM/Contents/Resources/DWARF/
+HamTesterTechnician.app.dSYM/
+HamTesterTechnician.app.dSYM/Contents/
+HamTesterTechnician.app.dSYM/Contents/Resources/
+HamTesterTechnician.app.dSYM/Contents/Resources/DWARF/
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  sent 491 bytes  received 98 bytes  1.15K bytes/sec
+total size is 1.33M  speedup is 2371.47
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  /usr/bin/rsync exited with 0
+2018-07-31 21:17:43 +0000  
+
+2018-07-31 21:17:43 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Symbols' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftCoreGraphics.dylib'
+2018-07-31 21:17:43 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftCoreGraphics.dylib [armv7, 0.010016 seconds]:
+/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftCoreGraphics.dylib [armv7s, 0.010016 seconds]:
+/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftCoreGraphics.dylib [arm64, 0.010016 seconds]:
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  Processing symbols for libswiftCoreImage.dylib
+2018-07-31 21:17:43 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftCoreImage.dylib' '--link-dest' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R'
+2018-07-31 21:17:43 +0000  building file list ... 
+2018-07-31 21:17:43 +0000   0 files...2018-07-31 21:17:43 +0000  1 file to consider
+2018-07-31 21:17:43 +0000  
+sent 101 bytes  received 20 bytes  242.00 bytes/sec
+2018-07-31 21:17:43 +0000  total size is 341.22K  speedup is 2887.67
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  /usr/bin/rsync exited with 0
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  
+
+2018-07-31 21:17:43 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/dSYMs/' '--link-dest' '/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/dSYMs/' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R'
+2018-07-31 21:17:43 +0000  building file list ... 
+2018-07-31 21:17:43 +0000   0 files...2018-07-31 21:17:43 +0000  13 files to consider
+2018-07-31 21:17:43 +0000  ./
+2018-07-31 21:17:43 +0000  HamTester.framework.dSYM/
+HamTester.framework.dSYM/Contents/
+HamTester.framework.dSYM/Contents/Resources/
+HamTester.framework.dSYM/Contents/Resources/DWARF/
+HamTesterTechnician.app.dSYM/
+HamTesterTechnician.app.dSYM/Contents/
+HamTesterTechnician.app.dSYM/Contents/Resources/
+HamTesterTechnician.app.dSYM/Contents/Resources/DWARF/
+2018-07-31 21:17:43 +0000  
+sent 491 bytes  received 98 bytes  1.15K bytes/sec
+total size is 1.33M  speedup is 2371.47
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  /usr/bin/rsync exited with 0
+2018-07-31 21:17:43 +0000  
+
+2018-07-31 21:17:43 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Symbols' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftCoreImage.dylib'
+2018-07-31 21:17:43 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftCoreImage.dylib [armv7, 0.001332 seconds]:
+/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftCoreImage.dylib [armv7s, 0.001332 seconds]:
+/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftCoreImage.dylib [arm64, 0.001332 seconds]:
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-07-31 21:17:43 +0000  
+
+2018-07-31 21:17:43 +0000  Processing symbols for libswiftDarwin.dylib
+2018-07-31 21:17:43 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftDarwin.dylib' '--link-dest' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R'
+2018-07-31 21:17:43 +0000  building file list ... 
+2018-07-31 21:17:43 +0000   0 files...2018-07-31 21:17:43 +0000  1 file to consider
+2018-07-31 21:17:43 +0000  
+sent 98 bytes  received 20 bytes  236.00 bytes/sec
+total size is 827.88K  speedup is 7184.27
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  /usr/bin/rsync exited with 0
+2018-07-31 21:17:43 +0000  
+
+2018-07-31 21:17:43 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/dSYMs/' '--link-dest' '/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/dSYMs/' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R'
+2018-07-31 21:17:43 +0000  building file list ... 
+2018-07-31 21:17:43 +0000   0 files...2018-07-31 21:17:43 +0000  13 files to consider
+2018-07-31 21:17:43 +0000  ./
+2018-07-31 21:17:43 +0000  HamTester.framework.dSYM/
+HamTester.framework.dSYM/Contents/
+HamTester.framework.dSYM/Contents/Resources/
+HamTester.framework.dSYM/Contents/Resources/DWARF/
+HamTesterTechnician.app.dSYM/
+HamTesterTechnician.app.dSYM/Contents/
+HamTesterTechnician.app.dSYM/Contents/Resources/
+HamTesterTechnician.app.dSYM/Contents/Resources/DWARF/
+2018-07-31 21:17:43 +0000  
+sent 491 bytes  received 98 bytes  1.15K bytes/sec
+total size is 1.33M  speedup is 2371.47
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  /usr/bin/rsync exited with 0
+2018-07-31 21:17:43 +0000  
+
+2018-07-31 21:17:43 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Symbols' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftDarwin.dylib'
+2018-07-31 21:17:43 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftDarwin.dylib [armv7, 0.004877 seconds]:
+/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftDarwin.dylib [armv7s, 0.004877 seconds]:
+/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftDarwin.dylib [arm64, 0.004877 seconds]:
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  
+
+2018-07-31 21:17:43 +0000  Processing symbols for libswiftDispatch.dylib
+2018-07-31 21:17:43 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftDispatch.dylib' '--link-dest' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R'
+2018-07-31 21:17:43 +0000  building file list ... 
+2018-07-31 21:17:43 +0000   0 files...2018-07-31 21:17:43 +0000  1 file to consider
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  sent 100 bytes  received 20 bytes  240.00 bytes/sec
+total size is 2.64M  speedup is 23034.00
+
+2018-07-31 21:17:43 +0000  /usr/bin/rsync exited with 02018-07-31 21:17:43 +0000  
+
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/dSYMs/' '--link-dest' '/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/dSYMs/' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R'
+
+2018-07-31 21:17:43 +0000  building file list ... 
+2018-07-31 21:17:43 +0000   0 files...2018-07-31 21:17:43 +0000  13 files to consider
+2018-07-31 21:17:43 +0000  ./
+2018-07-31 21:17:43 +0000  HamTester.framework.dSYM/
+HamTester.framework.dSYM/Contents/
+HamTester.framework.dSYM/Contents/Resources/
+HamTester.framework.dSYM/Contents/Resources/DWARF/
+HamTesterTechnician.app.dSYM/
+HamTesterTechnician.app.dSYM/Contents/
+HamTesterTechnician.app.dSYM/Contents/Resources/
+HamTesterTechnician.app.dSYM/Contents/Resources/DWARF/
+2018-07-31 21:17:43 +0000  
+sent 491 bytes  received 98 bytes  1.15K bytes/sec
+total size is 1.33M  speedup is 2371.47
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  
+
+2018-07-31 21:17:43 +0000  /usr/bin/rsync exited with 02018-07-31 21:17:43 +0000  
+
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Symbols' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftDispatch.dylib'
+2018-07-31 21:17:43 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftDispatch.dylib [armv7, 0.018000 seconds]:
+/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftDispatch.dylib [armv7s, 0.018000 seconds]:
+/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftDispatch.dylib [arm64, 0.018000 seconds]:
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  
+
+2018-07-31 21:17:43 +0000  Processing symbols for libswiftFoundation.dylib
+2018-07-31 21:17:43 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftFoundation.dylib' '--link-dest' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R'
+2018-07-31 21:17:43 +0000  building file list ... 
+2018-07-31 21:17:43 +0000   0 files...2018-07-31 21:17:43 +0000  1 file to consider
+2018-07-31 21:17:43 +0000  
+sent 102 bytes  received 20 bytes  244.00 bytes/sec
+total size is 28.81M  speedup is 247598.56
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  /usr/bin/rsync exited with 0
+
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  
+
+2018-07-31 21:17:43 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/dSYMs/' '--link-dest' '/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/dSYMs/' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R'
+2018-07-31 21:17:43 +0000  building file list ... 
+2018-07-31 21:17:43 +0000   0 files...2018-07-31 21:17:43 +0000  13 files to consider
+2018-07-31 21:17:43 +0000  ./
+2018-07-31 21:17:43 +0000  HamTester.framework.dSYM/
+HamTester.framework.dSYM/Contents/
+HamTester.framework.dSYM/Contents/Resources/
+HamTester.framework.dSYM/Contents/Resources/DWARF/
+HamTesterTechnician.app.dSYM/
+HamTesterTechnician.app.dSYM/Contents/
+HamTesterTechnician.app.dSYM/Contents/Resources/
+HamTesterTechnician.app.dSYM/Contents/Resources/DWARF/
+2018-07-31 21:17:43 +0000  
+sent 491 bytes  received 98 bytes  1.15K bytes/sec
+total size is 1.33M  speedup is 2371.47
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  /usr/bin/rsync exited with 0
+
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  
+
+2018-07-31 21:17:43 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Symbols' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftFoundation.dylib'
+2018-07-31 21:17:43 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftFoundation.dylib [armv7, 0.127014 seconds]:
+/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftFoundation.dylib [armv7s, 0.127014 seconds]:
+/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftFoundation.dylib [arm64, 0.127014 seconds]:
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  Processing symbols for libswiftMetal.dylib
+2018-07-31 21:17:43 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftMetal.dylib' '--link-dest' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R'
+2018-07-31 21:17:43 +0000  building file list ... 
+2018-07-31 21:17:43 +0000   0 files...2018-07-31 21:17:43 +0000  1 file to consider
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  sent 97 bytes  received 20 bytes  234.00 bytes/sec
+total size is 447.17K  speedup is 3913.71
+2018-07-31 21:17:43 +0000  /usr/bin/rsync exited with 0
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  
+
+2018-07-31 21:17:43 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/dSYMs/' '--link-dest' '/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/dSYMs/' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R'
+2018-07-31 21:17:43 +0000  building file list ... 
+2018-07-31 21:17:43 +0000   0 files...2018-07-31 21:17:43 +0000  13 files to consider
+2018-07-31 21:17:43 +0000  ./
+2018-07-31 21:17:43 +0000  HamTester.framework.dSYM/
+HamTester.framework.dSYM/Contents/
+HamTester.framework.dSYM/Contents/Resources/
+HamTester.framework.dSYM/Contents/Resources/DWARF/
+HamTesterTechnician.app.dSYM/
+HamTesterTechnician.app.dSYM/Contents/
+HamTesterTechnician.app.dSYM/Contents/Resources/
+HamTesterTechnician.app.dSYM/Contents/Resources/DWARF/
+2018-07-31 21:17:43 +0000  
+sent 491 bytes  received 98 bytes  1.15K bytes/sec
+total size is 1.33M  speedup is 2371.47
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  /usr/bin/rsync exited with 0
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  
+
+2018-07-31 21:17:43 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Symbols' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftMetal.dylib'
+2018-07-31 21:17:43 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftMetal.dylib [armv7, 0.002257 seconds]:
+/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftMetal.dylib [armv7s, 0.002257 seconds]:
+/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftMetal.dylib [arm64, 0.002257 seconds]:
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-07-31 21:17:43 +0000  
+
+2018-07-31 21:17:43 +0000  Processing symbols for libswiftObjectiveC.dylib
+2018-07-31 21:17:43 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftObjectiveC.dylib' '--link-dest' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R'
+2018-07-31 21:17:43 +0000  building file list ... 
+2018-07-31 21:17:43 +0000   0 files...2018-07-31 21:17:43 +0000  1 file to consider
+2018-07-31 21:17:43 +0000  
+sent 102 bytes  received 20 bytes  244.00 bytes/sec
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  total size is 581.91K  speedup is 4884.20
+
+2018-07-31 21:17:43 +0000  /usr/bin/rsync exited with 0
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  
+
+2018-07-31 21:17:43 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/dSYMs/' '--link-dest' '/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/dSYMs/' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R'
+2018-07-31 21:17:43 +0000  building file list ... 
+2018-07-31 21:17:43 +0000   0 files...2018-07-31 21:17:43 +0000  13 files to consider
+2018-07-31 21:17:43 +0000  ./
+2018-07-31 21:17:43 +0000  HamTester.framework.dSYM/
+HamTester.framework.dSYM/Contents/
+HamTester.framework.dSYM/Contents/Resources/
+HamTester.framework.dSYM/Contents/Resources/DWARF/
+HamTesterTechnician.app.dSYM/
+HamTesterTechnician.app.dSYM/Contents/
+HamTesterTechnician.app.dSYM/Contents/Resources/
+HamTesterTechnician.app.dSYM/Contents/Resources/DWARF/
+2018-07-31 21:17:43 +0000  
+sent 491 bytes  received 98 bytes  1.15K bytes/sec
+total size is 1.33M  speedup is 2371.47
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  
+
+2018-07-31 21:17:43 +0000  /usr/bin/rsync exited with 0
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Symbols' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftObjectiveC.dylib'
+2018-07-31 21:17:43 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftObjectiveC.dylib [armv7, 0.002854 seconds]:
+/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftObjectiveC.dylib [armv7s, 0.002854 seconds]:
+/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftObjectiveC.dylib [arm64, 0.002854 seconds]:
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  
+
+2018-07-31 21:17:43 +0000  Processing symbols for libswiftQuartzCore.dylib
+2018-07-31 21:17:43 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftQuartzCore.dylib' '--link-dest' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R'
+2018-07-31 21:17:43 +0000  building file list ... 
+2018-07-31 21:17:43 +0000   0 files...2018-07-31 21:17:43 +0000  1 file to consider
+2018-07-31 21:17:43 +0000  
+sent 102 bytes  received 20 bytes  244.00 bytes/sec
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  total size is 344.14K  speedup is 2888.52
+2018-07-31 21:17:43 +0000  /usr/bin/rsync exited with 0
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  
+
+2018-07-31 21:17:43 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/dSYMs/' '--link-dest' '/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/dSYMs/' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R'
+2018-07-31 21:17:43 +0000  building file list ... 
+2018-07-31 21:17:43 +0000   0 files...2018-07-31 21:17:43 +0000  13 files to consider
+2018-07-31 21:17:43 +0000  ./
+2018-07-31 21:17:43 +0000  HamTester.framework.dSYM/
+HamTester.framework.dSYM/Contents/
+HamTester.framework.dSYM/Contents/Resources/
+HamTester.framework.dSYM/Contents/Resources/DWARF/
+HamTesterTechnician.app.dSYM/
+HamTesterTechnician.app.dSYM/Contents/
+HamTesterTechnician.app.dSYM/Contents/Resources/
+HamTesterTechnician.app.dSYM/Contents/Resources/DWARF/
+2018-07-31 21:17:43 +0000  
+sent 491 bytes  received 98 bytes  1.15K bytes/sec
+total size is 1.33M  speedup is 2371.47
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  /usr/bin/rsync exited with 0
+
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Symbols' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftQuartzCore.dylib'
+2018-07-31 21:17:43 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftQuartzCore.dylib [armv7, 0.001666 seconds]:
+/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftQuartzCore.dylib [armv7s, 0.001666 seconds]:
+/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftQuartzCore.dylib [arm64, 0.001666 seconds]:
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  Processing symbols for libswiftUIKit.dylib
+2018-07-31 21:17:43 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftUIKit.dylib' '--link-dest' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R'
+2018-07-31 21:17:43 +0000  building file list ... 
+2018-07-31 21:17:43 +0000   0 files...2018-07-31 21:17:43 +0000  1 file to consider
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  sent 97 bytes  received 20 bytes  234.00 bytes/sec
+total size is 1.03M  speedup is 9271.79
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  /usr/bin/rsync exited with 0
+
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/dSYMs/' '--link-dest' '/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/dSYMs/' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R'
+2018-07-31 21:17:43 +0000  building file list ... 
+2018-07-31 21:17:43 +0000   0 files...2018-07-31 21:17:43 +0000  13 files to consider
+2018-07-31 21:17:43 +0000  ./
+2018-07-31 21:17:43 +0000  HamTester.framework.dSYM/
+HamTester.framework.dSYM/Contents/
+HamTester.framework.dSYM/Contents/Resources/
+HamTester.framework.dSYM/Contents/Resources/DWARF/
+HamTesterTechnician.app.dSYM/
+HamTesterTechnician.app.dSYM/Contents/
+HamTesterTechnician.app.dSYM/Contents/Resources/
+HamTesterTechnician.app.dSYM/Contents/Resources/DWARF/
+2018-07-31 21:17:43 +0000  
+sent 491 bytes  received 98 bytes  1.15K bytes/sec
+total size is 1.33M  speedup is 2371.47
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  /usr/bin/rsync exited with 0
+
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Symbols' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftUIKit.dylib'
+2018-07-31 21:17:43 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftUIKit.dylib [armv7, 0.005561 seconds]:
+/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftUIKit.dylib [armv7s, 0.005561 seconds]:
+/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftUIKit.dylib [arm64, 0.005561 seconds]:
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-07-31 21:17:43 +0000  
+
+2018-07-31 21:17:43 +0000  Processing symbols for libswiftos.dylib
+2018-07-31 21:17:43 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftos.dylib' '--link-dest' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R'
+2018-07-31 21:17:43 +0000  building file list ... 
+2018-07-31 21:17:43 +0000   0 files...2018-07-31 21:17:43 +0000  1 file to consider
+2018-07-31 21:17:43 +0000  
+sent 94 bytes  received 20 bytes  228.00 bytes/sec
+total size is 494.30K  speedup is 4440.00
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  /usr/bin/rsync exited with 0
+
+
+2018-07-31 21:17:43 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/dSYMs/' '--link-dest' '/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/dSYMs/' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R'
+2018-07-31 21:17:43 +0000  building file list ... 
+2018-07-31 21:17:43 +0000   0 files...2018-07-31 21:17:43 +0000  13 files to consider
+2018-07-31 21:17:43 +0000  ./
+2018-07-31 21:17:43 +0000  HamTester.framework.dSYM/
+HamTester.framework.dSYM/Contents/
+HamTester.framework.dSYM/Contents/Resources/
+HamTester.framework.dSYM/Contents/Resources/DWARF/
+HamTesterTechnician.app.dSYM/
+HamTesterTechnician.app.dSYM/Contents/
+HamTesterTechnician.app.dSYM/Contents/Resources/
+HamTesterTechnician.app.dSYM/Contents/Resources/DWARF/
+2018-07-31 21:17:43 +0000  
+2018-07-31 21:17:43 +0000  sent 491 bytes  received 98 bytes  1.15K bytes/sec
+total size is 1.33M  speedup is 2371.47
+2018-07-31 21:17:43 +0000  2018-07-31 21:17:43 +0000  /usr/bin/rsync exited with 0
+2018-07-31 21:17:43 +0000  
+
+2018-07-31 21:17:43 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Symbols' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftos.dylib'
+2018-07-31 21:17:44 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftos.dylib [armv7, 0.002236 seconds]:
+/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftos.dylib [armv7s, 0.002236 seconds]:
+/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/libswiftos.dylib [arm64, 0.002236 seconds]:
+2018-07-31 21:17:44 +0000  
+2018-07-31 21:17:44 +0000  2018-07-31 21:17:44 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-07-31 21:17:44 +0000  
+
+2018-07-31 21:17:44 +0000  Excluding symbols for HamTesterTechnician.app
+2018-07-31 21:17:44 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2018-07-31 21:17:44 +0000  Running /usr/bin/ditto '-V' '/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/SwiftSupport' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/SwiftSupport'
+2018-07-31 21:17:44 +0000  >>> Copying /Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/SwiftSupport 
+2018-07-31 21:17:44 +0000  copying file ./iphoneos/libswiftCoreImage.dylib ... 
+2018-07-31 21:17:44 +0000  351635 bytes for ./iphoneos/libswiftCoreImage.dylib
+copying file ./iphoneos/libswiftObjectiveC.dylib ... 
+2018-07-31 21:17:44 +0000  737148 bytes for ./iphoneos/libswiftObjectiveC.dylib
+2018-07-31 21:17:44 +0000  copying file ./iphoneos/libswiftCore.dylib ... 
+2018-07-31 21:17:44 +0000  96746864 bytes for ./iphoneos/libswiftCore.dylib
+2018-07-31 21:17:44 +0000  copying file ./iphoneos/libswiftCoreGraphics.dylib ... 
+2018-07-31 21:17:44 +0000  2199628 bytes for ./iphoneos/libswiftCoreGraphics.dylib
+2018-07-31 21:17:44 +0000  copying file ./iphoneos/libswiftUIKit.dylib ... 
+2018-07-31 21:17:44 +0000  1410736 bytes for ./iphoneos/libswiftUIKit.dylib
+2018-07-31 21:17:44 +0000  copying file ./iphoneos/libswiftMetal.dylib ... 
+2018-07-31 21:17:44 +0000  558460 bytes for ./iphoneos/libswiftMetal.dylib
+2018-07-31 21:17:44 +0000  copying file ./iphoneos/libswiftDispatch.dylib ... 
+2018-07-31 21:17:44 +0000  3698083 bytes for ./iphoneos/libswiftDispatch.dylib
+2018-07-31 21:17:44 +0000  copying file ./iphoneos/libswiftos.dylib ... 
+2018-07-31 21:17:44 +0000  656418 bytes for ./iphoneos/libswiftos.dylib
+2018-07-31 21:17:44 +0000  copying file ./iphoneos/libswiftCoreFoundation.dylib ... 
+2018-07-31 21:17:44 +0000  288241 bytes for ./iphoneos/libswiftCoreFoundation.dylib
+2018-07-31 21:17:44 +0000  copying file ./iphoneos/libswiftDarwin.dylib ... 
+2018-07-31 21:17:44 +0000  1091343 bytes for ./iphoneos/libswiftDarwin.dylib
+2018-07-31 21:17:44 +0000  copying file ./iphoneos/libswiftQuartzCore.dylib ... 
+2018-07-31 21:17:44 +0000  369807 bytes for ./iphoneos/libswiftQuartzCore.dylib
+2018-07-31 21:17:44 +0000  copying file ./iphoneos/libswiftFoundation.dylib ... 
+2018-07-31 21:17:44 +0000  43134853 bytes for ./iphoneos/libswiftFoundation.dylib
+2018-07-31 21:17:44 +0000  
+2018-07-31 21:17:44 +0000  2018-07-31 21:17:44 +0000  /usr/bin/ditto exited with 02018-07-31 21:17:44 +0000  
+
+
+2018-07-31 21:17:44 +0000  Processing step: IDEDistributionAppThinningStep
+2018-07-31 21:17:44 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-07-31 21:17:44 +0000  Processing step: IDEDistributionODRStep
+2018-07-31 21:17:44 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-07-31 21:17:44 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff9256615f0 'com.marizack.HamTester' '<DVTFilePath:0x7ff9252b6a10:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/HamTester.framework'>'>
+2018-07-31 21:17:44 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff9256a1300 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7ff924aaee90:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftCore.dylib'>'>
+2018-07-31 21:17:44 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff924ac8d50 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7ff924ab3b00:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-07-31 21:17:44 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff92566adb0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7ff9253447f0:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-07-31 21:17:44 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff925259d20 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7ff9252df170:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-07-31 21:17:44 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff9256a51f0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7ff924a9dd80:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-07-31 21:17:44 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff925701880 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7ff924ac5e30:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-07-31 21:17:44 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff9256969b0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7ff924acc0a0:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-07-31 21:17:44 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff92565eac0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7ff924aba990:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftMetal.dylib'>'>
+2018-07-31 21:17:44 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff9256b1c50 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7ff925653870:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-07-31 21:17:44 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff925698f10 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7ff924abe930:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-07-31 21:17:44 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff925642420 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7ff924ab5320:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-07-31 21:17:44 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff92565a120 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7ff924aba0c0:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftos.dylib'>'>
+2018-07-31 21:17:44 +0000  Running /usr/bin/xattr '-crs' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app'
+2018-07-31 21:17:44 +0000  2018-07-31 21:17:44 +0000  
+
+2018-07-31 21:17:44 +0000  /usr/bin/xattr exited with 0
+2018-07-31 21:17:44 +0000  
+2018-07-31 21:17:44 +0000  Processing step: IDEDistributionCodesignStep
+2018-07-31 21:17:44 +0000  Entitlements for <IDEDistributionItem: 0x7ff9256615f0 'com.marizack.HamTester' '<DVTFilePath:0x7ff9252b6a10:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/HamTester.framework'>'>: {
+}
+2018-07-31 21:17:44 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff9256615f0 'com.marizack.HamTester' '<DVTFilePath:0x7ff9252b6a10:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/HamTester.framework'>'> to: /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/entitlementssmDzJr
+2018-07-31 21:17:44 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE5B90BA28764D253464E9F477115068DE61CECC' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/entitlementssmDzJr' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/HamTester.framework'
+2018-07-31 21:17:44 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/HamTester.framework: signed bundle with Mach-O universal (armv7 arm64) [com.marizack.HamTester]
+2018-07-31 21:17:44 +0000  
+2018-07-31 21:17:44 +0000  2018-07-31 21:17:44 +0000  /usr/bin/codesign exited with 0
+
+2018-07-31 21:17:44 +0000  2018-07-31 21:17:44 +0000  
+
+2018-07-31 21:17:44 +0000  Entitlements for <IDEDistributionItem: 0x7ff9256a1300 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7ff924aaee90:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftCore.dylib'>'>: {
+}
+2018-07-31 21:17:44 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff9256a1300 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7ff924aaee90:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftCore.dylib'>'> to: /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/entitlements6qdpWK
+2018-07-31 21:17:44 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE5B90BA28764D253464E9F477115068DE61CECC' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/entitlements6qdpWK' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftCore.dylib'
+2018-07-31 21:17:44 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftCore.dylib: replacing existing signature
+2018-07-31 21:17:45 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2018-07-31 21:17:45 +0000  
+2018-07-31 21:17:45 +0000  2018-07-31 21:17:45 +0000  /usr/bin/codesign exited with 0
+
+2018-07-31 21:17:45 +0000  
+2018-07-31 21:17:45 +0000  Entitlements for <IDEDistributionItem: 0x7ff924ac8d50 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7ff924ab3b00:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2018-07-31 21:17:45 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff924ac8d50 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7ff924ab3b00:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/entitlementsxw7bIX
+2018-07-31 21:17:45 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE5B90BA28764D253464E9F477115068DE61CECC' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/entitlementsxw7bIX' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftCoreFoundation.dylib'
+2018-07-31 21:17:45 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2018-07-31 21:17:45 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2018-07-31 21:17:45 +0000  
+2018-07-31 21:17:45 +0000  /usr/bin/codesign exited with 0
+2018-07-31 21:17:45 +0000  
+2018-07-31 21:17:45 +0000  Entitlements for <IDEDistributionItem: 0x7ff92566adb0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7ff9253447f0:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2018-07-31 21:17:45 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff92566adb0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7ff9253447f0:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/entitlementsxAlez2
+2018-07-31 21:17:45 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE5B90BA28764D253464E9F477115068DE61CECC' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/entitlementsxAlez2' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftCoreGraphics.dylib'
+2018-07-31 21:17:45 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2018-07-31 21:17:45 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2018-07-31 21:17:45 +0000  
+2018-07-31 21:17:45 +0000  2018-07-31 21:17:45 +0000  /usr/bin/codesign exited with 0
+
+2018-07-31 21:17:45 +0000  2018-07-31 21:17:45 +0000  
+
+2018-07-31 21:17:45 +0000  Entitlements for <IDEDistributionItem: 0x7ff925259d20 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7ff9252df170:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2018-07-31 21:17:45 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff925259d20 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7ff9252df170:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/entitlementsviMXfh
+2018-07-31 21:17:45 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE5B90BA28764D253464E9F477115068DE61CECC' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/entitlementsviMXfh' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftCoreImage.dylib'
+2018-07-31 21:17:45 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftCoreImage.dylib: replacing existing signature
+2018-07-31 21:17:45 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2018-07-31 21:17:45 +0000  
+2018-07-31 21:17:45 +0000  2018-07-31 21:17:45 +0000  /usr/bin/codesign exited with 0
+2018-07-31 21:17:45 +0000  
+
+2018-07-31 21:17:45 +0000  Entitlements for <IDEDistributionItem: 0x7ff9256a51f0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7ff924a9dd80:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2018-07-31 21:17:45 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff9256a51f0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7ff924a9dd80:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/entitlementskX6RWN
+2018-07-31 21:17:45 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE5B90BA28764D253464E9F477115068DE61CECC' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/entitlementskX6RWN' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftDarwin.dylib'
+2018-07-31 21:17:45 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2018-07-31 21:17:45 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2018-07-31 21:17:45 +0000  
+2018-07-31 21:17:45 +0000  2018-07-31 21:17:45 +0000  /usr/bin/codesign exited with 0
+
+2018-07-31 21:17:45 +0000  2018-07-31 21:17:45 +0000  
+
+2018-07-31 21:17:45 +0000  Entitlements for <IDEDistributionItem: 0x7ff925701880 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7ff924ac5e30:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2018-07-31 21:17:45 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff925701880 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7ff924ac5e30:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/entitlementsqePDDG
+2018-07-31 21:17:45 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE5B90BA28764D253464E9F477115068DE61CECC' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/entitlementsqePDDG' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftDispatch.dylib'
+2018-07-31 21:17:45 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2018-07-31 21:17:45 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2018-07-31 21:17:45 +0000  
+2018-07-31 21:17:45 +0000  2018-07-31 21:17:45 +0000  /usr/bin/codesign exited with 0
+
+2018-07-31 21:17:45 +0000  
+2018-07-31 21:17:45 +0000  Entitlements for <IDEDistributionItem: 0x7ff9256969b0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7ff924acc0a0:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2018-07-31 21:17:45 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff9256969b0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7ff924acc0a0:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/entitlementsXLhOJr
+2018-07-31 21:17:45 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE5B90BA28764D253464E9F477115068DE61CECC' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/entitlementsXLhOJr' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftFoundation.dylib'
+2018-07-31 21:17:45 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2018-07-31 21:17:46 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2018-07-31 21:17:46 +0000  
+2018-07-31 21:17:46 +0000  2018-07-31 21:17:46 +0000  /usr/bin/codesign exited with 0
+
+2018-07-31 21:17:46 +0000  2018-07-31 21:17:46 +0000  
+
+2018-07-31 21:17:46 +0000  Entitlements for <IDEDistributionItem: 0x7ff92565eac0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7ff924aba990:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2018-07-31 21:17:46 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff92565eac0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7ff924aba990:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/entitlementstWKN4l
+2018-07-31 21:17:46 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE5B90BA28764D253464E9F477115068DE61CECC' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/entitlementstWKN4l' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftMetal.dylib'
+2018-07-31 21:17:46 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftMetal.dylib: replacing existing signature
+2018-07-31 21:17:46 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2018-07-31 21:17:46 +0000  
+2018-07-31 21:17:46 +0000  
+2018-07-31 21:17:46 +0000  /usr/bin/codesign exited with 02018-07-31 21:17:46 +0000  
+
+2018-07-31 21:17:46 +0000  2018-07-31 21:17:46 +0000  
+
+2018-07-31 21:17:46 +0000  Entitlements for <IDEDistributionItem: 0x7ff9256b1c50 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7ff925653870:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2018-07-31 21:17:46 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff9256b1c50 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7ff925653870:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/entitlementsSyeLzg
+2018-07-31 21:17:46 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE5B90BA28764D253464E9F477115068DE61CECC' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/entitlementsSyeLzg' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftObjectiveC.dylib'
+2018-07-31 21:17:46 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2018-07-31 21:17:46 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2018-07-31 21:17:46 +0000  
+2018-07-31 21:17:46 +0000  2018-07-31 21:17:46 +0000  /usr/bin/codesign exited with 0
+2018-07-31 21:17:46 +0000  
+
+2018-07-31 21:17:46 +0000  
+2018-07-31 21:17:46 +0000  Entitlements for <IDEDistributionItem: 0x7ff925698f10 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7ff924abe930:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2018-07-31 21:17:46 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff925698f10 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7ff924abe930:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/entitlementsWYXijp
+2018-07-31 21:17:46 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE5B90BA28764D253464E9F477115068DE61CECC' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/entitlementsWYXijp' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftQuartzCore.dylib'
+2018-07-31 21:17:46 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftQuartzCore.dylib: replacing existing signature
+2018-07-31 21:17:46 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2018-07-31 21:17:46 +0000  
+2018-07-31 21:17:46 +0000  2018-07-31 21:17:46 +0000  /usr/bin/codesign exited with 0
+2018-07-31 21:17:46 +0000  
+
+2018-07-31 21:17:46 +0000  Entitlements for <IDEDistributionItem: 0x7ff925642420 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7ff924ab5320:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftUIKit.dylib'>'>: {
+}
+2018-07-31 21:17:46 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff925642420 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7ff924ab5320:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftUIKit.dylib'>'> to: /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/entitlementsmxxpMA
+2018-07-31 21:17:46 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE5B90BA28764D253464E9F477115068DE61CECC' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/entitlementsmxxpMA' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftUIKit.dylib'
+2018-07-31 21:17:46 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftUIKit.dylib: replacing existing signature
+2018-07-31 21:17:46 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2018-07-31 21:17:46 +0000  
+2018-07-31 21:17:46 +0000  2018-07-31 21:17:46 +0000  /usr/bin/codesign exited with 0
+
+2018-07-31 21:17:46 +0000  2018-07-31 21:17:46 +0000  
+
+2018-07-31 21:17:46 +0000  Entitlements for <IDEDistributionItem: 0x7ff92565a120 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7ff924aba0c0:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftos.dylib'>'>: {
+}
+2018-07-31 21:17:46 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff92565a120 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7ff924aba0c0:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app/Frameworks/libswiftos.dylib'>'> to: /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/entitlementsgkgvdV
+2018-07-31 21:17:46 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE5B90BA28764D253464E9F477115068DE61CECC' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/entitlementsgkgvdV' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftos.dylib'
+2018-07-31 21:17:46 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftos.dylib: replacing existing signature
+2018-07-31 21:17:46 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2018-07-31 21:17:46 +0000  
+2018-07-31 21:17:46 +0000  2018-07-31 21:17:46 +0000  /usr/bin/codesign exited with 0
+2018-07-31 21:17:46 +0000  
+
+2018-07-31 21:17:46 +0000  
+2018-07-31 21:17:46 +0000  Entitlements for <IDEDistributionItem: 0x7ff9256b6160 'com.marizack.HamTesterTechnician' '<DVTFilePath:0x7ff922080660:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app'>'>: {
+    "application-identifier" = "8DT5Y3HP4L.com.marizack.HamTesterTechnician";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = 8DT5Y3HP4L;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "8DT5Y3HP4L.com.marizack.HamTesterTechnician"
+    );
+}
+2018-07-31 21:17:46 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff9256b6160 'com.marizack.HamTesterTechnician' '<DVTFilePath:0x7ff922080660:'/Users/genebacklin/Library/Developer/Xcode/Archives/2018-07-31/HamTesterTechnician 7-31-18, 4.16 PM.xcarchive/Products/Applications/HamTesterTechnician.app'>'> to: /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/entitlementsr2LGCS
+2018-07-31 21:17:46 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE5B90BA28764D253464E9F477115068DE61CECC' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/entitlementsr2LGCS' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app'
+2018-07-31 21:17:47 +0000  /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root/Payload/HamTesterTechnician.app: signed app bundle with Mach-O universal (armv7 arm64) [com.marizack.HamTesterTechnician]
+2018-07-31 21:17:47 +0000  
+2018-07-31 21:17:47 +0000  
+2018-07-31 21:17:47 +0000  2018-07-31 21:17:47 +0000  /usr/bin/codesign exited with 0
+
+2018-07-31 21:17:47 +0000  2018-07-31 21:17:47 +0000  Processing step: IDEDistributionStreamingZipItemStep
+
+2018-07-31 21:17:47 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-07-31 21:17:47 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-07-31 21:17:47 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-07-31 21:17:47 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-07-31 21:17:47 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-07-31 21:17:47 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-07-31 21:17:47 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-07-31 21:17:47 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-07-31 21:17:47 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-07-31 21:17:47 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-07-31 21:17:47 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-07-31 21:17:47 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-07-31 21:17:47 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-07-31 21:17:47 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-07-31 21:17:47 +0000  Processing step: IDEDistributionCreateIPAStep
+2018-07-31 21:17:47 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Symbols' '--link-dest' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root'
+2018-07-31 21:17:47 +0000  building file list ... 
+2018-07-31 21:17:47 +0000   0 files...2018-07-31 21:17:47 +0000  37 files to consider
+2018-07-31 21:17:47 +0000  Symbols/
+2018-07-31 21:17:47 +0000  
+sent 1.95K bytes  received 26 bytes  3.94K bytes/sec
+total size is 16.71M  speedup is 8682.71
+2018-07-31 21:17:47 +0000  
+2018-07-31 21:17:47 +0000  
+2018-07-31 21:17:47 +0000  /usr/bin/rsync exited with 0
+2018-07-31 21:17:47 +0000  
+2018-07-31 21:17:47 +0000  
+2018-07-31 21:17:47 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root' '/var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Packages/HamTesterTechnician.ipa'
+2018-07-31 21:17:47 +0000  >>> Copying /var/folders/5l/8m89k0b122z6svjrh6l3w0qh0000gn/T/XcodeDistPipeline.S1R/Root 
+2018-07-31 21:17:47 +0000  copying file ./BCSymbolMaps/841B0836-4D7D-3E5A-9006-4B1F17D901B6.bcsymbolmap ... 
+2018-07-31 21:17:47 +0000  26265 bytes for ./BCSymbolMaps/841B0836-4D7D-3E5A-9006-4B1F17D901B6.bcsymbolmap
+2018-07-31 21:17:47 +0000  copying file ./BCSymbolMaps/73697E21-5B99-3515-ABFE-C2D24C42503A.bcsymbolmap ... 
+2018-07-31 21:17:47 +0000  26140 bytes for ./BCSymbolMaps/73697E21-5B99-3515-ABFE-C2D24C42503A.bcsymbolmap
+copying file ./BCSymbolMaps/87BD8320-A312-3D91-BF95-84468516639D.bcsymbolmap ... 
+2018-07-31 21:17:47 +0000  96886 bytes for ./BCSymbolMaps/87BD8320-A312-3D91-BF95-84468516639D.bcsymbolmap
+2018-07-31 21:17:47 +0000  copying file ./BCSymbolMaps/64B93508-D879-3EAB-BF13-0A84707B50A4.bcsymbolmap ... 
+2018-07-31 21:17:47 +0000  96622 bytes for ./BCSymbolMaps/64B93508-D879-3EAB-BF13-0A84707B50A4.bcsymbolmap
+2018-07-31 21:17:47 +0000  copying file ./Payload/HamTesterTechnician.app/_CodeSignature/CodeResources ... 
+2018-07-31 21:17:47 +0000  39608 bytes for ./Payload/HamTesterTechnician.app/_CodeSignature/CodeResources
+2018-07-31 21:17:47 +0000  copying file ./Payload/HamTesterTechnician.app/AppIcon20x20@2x.png ... 
+4568 bytes for ./Payload/HamTesterTechnician.app/AppIcon20x20@2x.png
+2018-07-31 21:17:47 +0000  copying file ./Payload/HamTesterTechnician.app/AppIcon20x20@3x.png ... 
+2018-07-31 21:17:47 +0000  8256 bytes for ./Payload/HamTesterTechnician.app/AppIcon20x20@3x.png
+copying file ./Payload/HamTesterTechnician.app/Pool.plist ... 
+2018-07-31 21:17:47 +0000  163228 bytes for ./Payload/HamTesterTechnician.app/Pool.plist
+copying file ./Payload/HamTesterTechnician.app/AppIcon60x60@2x.png ... 
+2018-07-31 21:17:47 +0000  23383 bytes for ./Payload/HamTesterTechnician.app/AppIcon60x60@2x.png
+copying file ./Payload/HamTesterTechnician.app/AppIcon29x29@2x.png ... 
+2018-07-31 21:17:47 +0000  7819 bytes for ./Payload/HamTesterTechnician.app/AppIcon29x29@2x.png
+copying file ./Payload/HamTesterTechnician.app/AppIcon40x40@3x.png ... 
+2018-07-31 21:17:47 +0000  23383 bytes for ./Payload/HamTesterTechnician.app/AppIcon40x40@3x.png
+copying file ./Payload/HamTesterTechnician.app/AppIcon29x29~ipad.png ... 
+2018-07-31 21:17:47 +0000  2973 bytes for ./Payload/HamTesterTechnician.app/AppIcon29x29~ipad.png
+copying file ./Payload/HamTesterTechnician.app/AppIcon40x40@2x.png ... 
+2018-07-31 21:17:47 +0000  12510 bytes for ./Payload/HamTesterTechnician.app/AppIcon40x40@2x.png
+copying file ./Payload/HamTesterTechnician.app/AppIcon29x29@3x.png ... 
+2018-07-31 21:17:47 +0000  14483 bytes for ./Payload/HamTesterTechnician.app/AppIcon29x29@3x.png
+copying file ./Payload/HamTesterTechnician.app/AppIcon60x60@3x.png ... 
+2018-07-31 21:17:47 +0000  41684 bytes for ./Payload/HamTesterTechnician.app/AppIcon60x60@3x.png
+2018-07-31 21:17:47 +0000  copying file ./Payload/HamTesterTechnician.app/Base.lproj/Main.storyboardc/ViewController.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:47 +0000  1305 bytes for ./Payload/HamTesterTechnician.app/Base.lproj/Main.storyboardc/ViewController.nib/objects-11.0+.nib
+copying file ./Payload/HamTesterTechnician.app/Base.lproj/Main.storyboardc/ViewController.nib/runtime.nib ... 
+1305 bytes for ./Payload/HamTesterTechnician.app/Base.lproj/Main.storyboardc/ViewController.nib/runtime.nib
+2018-07-31 21:17:47 +0000  copying file ./Payload/HamTesterTechnician.app/Base.lproj/Main.storyboardc/BOv-ga-c2N-view-V0W-ez-Ug4.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:47 +0000  2801 bytes for ./Payload/HamTesterTechnician.app/Base.lproj/Main.storyboardc/BOv-ga-c2N-view-V0W-ez-Ug4.nib/objects-11.0+.nib
+copying file ./Payload/HamTesterTechnician.app/Base.lproj/Main.storyboardc/BOv-ga-c2N-view-V0W-ez-Ug4.nib/runtime.nib ... 
+2911 bytes for ./Payload/HamTesterTechnician.app/Base.lproj/Main.storyboardc/BOv-ga-c2N-view-V0W-ez-Ug4.nib/runtime.nib
+copying file ./Payload/HamTesterTechnician.app/Base.lproj/Main.storyboardc/UIViewController-Oez-UM-wUg.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:47 +0000  816 bytes for ./Payload/HamTesterTechnician.app/Base.lproj/Main.storyboardc/UIViewController-Oez-UM-wUg.nib/objects-11.0+.nib
+copying file ./Payload/HamTesterTechnician.app/Base.lproj/Main.storyboardc/UIViewController-Oez-UM-wUg.nib/runtime.nib ... 
+816 bytes for ./Payload/HamTesterTechnician.app/Base.lproj/Main.storyboardc/UIViewController-Oez-UM-wUg.nib/runtime.nib
+copying file ./Payload/HamTesterTechnician.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2018-07-31 21:17:47 +0000  551 bytes for ./Payload/HamTesterTechnician.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/HamTesterTechnician.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:47 +0000  2721 bytes for ./Payload/HamTesterTechnician.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-11.0+.nib
+copying file ./Payload/HamTesterTechnician.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib ... 
+2018-07-31 21:17:47 +0000  2846 bytes for ./Payload/HamTesterTechnician.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib
+copying file ./Payload/HamTesterTechnician.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:47 +0000  860 bytes for ./Payload/HamTesterTechnician.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-11.0+.nib
+copying file ./Payload/HamTesterTechnician.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib ... 
+860 bytes for ./Payload/HamTesterTechnician.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib
+copying file ./Payload/HamTesterTechnician.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-07-31 21:17:47 +0000  258 bytes for ./Payload/HamTesterTechnician.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/HamTesterTechnician.app/Assets.car ... 
+2018-07-31 21:17:47 +0000  1503992 bytes for ./Payload/HamTesterTechnician.app/Assets.car
+copying file ./Payload/HamTesterTechnician.app/AppIcon40x40@2x~ipad.png ... 
+2018-07-31 21:17:47 +0000  12510 bytes for ./Payload/HamTesterTechnician.app/AppIcon40x40@2x~ipad.png
+copying file ./Payload/HamTesterTechnician.app/AppIcon76x76@2x~ipad.png ... 
+32311 bytes for ./Payload/HamTesterTechnician.app/AppIcon76x76@2x~ipad.png
+copying file ./Payload/HamTesterTechnician.app/AppIcon83.5x83.5@2x~ipad.png ... 
+2018-07-31 21:17:47 +0000  37060 bytes for ./Payload/HamTesterTechnician.app/AppIcon83.5x83.5@2x~ipad.png
+copying file ./Payload/HamTesterTechnician.app/HamTesterTechnician ... 
+2018-07-31 21:17:47 +0000  423008 bytes for ./Payload/HamTesterTechnician.app/HamTesterTechnician
+copying file ./Payload/HamTesterTechnician.app/AppIcon29x29@2x~ipad.png ... 
+2018-07-31 21:17:47 +0000  7819 bytes for ./Payload/HamTesterTechnician.app/AppIcon29x29@2x~ipad.png
+copying file ./Payload/HamTesterTechnician.app/AppIcon40x40~ipad.png ... 
+2018-07-31 21:17:47 +0000  4589 bytes for ./Payload/HamTesterTechnician.app/AppIcon40x40~ipad.png
+2018-07-31 21:17:47 +0000  copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/_CodeSignature/CodeResources ... 
+2018-07-31 21:17:47 +0000  17492 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/_CodeSignature/CodeResources
+2018-07-31 21:17:47 +0000  copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/Mwn-Df-KOj-view-q1k-2H-3l4.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:47 +0000  4658 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/Mwn-Df-KOj-view-q1k-2H-3l4.nib/objects-11.0+.nib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/Mwn-Df-KOj-view-q1k-2H-3l4.nib/runtime.nib ... 
+2018-07-31 21:17:47 +0000  4800 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/Mwn-Df-KOj-view-q1k-2H-3l4.nib/runtime.nib
+2018-07-31 21:17:47 +0000  copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamTableViewController.nib/objects-11.0+.nib ... 
+1598 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamTableViewController.nib/objects-11.0+.nib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamTableViewController.nib/runtime.nib ... 
+2018-07-31 21:17:47 +0000  1598 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamTableViewController.nib/runtime.nib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamResultsDetailTableViewController.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:47 +0000  1486 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamResultsDetailTableViewController.nib/objects-11.0+.nib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamResultsDetailTableViewController.nib/runtime.nib ... 
+2018-07-31 21:17:47 +0000  1486 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamResultsDetailTableViewController.nib/runtime.nib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/PoolGroupQuestionDetailTableViewController.nib/objects-11.0+.nib ... 
+1498 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/PoolGroupQuestionDetailTableViewController.nib/objects-11.0+.nib
+2018-07-31 21:17:47 +0000  copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/PoolGroupQuestionDetailTableViewController.nib/runtime.nib ... 
+1498 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/PoolGroupQuestionDetailTableViewController.nib/runtime.nib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/KsM-05-RIL-view-8KW-hM-98m.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:47 +0000  8245 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/KsM-05-RIL-view-8KW-hM-98m.nib/objects-11.0+.nib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/KsM-05-RIL-view-8KW-hM-98m.nib/runtime.nib ... 
+2018-07-31 21:17:47 +0000  8374 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/KsM-05-RIL-view-8KW-hM-98m.nib/runtime.nib
+2018-07-31 21:17:47 +0000  copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/6oc-Hb-yz9-view-xPA-Pl-ZpN.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:47 +0000  4662 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/6oc-Hb-yz9-view-xPA-Pl-ZpN.nib/objects-11.0+.nib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/6oc-Hb-yz9-view-xPA-Pl-ZpN.nib/runtime.nib ... 
+2018-07-31 21:17:47 +0000  4805 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/6oc-Hb-yz9-view-xPA-Pl-ZpN.nib/runtime.nib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/QuestionDetailTableViewController.nib/objects-11.0+.nib ... 
+1480 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/QuestionDetailTableViewController.nib/objects-11.0+.nib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/QuestionDetailTableViewController.nib/runtime.nib ... 
+2018-07-31 21:17:47 +0000  1480 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/QuestionDetailTableViewController.nib/runtime.nib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/PoolTableViewController.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:47 +0000  1501 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/PoolTableViewController.nib/objects-11.0+.nib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/PoolTableViewController.nib/runtime.nib ... 
+1501 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/PoolTableViewController.nib/runtime.nib
+2018-07-31 21:17:47 +0000  copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/XVm-Ew-Y5O-view-COb-q4-o3B.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:47 +0000  4663 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/XVm-Ew-Y5O-view-COb-q4-o3B.nib/objects-11.0+.nib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/XVm-Ew-Y5O-view-COb-q4-o3B.nib/runtime.nib ... 
+2018-07-31 21:17:47 +0000  4802 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/XVm-Ew-Y5O-view-COb-q4-o3B.nib/runtime.nib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamResultsTableViewController.nib/objects-11.0+.nib ... 
+1425 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamResultsTableViewController.nib/objects-11.0+.nib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamResultsTableViewController.nib/runtime.nib ... 
+2018-07-31 21:17:47 +0000  1425 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamResultsTableViewController.nib/runtime.nib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/1Lq-75-9FA-view-SiC-oT-yLE.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:47 +0000  6125 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/1Lq-75-9FA-view-SiC-oT-yLE.nib/objects-11.0+.nib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/1Lq-75-9FA-view-SiC-oT-yLE.nib/runtime.nib ... 
+2018-07-31 21:17:47 +0000  6248 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/1Lq-75-9FA-view-SiC-oT-yLE.nib/runtime.nib
+2018-07-31 21:17:47 +0000  copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/div-bI-96u-view-mIs-qM-ECK.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:47 +0000  4661 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/div-bI-96u-view-mIs-qM-ECK.nib/objects-11.0+.nib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/div-bI-96u-view-mIs-qM-ECK.nib/runtime.nib ... 
+2018-07-31 21:17:47 +0000  4802 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/div-bI-96u-view-mIs-qM-ECK.nib/runtime.nib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/xEc-G2-d7d-view-lGN-FX-Kch.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:47 +0000  8251 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/xEc-G2-d7d-view-lGN-FX-Kch.nib/objects-11.0+.nib
+2018-07-31 21:17:47 +0000  copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/xEc-G2-d7d-view-lGN-FX-Kch.nib/runtime.nib ... 
+2018-07-31 21:17:47 +0000  8383 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/xEc-G2-d7d-view-lGN-FX-Kch.nib/runtime.nib
+2018-07-31 21:17:47 +0000  copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/HamTesterTabBarController.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:47 +0000  7537 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/HamTesterTabBarController.nib/objects-11.0+.nib
+2018-07-31 21:17:47 +0000  copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/HamTesterTabBarController.nib/runtime.nib ... 
+2018-07-31 21:17:47 +0000  7057 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/HamTesterTabBarController.nib/runtime.nib
+2018-07-31 21:17:47 +0000  copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/PoolGroupQuestionsTableViewController.nib/objects-11.0+.nib ... 
+1455 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/PoolGroupQuestionsTableViewController.nib/objects-11.0+.nib
+2018-07-31 21:17:47 +0000  copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/PoolGroupQuestionsTableViewController.nib/runtime.nib ... 
+1455 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/PoolGroupQuestionsTableViewController.nib/runtime.nib
+2018-07-31 21:17:47 +0000  copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/WUh-WC-FiQ-view-L9S-kO-niX.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:47 +0000  8250 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/WUh-WC-FiQ-view-L9S-kO-niX.nib/objects-11.0+.nib
+2018-07-31 21:17:47 +0000  copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/WUh-WC-FiQ-view-L9S-kO-niX.nib/runtime.nib ... 
+2018-07-31 21:17:47 +0000  8373 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/WUh-WC-FiQ-view-L9S-kO-niX.nib/runtime.nib
+2018-07-31 21:17:47 +0000  copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/BeginExamViewController.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:47 +0000  5336 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/BeginExamViewController.nib/objects-11.0+.nib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/BeginExamViewController.nib/runtime.nib ... 
+2018-07-31 21:17:47 +0000  4881 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/BeginExamViewController.nib/runtime.nib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/Info.plist ... 
+2018-07-31 21:17:47 +0000  889 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/Info.plist
+copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamNavigationViewController.nib/objects-11.0+.nib ... 
+2018-07-31 21:17:47 +0000  2303 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamNavigationViewController.nib/objects-11.0+.nib
+2018-07-31 21:17:47 +0000  copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamNavigationViewController.nib/runtime.nib ... 
+2303 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Base.lproj/HamTester.storyboardc/ExamNavigationViewController.nib/runtime.nib
+2018-07-31 21:17:47 +0000  copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Assets.car ... 
+2018-07-31 21:17:47 +0000  27048 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Assets.car
+2018-07-31 21:17:47 +0000  copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/HamTester ... 
+2018-07-31 21:17:47 +0000  2010352 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/HamTester
+copying file ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Info.plist ... 
+2018-07-31 21:17:47 +0000  708 bytes for ./Payload/HamTesterTechnician.app/Frameworks/HamTester.framework/Info.plist
+copying file ./Payload/HamTesterTechnician.app/Frameworks/libswiftCoreImage.dylib ... 
+2018-07-31 21:17:47 +0000  349760 bytes for ./Payload/HamTesterTechnician.app/Frameworks/libswiftCoreImage.dylib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/libswiftObjectiveC.dylib ... 
+2018-07-31 21:17:47 +0000  596240 bytes for ./Payload/HamTesterTechnician.app/Frameworks/libswiftObjectiveC.dylib
+2018-07-31 21:17:47 +0000  copying file ./Payload/HamTesterTechnician.app/Frameworks/libswiftCore.dylib ... 
+2018-07-31 21:17:49 +0000  66704688 bytes for ./Payload/HamTesterTechnician.app/Frameworks/libswiftCore.dylib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2018-07-31 21:17:49 +0000  1637920 bytes for ./Payload/HamTesterTechnician.app/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/libswiftUIKit.dylib ... 
+2018-07-31 21:17:49 +0000  1085152 bytes for ./Payload/HamTesterTechnician.app/Frameworks/libswiftUIKit.dylib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/libswiftMetal.dylib ... 
+2018-07-31 21:17:49 +0000  458256 bytes for ./Payload/HamTesterTechnician.app/Frameworks/libswiftMetal.dylib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/libswiftDispatch.dylib ... 
+2018-07-31 21:17:49 +0000  2764432 bytes for ./Payload/HamTesterTechnician.app/Frameworks/libswiftDispatch.dylib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/libswiftos.dylib ... 
+2018-07-31 21:17:49 +0000  506528 bytes for ./Payload/HamTesterTechnician.app/Frameworks/libswiftos.dylib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2018-07-31 21:17:49 +0000  299872 bytes for ./Payload/HamTesterTechnician.app/Frameworks/libswiftCoreFoundation.dylib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/libswiftDarwin.dylib ... 
+2018-07-31 21:17:49 +0000  848096 bytes for ./Payload/HamTesterTechnician.app/Frameworks/libswiftDarwin.dylib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/libswiftQuartzCore.dylib ... 
+2018-07-31 21:17:49 +0000  352752 bytes for ./Payload/HamTesterTechnician.app/Frameworks/libswiftQuartzCore.dylib
+copying file ./Payload/HamTesterTechnician.app/Frameworks/libswiftFoundation.dylib ... 
+2018-07-31 21:17:51 +0000  30207376 bytes for ./Payload/HamTesterTechnician.app/Frameworks/libswiftFoundation.dylib
+2018-07-31 21:17:51 +0000  copying file ./Payload/HamTesterTechnician.app/AppIcon20x20~ipad.png ... 
+1876 bytes for ./Payload/HamTesterTechnician.app/AppIcon20x20~ipad.png
+copying file ./Payload/HamTesterTechnician.app/embedded.mobileprovision ... 
+7546 bytes for ./Payload/HamTesterTechnician.app/embedded.mobileprovision
+copying file ./Payload/HamTesterTechnician.app/AppIcon20x20@2x~ipad.png ... 
+4568 bytes for ./Payload/HamTesterTechnician.app/AppIcon20x20@2x~ipad.png
+copying file ./Payload/HamTesterTechnician.app/Info.plist ... 
+1422 bytes for ./Payload/HamTesterTechnician.app/Info.plist
+copying file ./Payload/HamTesterTechnician.app/PkgInfo ... 
+8 bytes for ./Payload/HamTesterTechnician.app/PkgInfo
+copying file ./Payload/HamTesterTechnician.app/AppIcon76x76~ipad.png ... 
+11623 bytes for ./Payload/HamTesterTechnician.app/AppIcon76x76~ipad.png
+copying file ./SwiftSupport/iphoneos/libswiftCoreImage.dylib ... 
+307520 bytes for ./SwiftSupport/iphoneos/libswiftCoreImage.dylib
+copying file ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib ... 
+2018-07-31 21:17:51 +0000  553984 bytes for ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCore.dylib ... 
+2018-07-31 21:17:53 +0000  66662432 bytes for ./SwiftSupport/iphoneos/libswiftCore.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib ... 
+2018-07-31 21:17:53 +0000  1628432 bytes for ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib
+copying file ./SwiftSupport/iphoneos/libswiftUIKit.dylib ... 
+2018-07-31 21:17:53 +0000  1042912 bytes for ./SwiftSupport/iphoneos/libswiftUIKit.dylib
+2018-07-31 21:17:53 +0000  copying file ./SwiftSupport/iphoneos/libswiftMetal.dylib ... 
+2018-07-31 21:17:53 +0000  448768 bytes for ./SwiftSupport/iphoneos/libswiftMetal.dylib
+copying file ./SwiftSupport/iphoneos/libswiftDispatch.dylib ... 
+2018-07-31 21:17:53 +0000  2722176 bytes for ./SwiftSupport/iphoneos/libswiftDispatch.dylib
+copying file ./SwiftSupport/iphoneos/libswiftos.dylib ... 
+2018-07-31 21:17:53 +0000  497040 bytes for ./SwiftSupport/iphoneos/libswiftos.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib ... 
+2018-07-31 21:17:53 +0000  257616 bytes for ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib
+copying file ./SwiftSupport/iphoneos/libswiftDarwin.dylib ... 
+2018-07-31 21:17:53 +0000  838608 bytes for ./SwiftSupport/iphoneos/libswiftDarwin.dylib
+2018-07-31 21:17:53 +0000  copying file ./SwiftSupport/iphoneos/libswiftQuartzCore.dylib ... 
+2018-07-31 21:17:53 +0000  310496 bytes for ./SwiftSupport/iphoneos/libswiftQuartzCore.dylib
+2018-07-31 21:17:53 +0000  copying file ./SwiftSupport/iphoneos/libswiftFoundation.dylib ... 
+2018-07-31 21:17:55 +0000  30165120 bytes for ./SwiftSupport/iphoneos/libswiftFoundation.dylib
+2018-07-31 21:17:55 +0000  copying file ./Symbols/FB5160D0-DC38-32E1-97CA-A2EEE72A8D80.symbols ... 
+22600 bytes for ./Symbols/FB5160D0-DC38-32E1-97CA-A2EEE72A8D80.symbols
+copying file ./Symbols/599F2CCE-4E8B-3255-9DDF-69DB9AA48764.symbols ... 
+2392 bytes for ./Symbols/599F2CCE-4E8B-3255-9DDF-69DB9AA48764.symbols
+copying file ./Symbols/0E333FDA-7200-3860-A53D-7604CEC3DC48.symbols ... 
+2728 bytes for ./Symbols/0E333FDA-7200-3860-A53D-7604CEC3DC48.symbols
+copying file ./Symbols/AFC3DE45-AD58-3589-A978-26E2E97352C6.symbols ... 
+13576 bytes for ./Symbols/AFC3DE45-AD58-3589-A978-26E2E97352C6.symbols
+copying file ./Symbols/C5221413-9E18-342D-856E-F235DAA6A43A.symbols ... 
+48248 bytes for ./Symbols/C5221413-9E18-342D-856E-F235DAA6A43A.symbols
+copying file ./Symbols/D164CEE7-BC83-303F-8C3C-CC58F19C60DC.symbols ... 
+2018-07-31 21:17:55 +0000  237168 bytes for ./Symbols/D164CEE7-BC83-303F-8C3C-CC58F19C60DC.symbols
+copying file ./Symbols/F27E68E1-3DF3-3593-A742-E2BB8A2B27D1.symbols ... 
+2018-07-31 21:17:55 +0000  110160 bytes for ./Symbols/F27E68E1-3DF3-3593-A742-E2BB8A2B27D1.symbols
+copying file ./Symbols/2DDBE489-5355-3F49-B5EB-3E402BF3EEED.symbols ... 
+2018-07-31 21:17:55 +0000  13040 bytes for ./Symbols/2DDBE489-5355-3F49-B5EB-3E402BF3EEED.symbols
+2018-07-31 21:17:55 +0000  copying file ./Symbols/FB3B98BE-29F3-3323-B1B8-62C00C4E1241.symbols ... 
+2018-07-31 21:17:55 +0000  22600 bytes for ./Symbols/FB3B98BE-29F3-3323-B1B8-62C00C4E1241.symbols
+copying file ./Symbols/5DF1CCA7-DA49-3AE6-BC61-AAF18034779E.symbols ... 
+2018-07-31 21:17:55 +0000  7016 bytes for ./Symbols/5DF1CCA7-DA49-3AE6-BC61-AAF18034779E.symbols
+copying file ./Symbols/D40DEF73-60A6-339D-843D-88F258576F65.symbols ... 
+2018-07-31 21:17:55 +0000  2504 bytes for ./Symbols/D40DEF73-60A6-339D-843D-88F258576F65.symbols
+2018-07-31 21:17:55 +0000  copying file ./Symbols/52C534E7-F10B-3B31-AF3E-312445095B81.symbols ... 
+2018-07-31 21:17:55 +0000  14024 bytes for ./Symbols/52C534E7-F10B-3B31-AF3E-312445095B81.symbols
+copying file ./Symbols/8887AE77-E0E6-33F5-BC91-47F1C42DF36C.symbols ... 
+2018-07-31 21:17:55 +0000  6680 bytes for ./Symbols/8887AE77-E0E6-33F5-BC91-47F1C42DF36C.symbols
+2018-07-31 21:17:55 +0000  copying file ./Symbols/81A30183-A8CF-3108-B15E-065E35312712.symbols ... 
+2018-07-31 21:17:55 +0000  239088 bytes for ./Symbols/81A30183-A8CF-3108-B15E-065E35312712.symbols
+copying file ./Symbols/60527F18-9766-3316-9C14-39EC7AEE013E.symbols ... 
+2018-07-31 21:17:55 +0000  3685712 bytes for ./Symbols/60527F18-9766-3316-9C14-39EC7AEE013E.symbols
+copying file ./Symbols/181EE94A-59DC-3A9A-8A6A-064E95EBC254.symbols ... 
+2018-07-31 21:17:55 +0000  1641792 bytes for ./Symbols/181EE94A-59DC-3A9A-8A6A-064E95EBC254.symbols
+copying file ./Symbols/4FE54383-0B38-3378-B946-C669DD45FDD0.symbols ... 
+2018-07-31 21:17:55 +0000  3667056 bytes for ./Symbols/4FE54383-0B38-3378-B946-C669DD45FDD0.symbols
+copying file ./Symbols/AA29266D-D3A3-3D30-A668-A358052E1AAA.symbols ... 
+2018-07-31 21:17:55 +0000  110232 bytes for ./Symbols/AA29266D-D3A3-3D30-A668-A358052E1AAA.symbols
+copying file ./Symbols/8C36E2E2-5504-31E9-BFBA-2D7B3C1B929B.symbols ... 
+2018-07-31 21:17:55 +0000  109440 bytes for ./Symbols/8C36E2E2-5504-31E9-BFBA-2D7B3C1B929B.symbols
+copying file ./Symbols/062BD1C4-0293-3010-B791-EB1A4D4DC93B.symbols ... 
+2018-07-31 21:17:55 +0000  22640 bytes for ./Symbols/062BD1C4-0293-3010-B791-EB1A4D4DC93B.symbols
+copying file ./Symbols/527DFD5B-F74E-35EC-AE84-2436FC6763FF.symbols ... 
+2018-07-31 21:17:55 +0000  13040 bytes for ./Symbols/527DFD5B-F74E-35EC-AE84-2436FC6763FF.symbols
+copying file ./Symbols/412B48C6-07FB-3096-A8F4-2FA3C159B67A.symbols ... 
+2018-07-31 21:17:55 +0000  62776 bytes for ./Symbols/412B48C6-07FB-3096-A8F4-2FA3C159B67A.symbols
+copying file ./Symbols/CDD1E457-083C-3DA5-9500-DCAC844406CE.symbols ... 
+2018-07-31 21:17:55 +0000  14024 bytes for ./Symbols/CDD1E457-083C-3DA5-9500-DCAC844406CE.symbols
+copying file ./Symbols/BC58E020-DAF4-3E8C-B605-9F213E5AEEDC.symbols ... 
+2018-07-31 21:17:55 +0000  47696 bytes for ./Symbols/BC58E020-DAF4-3E8C-B605-9F213E5AEEDC.symbols
+copying file ./Symbols/5148ACA6-CD45-3355-81A1-B6C9274FA4ED.symbols ... 
+2018-07-31 21:17:55 +0000  63112 bytes for ./Symbols/5148ACA6-CD45-3355-81A1-B6C9274FA4ED.symbols
+copying file ./Symbols/53726A84-1516-36DA-A562-7ACBD8725367.symbols ... 
+2018-07-31 21:17:55 +0000  13216 bytes for ./Symbols/53726A84-1516-36DA-A562-7ACBD8725367.symbols
+2018-07-31 21:17:55 +0000  copying file ./Symbols/C589B88B-F3EA-3544-8B25-4AA48143606C.symbols ... 
+2018-07-31 21:17:55 +0000  239160 bytes for ./Symbols/C589B88B-F3EA-3544-8B25-4AA48143606C.symbols
+copying file ./Symbols/E825EC9B-B58D-3A10-8398-70039E63709A.symbols ... 
+2018-07-31 21:17:55 +0000  2392 bytes for ./Symbols/E825EC9B-B58D-3A10-8398-70039E63709A.symbols
+copying file ./Symbols/D0DE7B83-C6A5-3D19-AC61-12FBA3B84309.symbols ... 
+2018-07-31 21:17:55 +0000  1635784 bytes for ./Symbols/D0DE7B83-C6A5-3D19-AC61-12FBA3B84309.symbols
+copying file ./Symbols/0A1F05C0-B97E-3A2D-9641-94E42172B5F6.symbols ... 
+2018-07-31 21:17:55 +0000  2816 bytes for ./Symbols/0A1F05C0-B97E-3A2D-9641-94E42172B5F6.symbols
+copying file ./Symbols/00E1AB28-6A0D-308A-8401-7CA1137C57B6.symbols ... 
+2018-07-31 21:17:55 +0000  63112 bytes for ./Symbols/00E1AB28-6A0D-308A-8401-7CA1137C57B6.symbols
+2018-07-31 21:17:55 +0000  copying file ./Symbols/49FCED25-5BAB-3B4B-8806-7054BCEDF6C0.symbols ... 
+2018-07-31 21:17:55 +0000  6680 bytes for ./Symbols/49FCED25-5BAB-3B4B-8806-7054BCEDF6C0.symbols
+copying file ./Symbols/58A03362-38CB-3412-A3C9-5348EACE6943.symbols ... 
+2018-07-31 21:17:55 +0000  1641936 bytes for ./Symbols/58A03362-38CB-3412-A3C9-5348EACE6943.symbols
+copying file ./Symbols/5D37943C-EAED-3B1B-9CB3-4738BE6F2561.symbols ... 
+2018-07-31 21:17:55 +0000  48248 bytes for ./Symbols/5D37943C-EAED-3B1B-9CB3-4738BE6F2561.symbols
+copying file ./Symbols/E8EF3E0F-39CF-3791-A8CC-AEB2C3CEBB1D.symbols ... 
+2728 bytes for ./Symbols/E8EF3E0F-39CF-3791-A8CC-AEB2C3CEBB1D.symbols
+copying file ./Symbols/09D4FF65-6FD5-3605-AAE3-0AB98E9C1472.symbols ... 
+2018-07-31 21:17:55 +0000  3686296 bytes for ./Symbols/09D4FF65-6FD5-3605-AAE3-0AB98E9C1472.symbols
+2018-07-31 21:17:55 +0000  2018-07-31 21:17:55 +0000  /usr/bin/ditto exited with 0
+
+2018-07-31 21:17:55 +0000  2018-07-31 21:17:55 +0000  
+
+2018-07-31 21:17:55 +0000  Processing step: IDEDistributionCreateManifestStep
+2018-07-31 21:17:55 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

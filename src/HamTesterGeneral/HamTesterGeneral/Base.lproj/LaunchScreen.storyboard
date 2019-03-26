@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0AU-bU-9B0">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="LsJ-ei-6mB">
+            <objects>
+                <viewController modalPresentationStyle="currentContext" id="0AU-bU-9B0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ipz-6o-WUe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screenshot_01" translatesAutoresizingMaskIntoConstraints="NO" id="TBE-Eg-qLb">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ArtWork" translatesAutoresizingMaskIntoConstraints="NO" id="AiB-l4-AwJ">
+                                <rect key="frame" x="112.5" y="258.5" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="4a1-iM-f3U"/>
+                                    <constraint firstAttribute="width" constant="150" id="n79-j4-8Zc"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="TBE-Eg-qLb" firstAttribute="centerY" secondItem="AiB-l4-AwJ" secondAttribute="centerY" id="61L-o3-SnD"/>
+                            <constraint firstItem="TBE-Eg-qLb" firstAttribute="bottom" secondItem="G8S-uF-Szc" secondAttribute="bottom" id="GlW-1c-nqx"/>
+                            <constraint firstItem="AiB-l4-AwJ" firstAttribute="centerX" secondItem="Ipz-6o-WUe" secondAttribute="centerX" id="Jg5-9F-fJZ"/>
+                            <constraint firstItem="TBE-Eg-qLb" firstAttribute="centerX" secondItem="AiB-l4-AwJ" secondAttribute="centerX" id="Szm-1o-S0D"/>
+                            <constraint firstItem="AiB-l4-AwJ" firstAttribute="centerY" secondItem="Ipz-6o-WUe" secondAttribute="centerY" id="g4c-nW-SRO"/>
+                            <constraint firstItem="TBE-Eg-qLb" firstAttribute="leading" secondItem="Ipz-6o-WUe" secondAttribute="leading" id="sqo-2T-JWL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="G8S-uF-Szc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8mr-F8-TUF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ArtWork" width="1024" height="1024"/>
+        <image name="Screenshot_01" width="1242" height="2208"/>
+    </resources>
+</document>
