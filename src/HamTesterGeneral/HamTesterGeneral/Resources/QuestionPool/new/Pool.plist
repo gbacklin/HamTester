@@ -977,7 +977,7 @@
 					<key>count</key>
 					<integer>1</integer>
 					<key>description</key>
-					<string>General Class control operator frequency privileges; primary and secondary allocations</string>
+					<string>General class control operator frequency privileges; primary and secondary allocations</string>
 					<key>name</key>
 					<string>G1A</string>
 					<key>questions</key>
@@ -989,25 +989,25 @@
 									<key>correct</key>
 									<false/>
 									<key>text</key>
-									<string>60, 20, 17, and 12 meters</string>
+									<string>60 meters, 20 meters, 17 meters, and 12 meters</string>
 								</dict>
 								<dict>
 									<key>correct</key>
 									<false/>
 									<key>text</key>
-									<string>160, 80, 40, and 10 meters</string>
+									<string>160 meters, 80 meters, 40 meters, and 10 meters</string>
 								</dict>
 								<dict>
 									<key>correct</key>
 									<true/>
 									<key>text</key>
-									<string>160, 60, 30, 17, 12, and 10 meters</string>
+									<string>160 meters, 60 meters, 30 meters, 17 meters, 12 meters, and 10 meters</string>
 								</dict>
 								<dict>
 									<key>correct</key>
 									<false/>
 									<key>text</key>
-									<string>160, 30, 17, 15, 12, and 10 meters</string>
+									<string>160 meters, 30 meters, 17 meters, 15 meters, 12 meters, and 10 meters</string>
 								</dict>
 							</array>
 							<key>figureFile</key>
@@ -1017,7 +1017,7 @@
 							<key>name</key>
 							<string>G1A01</string>
 							<key>question</key>
-							<string>On which of the following bands is a General Class license holder granted all amateur frequency privileges?</string>
+							<string>On which HF/MF bands is a General class license holder granted all amateur frequency privileges?</string>
 						</dict>
 						<dict>
 							<key>answers</key>
@@ -1128,7 +1128,7 @@
 							<key>name</key>
 							<string>G1A04</string>
 							<key>question</key>
-							<string>Which of the following amateur bands is restricted to communication on only specific channels, rather than frequency ranges?</string>
+							<string>Which of the following amateur bands is restricted to communication only on specific channels, rather than frequency ranges?</string>
 						</dict>
 						<dict>
 							<key>answers</key>
@@ -1402,19 +1402,19 @@
 									<key>correct</key>
 									<false/>
 									<key>text</key>
-									<string>Amateur stations are allowed to use the band only during emergencies</string>
+									<string>Amateur stations can use the band only during emergencies</string>
 								</dict>
 								<dict>
 									<key>correct</key>
 									<true/>
 									<key>text</key>
-									<string>Amateur stations are allowed to use the band only if they do not cause harmful interference to primary users</string>
+									<string>Amateur stations can use the band only if they do not cause harmful interference to primary users</string>
 								</dict>
 								<dict>
 									<key>correct</key>
 									<false/>
 									<key>text</key>
-									<string>Amateur stations may only operate during specific hours of the day, while primary users are permitted 24 hour use of the band</string>
+									<string>Amateur stations may only operate during specific hours of the day, while primary users are permitted 24-hour use of the band</string>
 								</dict>
 							</array>
 							<key>figureFile</key>
@@ -1470,25 +1470,25 @@
 									<key>correct</key>
 									<false/>
 									<key>text</key>
-									<string>Region 1</string>
+									<string>Station identification may have to be in a language other than English</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>Morse code may not be permitted</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>Digital transmission may not be permitted</string>
 								</dict>
 								<dict>
 									<key>correct</key>
 									<true/>
 									<key>text</key>
-									<string>Region 2</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<false/>
-									<key>text</key>
-									<string>Region 3</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<false/>
-									<key>text</key>
-									<string>All three regions</string>
+									<string>Frequency allocations may differ</string>
 								</dict>
 							</array>
 							<key>figureFile</key>
@@ -1498,7 +1498,44 @@
 							<key>name</key>
 							<string>G1A14</string>
 							<key>question</key>
-							<string>In what ITU region is operation in the 7.175 to 7.300 MHz band permitted for a control operator holding an FCC issued General Class license?</string>
+							<string>Which of the following may apply in areas under FCC jurisdiction outside of ITU Region 2?</string>
+						</dict>
+						<dict>
+							<key>answers</key>
+							<array>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>The entire band</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>The portion between 28.1 MHz and 28.2 MHz</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>The portion between 28.3 MHz and 28.5 MHz</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<true/>
+									<key>text</key>
+									<string>The portion above 29.5 MHz</string>
+								</dict>
+							</array>
+							<key>figureFile</key>
+							<string></string>
+							<key>figureTitle</key>
+							<string></string>
+							<key>name</key>
+							<string>G1A15</string>
+							<key>question</key>
+							<string>What portion of the 10-meter band is available for repeater use?</string>
 						</dict>
 					</array>
 				</dict>
@@ -1573,7 +1610,7 @@
 									<key>correct</key>
 									<true/>
 									<key>text</key>
-									<string>There must be no more than one beacon signal in the same band from a single location</string>
+									<string>There must be no more than one beacon signal transmitting in the same band from the same station location</string>
 								</dict>
 							</array>
 							<key>figureFile</key>
@@ -1627,27 +1664,27 @@
 							<array>
 								<dict>
 									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>Unidentified transmissions for test purposes only</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>Retransmission of other amateur station signals by any amateur station</string>
+								</dict>
+								<dict>
+									<key>correct</key>
 									<true/>
 									<key>text</key>
-									<string>The communications must directly relate to the immediate safety of human life or protection of property and there must be no other means of communication reasonably available before or at the time of the event</string>
+									<string>Occasional retransmission of weather and propagation forecast information from U.S. government stations</string>
 								</dict>
 								<dict>
 									<key>correct</key>
 									<false/>
 									<key>text</key>
-									<string>The communications must be approved by a local emergency preparedness official and conducted on officially designated frequencies</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<false/>
-									<key>text</key>
-									<string>The FCC must have declared a state of emergency</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<false/>
-									<key>text</key>
-									<string>All of these choices are correct</string>
+									<string>Coded messages of any kind, if not intended to facilitate a criminal act</string>
 								</dict>
 							</array>
 							<key>figureFile</key>
@@ -1657,7 +1694,7 @@
 							<key>name</key>
 							<string>G1B04</string>
 							<key>question</key>
-							<string>Which of the following must be true before amateur stations may provide communications to broadcasters for dissemination to the public?</string>
+							<string>Which of the following transmissions is permitted?</string>
 						</dict>
 						<dict>
 							<key>answers</key>
@@ -1666,25 +1703,25 @@
 									<key>correct</key>
 									<false/>
 									<key>text</key>
-									<string>At any time, as long as it produces no spurious emissions</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<false/>
-									<key>text</key>
-									<string>When it is unintentionally transmitted from the background at the transmitter</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<false/>
-									<key>text</key>
-									<string>When it is transmitted on frequencies above 1215 MHz</string>
+									<string>Unidentified test transmissions of less than one minute in duration</string>
 								</dict>
 								<dict>
 									<key>correct</key>
 									<true/>
 									<key>text</key>
-									<string>When it is an incidental part of a manned space craft retransmission</string>
+									<string>Transmissions necessary to assist learning the International Morse code</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>Regular transmissions offering equipment for sale, if intended for Amateur Radio use</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>All these choices are correct</string>
 								</dict>
 							</array>
 							<key>figureFile</key>
@@ -1694,7 +1731,7 @@
 							<key>name</key>
 							<string>G1B05</string>
 							<key>question</key>
-							<string>When may music be transmitted by an amateur station? </string>
+							<string>Which of the following one-way transmissions are permitted?</string>
 						</dict>
 						<dict>
 							<key>answers</key>
@@ -1703,25 +1740,25 @@
 									<key>correct</key>
 									<false/>
 									<key>text</key>
-									<string>During a declared communications emergency</string>
+									<string>Under no circumstances, FCC rules takes priority</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>At any time and to any extent necessary to accomplish a legitimate purpose of the state or local entity, provided that proper filings are made with the FCC</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>Only when such structures exceed 50 feet in height and are clearly visible 1000 feet from the structure</string>
 								</dict>
 								<dict>
 									<key>correct</key>
 									<true/>
 									<key>text</key>
-									<string>To control a space station</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<false/>
-									<key>text</key>
-									<string>Only when the information is of a routine, personal nature</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<false/>
-									<key>text</key>
-									<string>Only with Special Temporary Authorization from the FCC</string>
+									<string>Amateur Service communications must be reasonably accommodated, and regulations must constitute the minimum practical to accommodate a legitimate purpose of the state or local entity</string>
 								</dict>
 							</array>
 							<key>figureFile</key>
@@ -1731,7 +1768,7 @@
 							<key>name</key>
 							<string>G1B06</string>
 							<key>question</key>
-							<string>When is an amateur station permitted to transmit secret codes?</string>
+							<string>Under what conditions are state and local governments permitted to regulate Amateur Radio antenna structures?</string>
 						</dict>
 						<dict>
 							<key>answers</key>
@@ -1740,7 +1777,7 @@
 									<key>correct</key>
 									<false/>
 									<key>text</key>
-									<string>Only &quot;Q&quot; codes are permitted</string>
+									<string>Only &quot;Q&quot; signals are permitted</string>
 								</dict>
 								<dict>
 									<key>correct</key>
@@ -1812,27 +1849,27 @@
 							<array>
 								<dict>
 									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>On any frequency if power is less than 1 watt</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>On any frequency if transmissions are in Morse code</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>21.08 MHz to 21.09 MHz</string>
+								</dict>
+								<dict>
+									<key>correct</key>
 									<true/>
 									<key>text</key>
-									<string>When other amateurs are being notified of the sale of apparatus normally used in an amateur station and such activity is not done on a regular basis</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<false/>
-									<key>text</key>
-									<string>Only when there is no other means of communications readily available</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<false/>
-									<key>text</key>
-									<string>When other amateurs are being notified of the sale of any item with a monetary value less than $200 and such activity is not done on a regular basis</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<false/>
-									<key>text</key>
-									<string>Never</string>
+									<string>28.20 MHz to 28.30 MHz</string>
 								</dict>
 							</array>
 							<key>figureFile</key>
@@ -1842,7 +1879,7 @@
 							<key>name</key>
 							<string>G1B09</string>
 							<key>question</key>
-							<string>When may an amateur station transmit communications in which the licensee or control operator has a pecuniary (monetary) interest?</string>
+							<string>On what HF frequencies are automatically controlled beacons permitted?</string>
 						</dict>
 						<dict>
 							<key>answers</key>
@@ -1886,43 +1923,6 @@
 							<array>
 								<dict>
 									<key>correct</key>
-									<false/>
-									<key>text</key>
-									<string>In conformance with the rules of the IARU</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<false/>
-									<key>text</key>
-									<string>In conformance with Amateur Radio custom</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<true/>
-									<key>text</key>
-									<string>In conformance with good engineering and good amateur practice</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<false/>
-									<key>text</key>
-									<string>All of these answers are correct</string>
-								</dict>
-							</array>
-							<key>figureFile</key>
-							<string></string>
-							<key>figureTitle</key>
-							<string></string>
-							<key>name</key>
-							<string>G1B11</string>
-							<key>question</key>
-							<string>How does the FCC require an amateur station to be operated in all respects not specifically covered by the Part 97 rules?</string>
-						</dict>
-						<dict>
-							<key>answers</key>
-							<array>
-								<dict>
-									<key>correct</key>
 									<true/>
 									<key>text</key>
 									<string>The FCC</string>
@@ -1931,7 +1931,7 @@
 									<key>correct</key>
 									<false/>
 									<key>text</key>
-									<string>The Control Operator</string>
+									<string>The control operator</string>
 								</dict>
 								<dict>
 									<key>correct</key>
@@ -1951,9 +1951,46 @@
 							<key>figureTitle</key>
 							<string></string>
 							<key>name</key>
+							<string>G1B11</string>
+							<key>question</key>
+							<string>Who or what determines &quot;good engineering and good amateur practice,&quot; as applied to the operation of an amateur station in all respects not covered by the Part 97 rules?</string>
+						</dict>
+						<dict>
+							<key>answers</key>
+							<array>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>Only when the foreign country has a formal third-party agreement filed with the FCC</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<true/>
+									<key>text</key>
+									<string>When the contact is with amateurs in any country except those whose administrations have notified the ITU that they object to such communications</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>When the contact is with amateurs in any country as long as the communication is conducted in English</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>Only when the foreign country is a member of the International Amateur Radio Union</string>
+								</dict>
+							</array>
+							<key>figureFile</key>
+							<string></string>
+							<key>figureTitle</key>
+							<string></string>
+							<key>name</key>
 							<string>G1B12</string>
 							<key>question</key>
-							<string>Who or what determines &quot;good engineering and good amateur practice&quot; as applied to the operation of an amateur station in all respects not covered by the Part 97 rules?</string>
+							<string>When is it permissible to communicate with amateur stations in countries outside the areas administered by the Federal Communications Commission?</string>
 						</dict>
 					</array>
 				</dict>
@@ -1961,7 +1998,7 @@
 					<key>count</key>
 					<integer>1</integer>
 					<key>description</key>
-					<string>Transmitter power regulations; data emission standards</string>
+					<string>Transmitter power regulations; data emission standards; 60-meter operation requirements</string>
 					<key>name</key>
 					<string>G1C</string>
 					<key>questions</key>
@@ -2090,7 +2127,7 @@
 									<key>correct</key>
 									<false/>
 									<key>text</key>
-									<string>Power must be limited to 200 watts when transmitting between 14.100 MHz and 14.150 MHz</string>
+									<string>Power must be limited to 200 watts when using data transmissions</string>
 								</dict>
 								<dict>
 									<key>correct</key>
@@ -2186,7 +2223,7 @@
 							<key>name</key>
 							<string>G1C06</string>
 							<key>question</key>
-							<string>Which of the following is a limitation on transmitter power on the 1.8 MHz band?</string>
+							<string>What is the limit for transmitter power on the 1.8 MHz band?</string>
 						</dict>
 						<dict>
 							<key>answers</key>
@@ -2373,13 +2410,161 @@
 							<key>question</key>
 							<string>What is the maximum symbol rate permitted for RTTY or data emission transmissions on the 2-meter band?</string>
 						</dict>
+						<dict>
+							<key>answers</key>
+							<array>
+								<dict>
+									<key>correct</key>
+									<true/>
+									<key>text</key>
+									<string>If you are using an antenna other than a dipole, you must keep a record of the gain of your antenna</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>You must keep a record of the date, time, frequency, power level, and stations worked</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>You must keep a record of all third-party traffic</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>You must keep a record of the manufacturer of your equipment and the antenna used</string>
+								</dict>
+							</array>
+							<key>figureFile</key>
+							<string></string>
+							<key>figureTitle</key>
+							<string></string>
+							<key>name</key>
+							<string>G1C12</string>
+							<key>question</key>
+							<string>Which of the following is required by the FCC rules when operating in the 60-meter band?</string>
+						</dict>
+						<dict>
+							<key>answers</key>
+							<array>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>Type-certify equipment to FCC standards</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>Obtain an experimental license from the FCC</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<true/>
+									<key>text</key>
+									<string>Publicly document the technical characteristics of the protocol</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>Submit a rule-making proposal to the FCC describing the codes and methods of the technique</string>
+								</dict>
+							</array>
+							<key>figureFile</key>
+							<string></string>
+							<key>figureTitle</key>
+							<string></string>
+							<key>name</key>
+							<string>G1C13</string>
+							<key>question</key>
+							<string>What must be done before using a new digital protocol on the air? </string>
+						</dict>
+						<dict>
+							<key>answers</key>
+							<array>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>1500 watts PEP</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>10 watts RMS</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<true/>
+									<key>text</key>
+									<string>ERP of 100 watts PEP with respect to a dipole</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>ERP of 100 watts PEP with respect to an isotropic antenna</string>
+								</dict>
+							</array>
+							<key>figureFile</key>
+							<string></string>
+							<key>figureTitle</key>
+							<string></string>
+							<key>name</key>
+							<string>G1C14</string>
+							<key>question</key>
+							<string>What is the maximum power limit on the 60-meter band?</string>
+						</dict>
+						<dict>
+							<key>answers</key>
+							<array>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>RMS</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>Average</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>Forward</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<true/>
+									<key>text</key>
+									<string>PEP</string>
+								</dict>
+							</array>
+							<key>figureFile</key>
+							<string></string>
+							<key>figureTitle</key>
+							<string></string>
+							<key>name</key>
+							<string>G1C15</string>
+							<key>question</key>
+							<string>What measurement is specified by FCC rules that regulate maximum power output?</string>
+						</dict>
 					</array>
 				</dict>
 				<dict>
 					<key>count</key>
 					<integer>1</integer>
 					<key>description</key>
-					<string>Volunteer Examiners and Volunteer Examiner Coordinators; temporary identification</string>
+					<string>Volunteer Examiners and Volunteer Examiner Coordinators; temporary identification; element credit</string>
 					<key>name</key>
 					<string>G1D</string>
 					<key>questions</key>
@@ -2391,13 +2576,13 @@
 									<key>correct</key>
 									<true/>
 									<key>text</key>
-									<string>Any person who can demonstrate that they once held an FCC issued General, Advanced, or Amateur Extra class license that was not revoked by the FCC </string>
+									<string>Any person who can demonstrate that they once held an FCC-issued General, Advanced, or Amateur Extra class license that was not revoked by the FCC</string>
 								</dict>
 								<dict>
 									<key>correct</key>
 									<false/>
 									<key>text</key>
-									<string>Anyone who held an FCC issued amateur radio license that has been expired for not less than 5 years and not more than 15 years</string>
+									<string>Anyone who held an FCC-issued Amateur Radio license that has been expired for not less than 5 years and not more than 15 years</string>
 								</dict>
 								<dict>
 									<key>correct</key>
@@ -2419,7 +2604,7 @@
 							<key>name</key>
 							<string>G1D01</string>
 							<key>question</key>
-							<string>Who may receive credit for the elements represented by an expired amateur radio license?</string>
+							<string>Who may receive partial credit for the elements represented by an expired Amateur Radio license?</string>
 						</dict>
 						<dict>
 							<key>answers</key>
@@ -2446,7 +2631,7 @@
 									<key>correct</key>
 									<false/>
 									<key>text</key>
-									<string>Extra, General and Technician</string>
+									<string>Amateur Extra, General, and Technician</string>
 								</dict>
 							</array>
 							<key>figureFile</key>
@@ -2483,7 +2668,7 @@
 									<key>correct</key>
 									<false/>
 									<key>text</key>
-									<string>On any General or Technician Class band segment except 30-meters and 60-meters</string>
+									<string>On any General or Technician class band segment except 30 meters and 60 meters</string>
 								</dict>
 							</array>
 							<key>figureFile</key>
@@ -2493,7 +2678,7 @@
 							<key>name</key>
 							<string>G1D03</string>
 							<key>question</key>
-							<string>On which of the following band segments may you operate if you are a Technician Class operator and have a CSCE for General Class privileges?</string>
+							<string>On which of the following band segments may you operate if you are a Technician class operator and have a Certificate of Successful Completion of Examination (CSCE) for General class privileges?</string>
 						</dict>
 						<dict>
 							<key>answers</key>
@@ -2530,7 +2715,7 @@
 							<key>name</key>
 							<string>G1D04</string>
 							<key>question</key>
-							<string>Which of the following is a requirement for administering a Technician Class license examination?</string>
+							<string>Which of the following is a requirement for administering a Technician class license examination?</string>
 						</dict>
 						<dict>
 							<key>answers</key>
@@ -2545,7 +2730,7 @@
 									<key>correct</key>
 									<false/>
 									<key>text</key>
-									<string>Receipt of a CSCE for General class</string>
+									<string>Receipt of a Certificate of Successful Completion of Examination (CSCE) for General class</string>
 								</dict>
 								<dict>
 									<key>correct</key>
@@ -2567,7 +2752,7 @@
 							<key>name</key>
 							<string>G1D05</string>
 							<key>question</key>
-							<string>Which of the following must a person have before they can be an administering VE for a Technician Class license examination?</string>
+							<string>Which of the following must a person have before they can be an administering VE for a Technician class license examination?</string>
 						</dict>
 						<dict>
 							<key>answers</key>
@@ -2604,7 +2789,7 @@
 							<key>name</key>
 							<string>G1D06</string>
 							<key>question</key>
-							<string>When must you add the special identifier &quot;AG&quot; after your call sign if you are a Technician Class licensee and have a CSCE for General Class operator privileges, but the FCC has not yet posted your upgrade on its website ?</string>
+							<string>When must you add the special identifier &quot;AG&quot; after your call sign if you are a Technician class licensee and have a Certificate of Successful Completion of Examination (CSCE) for General class operator privileges, but the FCC has not yet posted your upgrade on its website?</string>
 						</dict>
 						<dict>
 							<key>answers</key>
@@ -2789,7 +2974,7 @@
 							<key>name</key>
 							<string>G1D11</string>
 							<key>question</key>
-							<string>If a person has an expired FCC issued amateur radio license of General Class or higher, what is required before they can receive a new license?</string>
+							<string>If a person has an expired FCC issued Amateur Radio license of General class or higher, what is required before they can receive a new license?</string>
 						</dict>
 					</array>
 				</dict>
@@ -2797,7 +2982,7 @@
 					<key>count</key>
 					<integer>1</integer>
 					<key>description</key>
-					<string>Control categories; repeater regulations; harmful interference; third party rules; ITU regions; automatically controlled digital station</string>
+					<string>Control categories; repeater regulations; third-party rules; ITU regions; automatically controlled digital station</string>
 					<key>name</key>
 					<string>G1E</string>
 					<key>questions</key>
@@ -2864,7 +3049,7 @@
 									<key>correct</key>
 									<true/>
 									<key>text</key>
-									<string>Only if the 10-meter repeater control operator holds at least a General Class license</string>
+									<string>Only if the 10-meter repeater control operator holds at least a General class license</string>
 								</dict>
 							</array>
 							<key>figureFile</key>
@@ -2874,7 +3059,7 @@
 							<key>name</key>
 							<string>G1E02</string>
 							<key>question</key>
-							<string>When may a 10-meter repeater retransmit the 2-meter signal from a station having a Technician Class control operator?</string>
+							<string>When may a 10-meter repeater retransmit the 2-meter signal from a station that has a Technician class control operator?</string>
 						</dict>
 						<dict>
 							<key>answers</key>
@@ -2895,14 +3080,13 @@
 									<key>correct</key>
 									<false/>
 									<key>text</key>
-									<string>No third party traffic maybe be transmitted</string>
+									<string>No third-party traffic maybe be transmitted</string>
 								</dict>
 								<dict>
 									<key>correct</key>
 									<false/>
 									<key>text</key>
-									<string>The control operator of the interrogating station must hold an Extra 
-Class license</string>
+									<string>The control operator of the interrogating station must hold an Amateur Extra Class license</string>
 								</dict>
 							</array>
 							<key>figureFile</key>
@@ -2993,27 +3177,27 @@ Class license</string>
 							<array>
 								<dict>
 									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>Region 4</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>Region 3</string>
+								</dict>
+								<dict>
+									<key>correct</key>
 									<true/>
 									<key>text</key>
-									<string>The licensee of the uncoordinated repeater has primary responsibility to resolve the interference</string>
+									<string>Region 2</string>
 								</dict>
 								<dict>
 									<key>correct</key>
 									<false/>
 									<key>text</key>
-									<string>The licensee of the coordinated repeater has primary responsibility to resolve the interference</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<false/>
-									<key>text</key>
-									<string>Both repeater licensees share equal responsibility to resolve the interference</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<false/>
-									<key>text</key>
-									<string>The frequency coordinator bears primary responsibility to resolve the interference</string>
+									<string>Region 1</string>
 								</dict>
 							</array>
 							<key>figureFile</key>
@@ -3023,7 +3207,7 @@ Class license</string>
 							<key>name</key>
 							<string>G1E06</string>
 							<key>question</key>
-							<string>Which of the following applies in the event of interference between a coordinated repeater and an uncoordinated repeater?</string>
+							<string>The frequency allocations of which ITU region apply to radio amateurs operating in North and South America?</string>
 						</dict>
 						<dict>
 							<key>answers</key>
@@ -3032,25 +3216,25 @@ Class license</string>
 									<key>correct</key>
 									<false/>
 									<key>text</key>
-									<string>Countries in ITU Region 2</string>
+									<string>Anywhere in the band</string>
 								</dict>
 								<dict>
 									<key>correct</key>
 									<false/>
 									<key>text</key>
-									<string>Countries in ITU Region 1</string>
+									<string>Channels 1 through 4</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>Channels 42 through 45</string>
 								</dict>
 								<dict>
 									<key>correct</key>
 									<true/>
 									<key>text</key>
-									<string>Every foreign country, unless there is a third party agreement in effect with that country</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<false/>
-									<key>text</key>
-									<string>Any country which is not a member of the International Amateur Radio Union (IARU)</string>
+									<string>No part</string>
 								</dict>
 							</array>
 							<key>figureFile</key>
@@ -3060,7 +3244,7 @@ Class license</string>
 							<key>name</key>
 							<string>G1E07</string>
 							<key>question</key>
-							<string>With which foreign countries is third party traffic prohibited, except for messages directly involving emergencies or disaster relief communications?</string>
+							<string>In what part of the 13-centimeter band may an amateur station communicate with non-licensed Wi-Fi stations?</string>
 						</dict>
 						<dict>
 							<key>answers</key>
@@ -3069,25 +3253,25 @@ Class license</string>
 									<key>correct</key>
 									<false/>
 									<key>text</key>
-									<string>Information must be exchanged in English</string>
+									<string>100 milliwatts</string>
 								</dict>
 								<dict>
 									<key>correct</key>
 									<true/>
 									<key>text</key>
-									<string>The foreign amateur station must be in a country with which the United States has a third party agreement</string>
+									<string>10 watts</string>
 								</dict>
 								<dict>
 									<key>correct</key>
 									<false/>
 									<key>text</key>
-									<string>The control operator must have at least a General Class license</string>
+									<string>100 watts</string>
 								</dict>
 								<dict>
 									<key>correct</key>
 									<false/>
 									<key>text</key>
-									<string>All of these answers are correct</string>
+									<string>1500 watts</string>
 								</dict>
 							</array>
 							<key>figureFile</key>
@@ -3097,81 +3281,7 @@ Class license</string>
 							<key>name</key>
 							<string>G1E08</string>
 							<key>question</key>
-							<string>Which of the following is a requirement for a non-licensed person to communicate with a foreign Amateur Radio station from a station with an FCC-granted license at which an FCC licensed control operator is present?</string>
-						</dict>
-						<dict>
-							<key>answers</key>
-							<array>
-								<dict>
-									<key>correct</key>
-									<false/>
-									<key>text</key>
-									<string>The language being used for the contact</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<false/>
-									<key>text</key>
-									<string>Any language recognized by the United Nations</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<true/>
-									<key>text</key>
-									<string>English only</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<false/>
-									<key>text</key>
-									<string>English, Spanish, French, or German</string>
-								</dict>
-							</array>
-							<key>figureFile</key>
-							<string></string>
-							<key>figureTitle</key>
-							<string></string>
-							<key>name</key>
-							<string>G1E09</string>
-							<key>question</key>
-							<string>What language must be used when identifying your station if you are using a language other than English in making a contact using phone emission?</string>
-						</dict>
-						<dict>
-							<key>answers</key>
-							<array>
-								<dict>
-									<key>correct</key>
-									<true/>
-									<key>text</key>
-									<string>Locally controlled station</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<false/>
-									<key>text</key>
-									<string>Robotically controlled station</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<false/>
-									<key>text</key>
-									<string>Automatically controlled digital station</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<false/>
-									<key>text</key>
-									<string>Fail-safe digital station</string>
-								</dict>
-							</array>
-							<key>figureFile</key>
-							<string></string>
-							<key>figureTitle</key>
-							<string></string>
-							<key>name</key>
-							<string>G1E11</string>
-							<key>question</key>
-							<string>Which of the following is the FCC term for an unattended digital station that transfers messages to and from the Internet?</string>
+							<string>When using modified commercial Wi-Fi equipment to construct an Amateur Radio Emergency Data Network (AREDN), what is the maximum allowed PEP transmitter output power?</string>
 						</dict>
 						<dict>
 							<key>answers</key>
@@ -3206,9 +3316,46 @@ Class license</string>
 							<key>figureTitle</key>
 							<string></string>
 							<key>name</key>
-							<string>G1E12</string>
+							<string>G1E09</string>
 							<key>question</key>
-							<string>Under what circumstances are messages that are sent via digital modes exempt from Part 97 third party rules that apply to other modes of communication?</string>
+							<string>Under what circumstances are messages that are sent via digital modes exempt from Part 97 third-party rules that apply to other modes of communication?</string>
+						</dict>
+						<dict>
+							<key>answers</key>
+							<array>
+								<dict>
+									<key>correct</key>
+									<true/>
+									<key>text</key>
+									<string>A system of propagation beacon stations operates on those frequencies</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>A system of automatic digital stations operates on those frequencies</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>These frequencies are set aside for emergency operations</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>These frequencies are set aside for bulletins from the FCC</string>
+								</dict>
+							</array>
+							<key>figureFile</key>
+							<string></string>
+							<key>figureTitle</key>
+							<string></string>
+							<key>name</key>
+							<string>G1E10</string>
+							<key>question</key>
+							<string>Why should an amateur operator normally avoid transmitting on 14.100, 18.110, 21.150, 24. 930 and 28.200 MHz?</string>
 						</dict>
 						<dict>
 							<key>answers</key>
@@ -3217,25 +3364,25 @@ Class license</string>
 									<key>correct</key>
 									<false/>
 									<key>text</key>
-									<string>On any band segment where digital operation is permitted</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<false/>
-									<key>text</key>
-									<string>Anywhere in the non-phone segments of the 10-meter or shorter wavelength bands</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<false/>
-									<key>text</key>
-									<string>Only in the non-phone Extra Class segments of the bands</string>
+									<string>100 Hz</string>
 								</dict>
 								<dict>
 									<key>correct</key>
 									<true/>
 									<key>text</key>
-									<string>Anywhere in the 1.25-meter or shorter wavelength bands, and in specified segments of the 80-meter through 2-meter bands</string>
+									<string>500 Hz</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>1 kHz</string>
+								</dict>
+								<dict>
+									<key>correct</key>
+									<false/>
+									<key>text</key>
+									<string>2 kHz</string>
 								</dict>
 							</array>
 							<key>figureFile</key>
@@ -3243,9 +3390,9 @@ Class license</string>
 							<key>figureTitle</key>
 							<string></string>
 							<key>name</key>
-							<string>G1E13</string>
+							<string>G1E11</string>
 							<key>question</key>
-							<string>On what bands may automatically controlled stations transmitting RTTY or data emissions communicate with other automatically controlled digital stations?</string>
+							<string>What is the Part 97 limit on the maximum bandwidth occupied by an automatically controlled digital station?</string>
 						</dict>
 					</array>
 				</dict>
@@ -12474,7 +12621,7 @@ Class license</string>
 								</dict>
 							</array>
 							<key>figureFile</key>
-							<string>G7-1.jpg</string>
+							<string>G7-1.png</string>
 							<key>figureTitle</key>
 							<string>G7-1</string>
 							<key>name</key>
@@ -12511,7 +12658,7 @@ Class license</string>
 								</dict>
 							</array>
 							<key>figureFile</key>
-							<string>G7-1.jpg</string>
+							<string>G7-1.png</string>
 							<key>figureTitle</key>
 							<string>G7-1</string>
 							<key>name</key>
@@ -12548,7 +12695,7 @@ Class license</string>
 								</dict>
 							</array>
 							<key>figureFile</key>
-							<string>G7-1.jpg</string>
+							<string>G7-1.png</string>
 							<key>figureTitle</key>
 							<string>G7-1</string>
 							<key>name</key>
@@ -12585,7 +12732,7 @@ Class license</string>
 								</dict>
 							</array>
 							<key>figureFile</key>
-							<string>G7-1.jpg</string>
+							<string>G7-1.png</string>
 							<key>figureTitle</key>
 							<string>G7-1</string>
 							<key>name</key>
@@ -12622,7 +12769,7 @@ Class license</string>
 								</dict>
 							</array>
 							<key>figureFile</key>
-							<string>G7-1.jpg</string>
+							<string>G7-1.png</string>
 							<key>figureTitle</key>
 							<string>G7-1</string>
 							<key>name</key>
