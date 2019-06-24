@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -159,7 +159,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = Chamberlain;
+				ORGANIZATIONNAME = "MariZack Consulting";
 				TargetAttributes = {
 					FB9A1E5620FCF1590093807A = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -168,7 +168,7 @@
 				};
 			};
 			buildConfigurationList = FB9A1E5220FCF1590093807A /* Build configuration list for PBXProject "HamTesterGeneral" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
