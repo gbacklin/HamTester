@@ -93,7 +93,7 @@ class PoolGroupQuestionDetailTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        var size: CGFloat = 90.0
+        var size: CGFloat = 95.0
         
         switch indexPath.section {
         case 2:
@@ -101,10 +101,10 @@ class PoolGroupQuestionDetailTableViewController: UITableViewController {
             case 0:
                 size = 350.0
             default:
-                size = 90.0
+                size = 95.0
             }
         default:
-            size = 90.0
+            size = 95.0
         }
         return size
     }

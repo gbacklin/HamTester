@@ -20,7 +20,7 @@ class PoolTableViewController: UITableViewController {
         super.viewDidLoad()
         
         tableView.rowHeight = UITableView.automaticDimension
-        tableView.estimatedRowHeight = 90.0
+        tableView.estimatedRowHeight = 95.0
         
         questionPool = (self.tabBarController as? HamTesterTabBarController)!.questionPool
         licenseClass = (self.tabBarController as? HamTesterTabBarController)!.licenseClass
@@ -88,7 +88,7 @@ class PoolTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 90.0
+        return 95.0
     }
     
     // MARK: - Navigation

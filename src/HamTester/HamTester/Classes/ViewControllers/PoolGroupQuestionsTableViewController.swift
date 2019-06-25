@@ -16,7 +16,7 @@ class PoolGroupQuestionsTableViewController: UITableViewController {
         super.viewDidLoad()
         
         tableView.rowHeight = UITableView.automaticDimension
-        tableView.estimatedRowHeight = 90.0
+        tableView.estimatedRowHeight = 95.0
 
         questions = group!["questions"] as? [[String : AnyObject]]
     }
@@ -47,7 +47,7 @@ class PoolGroupQuestionsTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 90.0
+        return 95.0
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
