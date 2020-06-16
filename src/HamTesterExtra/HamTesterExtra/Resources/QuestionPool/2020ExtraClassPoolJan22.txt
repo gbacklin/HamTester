@@ -1752,7 +1752,6 @@ B. Output impedance
 C. Reflection coefficient
 D. All these choices are correct
 
-
 E4C Receiver performance characteristics: phase noise, noise floor, image rejection, MDS, signal-to-noise ratio, noise figure, reciprocal mixing; selectivity; effects of SDR receiver non-linearity; use of attenuators at low frequencies
 
 E4C01 (D)
@@ -2064,7 +2063,6 @@ B. Nearby corroded metal joints are mixing and re-radiating the broadcast signal
 C. You are receiving skywave signals from a distant station
 D. Your station receiver IF amplifier stage is defective
 ~~
-
 
 SUBELEMENT E5 ELECTRICAL PRINCIPLES [4 Exam Questions - 4 Groups]
 
@@ -2519,7 +2517,6 @@ B. 1.0
 C. 0.5
 D. 0.707
 ~~
-
 
 SUBELEMENT E6 - CIRCUIT COMPONENTS [6 Exam Questions - 6 Groups]
 
@@ -3101,6 +3098,7 @@ C. 1.5 V
 D. 12 V
 ~~
 
+-------------------------------
 
 SUBELEMENT E7 - PRACTICAL CIRCUITS [8 Exam Questions - 8 Groups]
 
