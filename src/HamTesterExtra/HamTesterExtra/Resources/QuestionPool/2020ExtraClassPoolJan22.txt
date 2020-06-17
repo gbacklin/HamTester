@@ -3098,8 +3098,6 @@ C. 1.5 V
 D. 12 V
 ~~
 
--------------------------------
-
 SUBELEMENT E7 - PRACTICAL CIRCUITS [8 Exam Questions - 8 Groups]
 
 
@@ -3989,6 +3987,7 @@ C. Photovoltaic conversion, optical coupling
 D. Frequency synthesis, FM demodulation
 ~~
 
+----------------------------
 
 SUBELEMENT E8 - SIGNALS AND EMISSIONS [4 Exam Questions - 4 Groups]
 

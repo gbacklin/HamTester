@@ -14243,7 +14243,7 @@
 					<key>name</key>
 					<string>E7A</string>
 					<key>description</key>
-					<string>Digital circuits: digital circuit principles and logic circuits: classes of logic elements; positive and negative logic; frequency dividers; truth tables</string>
+					<string>Digital circuits: digital circuit principles and logic circuits; classes of logic elements; positive and negative logic; frequency dividers; truth tables</string>
 					<key>count</key>
 					<integer>1</integer>
 					<key>questions</key>
@@ -14252,18 +14252,18 @@
 							<key>name</key>
 							<string>E7A01</string>
 							<key>question</key>
-							<string>Which is a bi-stable circuit?</string>
+							<string>Which circuit is bistable?</string>
 							<key>answers</key>
 							<array>
 								<dict>
 									<key>text</key>
-									<string>An &quot;AND&quot; gate</string>
+									<string>An AND gate</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>An &quot;OR&quot; gate</string>
+									<string>An OR gate</string>
 									<key>correct</key>
 									<false/>
 								</dict>
@@ -14275,7 +14275,7 @@
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>A clock</string>
+									<string>A bipolar amplifier</string>
 									<key>correct</key>
 									<false/>
 								</dict>
@@ -14289,30 +14289,30 @@
 							<key>name</key>
 							<string>E7A02</string>
 							<key>question</key>
-							<string>What is the function of a decade counter digital IC?</string>
+							<string>What is the function of a decade counter?</string>
 							<key>answers</key>
 							<array>
 								<dict>
 									<key>text</key>
-									<string>It produces one output pulse for every ten input pulses</string>
+									<string>It produces one output pulse for every 10 input pulses</string>
 									<key>correct</key>
 									<true/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>It decodes a decimal number for display on a seven segment LED display</string>
+									<string>It decodes a decimal number for display on a seven-segment LED display</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>It produces ten output pulses for every input pulse</string>
+									<string>It produces 10 output pulses for every input pulse</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>It adds two decimal numbers together</string>
+									<string>It decodes a binary number for display on a seven-segment LED display</string>
 									<key>correct</key>
 									<false/>
 								</dict>
@@ -14411,13 +14411,13 @@
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>J-K Flip-Flop</string>
+									<string>J-K flip-flop</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>T Flip-Flop</string>
+									<string>T flip-flop</string>
 									<key>correct</key>
 									<false/>
 								</dict>
@@ -14479,25 +14479,25 @@
 							<array>
 								<dict>
 									<key>text</key>
-									<string>It produces logic &quot;0&quot; at its output only when all inputs are logic &quot;0&quot;</string>
+									<string>It produces logic 0 at its output only when all inputs are logic 0</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>It produces logic &quot;1&quot; at its output only when all inputs are logic &quot;1&quot;</string>
+									<string>It produces logic 1 at its output only when all inputs are logic 1</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>It produces logic &quot;0&quot; at its output if some but not all of its inputs are logic &quot;1&quot;</string>
+									<string>It produces logic 0 at its output if some but not all inputs are logic 1</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>It produces logic &quot;0&quot; at its output only when all inputs are logic &quot;1&quot;</string>
+									<string>It produces logic 0 at its output only when all inputs are logic 1</string>
 									<key>correct</key>
 									<true/>
 								</dict>
@@ -14516,25 +14516,25 @@
 							<array>
 								<dict>
 									<key>text</key>
-									<string>It produces logic &quot;1&quot; at its output if any or all inputs are logic &quot;1&quot;</string>
+									<string>It produces logic 1 at its output if any or all inputs are logic 1</string>
 									<key>correct</key>
 									<true/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>It produces logic &quot;0&quot; at its output if all inputs are logic &quot;1&quot;</string>
+									<string>It produces logic 0 at its output if all inputs are logic 1</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>It only produces logic &quot;0&quot; at its output when all inputs are logic &quot;1&quot;</string>
+									<string>It only produces logic 0 at its output when all inputs are logic 1</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>It produces logic &quot;1&quot; at its output if all inputs are logic &quot;0&quot;</string>
+									<string>It produces logic 1 at its output if all inputs are logic 0</string>
 									<key>correct</key>
 									<false/>
 								</dict>
@@ -14553,25 +14553,25 @@
 							<array>
 								<dict>
 									<key>text</key>
-									<string>It produces logic &quot;0&quot; at its output only if all inputs are logic &quot;0&quot;</string>
+									<string>It produces logic 0 at its output only if all inputs are logic 0</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>It produces logic &quot;1&quot; at its output only if all inputs are logic &quot;1&quot;</string>
+									<string>It produces logic 1 at its output only if all inputs are logic 1</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>It produces logic &quot;0&quot; at its output if any single input is logic &quot;1&quot;</string>
+									<string>It produces logic 0 at its output if only one input is logic 1</string>
 									<key>correct</key>
 									<true/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>It produces logic &quot;1&quot; at its output if any single input is logic &quot;1&quot;</string>
+									<string>It produces logic 1 at its output if only one input is logic 1</string>
 									<key>correct</key>
 									<false/>
 								</dict>
@@ -14655,43 +14655,6 @@
 							<key>figureFile</key>
 							<string></string>
 						</dict>
-						<dict>
-							<key>name</key>
-							<string>E7A12</string>
-							<key>question</key>
-							<string>What type of logic defines &quot;0&quot; as a high voltage?</string>
-							<key>answers</key>
-							<array>
-								<dict>
-									<key>text</key>
-									<string>Reverse Logic</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>Assertive Logic</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>Negative Logic</string>
-									<key>correct</key>
-									<true/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>Positive Logic</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-							</array>
-							<key>figureTitle</key>
-							<string></string>
-							<key>figureFile</key>
-							<string></string>
-						</dict>
 					</array>
 				</dict>
 				<dict>
@@ -14707,7 +14670,7 @@
 							<key>name</key>
 							<string>E7B01</string>
 							<key>question</key>
-							<string>For what portion of a signal cycle does a Class AB amplifier operate?</string>
+							<string>For what portion of the signal cycle does each active element in a push-pull Class AB amplifier conduct?</string>
 							<key>answers</key>
 							<array>
 								<dict>
@@ -14823,7 +14786,7 @@
 							<array>
 								<dict>
 									<key>text</key>
-									<string>Approximately half-way between saturation and cutoff</string>
+									<string>Approximately halfway between saturation and cutoff</string>
 									<key>correct</key>
 									<true/>
 								</dict>
@@ -14892,7 +14855,7 @@
 							<key>name</key>
 							<string>E7B06</string>
 							<key>question</key>
-							<string>Which of the following amplifier types reduces or eliminates even order harmonics?</string>
+							<string>Which of the following amplifier types reduces even-order harmonics?</string>
 							<key>answers</key>
 							<array>
 								<dict>
@@ -15051,7 +15014,7 @@
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>Fixed bias</string>
+									<string>Voltage divider bias</string>
 									<key>correct</key>
 									<true/>
 								</dict>
@@ -15151,38 +15114,38 @@
 							<key>name</key>
 							<string>E7B13</string>
 							<key>question</key>
-							<string>In Figure E7-2, what is the purpose of R?</string>
+							<string>Which of the following describes an emitter follower (or common collector) amplifier?</string>
 							<key>answers</key>
 							<array>
 								<dict>
 									<key>text</key>
-									<string>Emitter load</string>
+									<string>A two-transistor amplifier with the emitters sharing a common bias resistor</string>
+									<key>correct</key>
+									<false/>
+								</dict>
+								<dict>
+									<key>text</key>
+									<string>A differential amplifier with both inputs fed to the emitter of the input transistor</string>
+									<key>correct</key>
+									<false/>
+								</dict>
+								<dict>
+									<key>text</key>
+									<string>An OR circuit with only one emitter used for output</string>
+									<key>correct</key>
+									<false/>
+								</dict>
+								<dict>
+									<key>text</key>
+									<string>An amplifier with a low impedance output that follows the base input voltage</string>
 									<key>correct</key>
 									<true/>
 								</dict>
-								<dict>
-									<key>text</key>
-									<string>Fixed bias</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>Collector load</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>Voltage regulation</string>
-									<key>correct</key>
-									<false/>
-								</dict>
 							</array>
 							<key>figureTitle</key>
-							<string>Figure E7-2</string>
+							<string></string>
 							<key>figureFile</key>
-							<string>E7-2.png</string>
+							<string></string>
 						</dict>
 						<dict>
 							<key>name</key>
@@ -15199,7 +15162,7 @@
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>The power transistor is at saturation or cut off most of the time, resulting in low power dissipation</string>
+									<string>The power transistor is at saturation or cutoff most of the time</string>
 									<key>correct</key>
 									<true/>
 								</dict>
@@ -15458,7 +15421,7 @@
 							<key>name</key>
 							<string>E7C03</string>
 							<key>question</key>
-							<string>What advantage does a Pi-L-network have over a regular Pi-network for impedance matching between the final amplifier of a vacuum-tube transmitter and an antenna?</string>
+							<string>What advantage does a series-L Pi-L-network have over a series-L Pi-network for impedance matching between the final amplifier of a vacuum-tube transmitter and an antenna?</string>
 							<key>answers</key>
 							<array>
 								<dict>
@@ -15475,7 +15438,7 @@
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>Lower losses</string>
+									<string>Does not require a capacitor</string>
 									<key>correct</key>
 									<false/>
 								</dict>
@@ -15518,7 +15481,7 @@
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>Network resistances are substituted for load resistances and reactances are matched to the resistances</string>
+									<string>Reactive currents are dissipated in matched resistances</string>
 									<key>correct</key>
 									<false/>
 								</dict>
@@ -15606,30 +15569,30 @@
 							<key>name</key>
 							<string>E7C07</string>
 							<key>question</key>
-							<string>What kind of filter would you use to attenuate an interfering carrier signal while receiving an SSB transmission?</string>
+							<string>Which describes a Pi-L-network used for matching a vacuum tube final amplifier to a 50-ohm unbalanced output?</string>
 							<key>answers</key>
 							<array>
 								<dict>
 									<key>text</key>
-									<string>A band-pass filter</string>
+									<string>A Phase Inverter Load network</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>A notch filter</string>
+									<string>A Pi-network with an additional series inductor on the output</string>
 									<key>correct</key>
 									<true/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>A Pi-network filter</string>
+									<string>A network with only three discrete parts</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>An all-pass filter</string>
+									<string>A matching network in which all components are isolated from ground</string>
 									<key>correct</key>
 									<false/>
 								</dict>
@@ -15643,7 +15606,7 @@
 							<key>name</key>
 							<string>E7C08</string>
 							<key>question</key>
-							<string>Which of the following factors has the greatest effect in helping determine the bandwidth and response shape of a crystal ladder filter?</string>
+							<string>Which of the following factors has the greatest effect on the bandwidth and response shape of a crystal ladder filter?</string>
 							<key>answers</key>
 							<array>
 								<dict>
@@ -15680,32 +15643,32 @@
 							<key>name</key>
 							<string>E7C09</string>
 							<key>question</key>
-							<string>What is a Jones filter as used as part of an HF receiver IF stage?</string>
+							<string>What is a crystal lattice filter?</string>
 							<key>answers</key>
 							<array>
 								<dict>
 									<key>text</key>
-									<string>An automatic notch filter</string>
+									<string>A power supply filter made with interlaced quartz crystals</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>A variable bandwidth crystal lattice filter</string>
+									<string>An audio filter made with four quartz crystals that resonate at 1kHz intervals</string>
+									<key>correct</key>
+									<false/>
+								</dict>
+								<dict>
+									<key>text</key>
+									<string>A filter using lattice-shaped quartz crystals for high-Q performance</string>
+									<key>correct</key>
+									<false/>
+								</dict>
+								<dict>
+									<key>text</key>
+									<string>A filter with narrow bandwidth and steep skirts made using quartz crystals</string>
 									<key>correct</key>
 									<true/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>A special filter that emphasizes image responses</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>A filter that removes impulse noise</string>
-									<key>correct</key>
-									<false/>
 								</dict>
 							</array>
 							<key>figureTitle</key>
@@ -15717,7 +15680,7 @@
 							<key>name</key>
 							<string>E7C10</string>
 							<key>question</key>
-							<string>Which of the following filters would be the best choice for use in a 2 meter repeater duplexer?</string>
+							<string>Which of the following filters would be the best choice for use in a 2 meter band repeater duplexer?</string>
 							<key>answers</key>
 							<array>
 								<dict>
@@ -15754,32 +15717,32 @@
 							<key>name</key>
 							<string>E7C11</string>
 							<key>question</key>
-							<string>Which of the following is the common name for a filter network which is equivalent to two L-networks connected back-to-back with the two inductors in series and the capacitors in shunt at the input and output?</string>
+							<string>Which of the following describes a receiving filter&apos;s ability to reject signals occupying an adjacent channel?</string>
 							<key>answers</key>
 							<array>
 								<dict>
 									<key>text</key>
-									<string>Pi-L</string>
+									<string>Passband ripple</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>Cascode</string>
+									<string>Phase response</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>Omega</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>Pi</string>
+									<string>Shape factor</string>
 									<key>correct</key>
 									<true/>
+								</dict>
+								<dict>
+									<key>text</key>
+									<string>Noise factor</string>
+									<key>correct</key>
+									<false/>
 								</dict>
 							</array>
 							<key>figureTitle</key>
@@ -15791,49 +15754,12 @@
 							<key>name</key>
 							<string>E7C12</string>
 							<key>question</key>
-							<string>Which describes a Pi-L-network used for matching a vacuum tube final amplifier to a 50 ohm unbalanced output?</string>
-							<key>answers</key>
-							<array>
-								<dict>
-									<key>text</key>
-									<string>A Phase Inverter Load network</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>A Pi-network with an additional series inductor on the output</string>
-									<key>correct</key>
-									<true/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>A network with only three discrete parts</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>A matching network in which all components are isolated from ground</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-							</array>
-							<key>figureTitle</key>
-							<string></string>
-							<key>figureFile</key>
-							<string></string>
-						</dict>
-						<dict>
-							<key>name</key>
-							<string>E7C13</string>
-							<key>question</key>
 							<string>What is one advantage of a Pi-matching network over an L-matching network consisting of a single inductor and a single capacitor?</string>
 							<key>answers</key>
 							<array>
 								<dict>
 									<key>text</key>
-									<string>The Q of Pi-networks can be varied depending on the component values chosen</string>
+									<string>The Q of Pi-networks can be controlled</string>
 									<key>correct</key>
 									<true/>
 								</dict>
@@ -15845,89 +15771,15 @@
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>Pi-networks have fewer components</string>
+									<string>Pi-networks are more stable</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>Pi-networks are designed for balanced input and output</string>
+									<string>Pi-networks provide balanced input and output</string>
 									<key>correct</key>
 									<false/>
-								</dict>
-							</array>
-							<key>figureTitle</key>
-							<string></string>
-							<key>figureFile</key>
-							<string></string>
-						</dict>
-						<dict>
-							<key>name</key>
-							<string>E7C14</string>
-							<key>question</key>
-							<string>Which mode is most affected by non-linear phase response in a receiver IF filter?</string>
-							<key>answers</key>
-							<array>
-								<dict>
-									<key>text</key>
-									<string>Meteor scatter</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>Single-Sideband voice</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>Digital</string>
-									<key>correct</key>
-									<true/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>Video</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-							</array>
-							<key>figureTitle</key>
-							<string></string>
-							<key>figureFile</key>
-							<string></string>
-						</dict>
-						<dict>
-							<key>name</key>
-							<string>E7C15</string>
-							<key>question</key>
-							<string>What is a crystal lattice filter?</string>
-							<key>answers</key>
-							<array>
-								<dict>
-									<key>text</key>
-									<string>A power supply filter made with interlaced quartz crystals</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>An audio filter made with four quartz crystals that resonate at 1kHz intervals</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>A filter with wide bandwidth and shallow skirts made using quartz crystals</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>A filter with narrow bandwidth and steep skirts made using quartz crystals</string>
-									<key>correct</key>
-									<true/>
 								</dict>
 							</array>
 							<key>figureTitle</key>
@@ -15950,7 +15802,7 @@
 							<key>name</key>
 							<string>E7D01</string>
 							<key>question</key>
-							<string>What is one characteristic of a linear electronic voltage regulator?</string>
+							<string>How does a linear electronic voltage regulator work?</string>
 							<key>answers</key>
 							<array>
 								<dict>
@@ -15987,7 +15839,7 @@
 							<key>name</key>
 							<string>E7D02</string>
 							<key>question</key>
-							<string>What is one characteristic of a switching electronic voltage regulator?</string>
+							<string>What is a characteristic of a switching electronic voltage regulator?</string>
 							<key>answers</key>
 							<array>
 								<dict>
@@ -16004,7 +15856,7 @@
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>The controlled device’s duty cycle is changed to produce a constant average output voltage</string>
+									<string>The controlled device&apos;s duty cycle is changed to produce a constant average output voltage</string>
 									<key>correct</key>
 									<true/>
 								</dict>
@@ -16024,7 +15876,7 @@
 							<key>name</key>
 							<string>E7D03</string>
 							<key>question</key>
-							<string>What device is typically used as a stable reference voltage in a linear voltage regulator?</string>
+							<string>What device is typically used as a stable voltage reference in a linear voltage regulator?</string>
 							<key>answers</key>
 							<array>
 								<dict>
@@ -16135,7 +15987,7 @@
 							<key>name</key>
 							<string>E7D06</string>
 							<key>question</key>
-							<string>What is the purpose of Q1 in the circuit shown in Figure E7-3?</string>
+							<string>What is the purpose of Q1 in the circuit shown in Figure E7-2?</string>
 							<key>answers</key>
 							<array>
 								<dict>
@@ -16152,7 +16004,7 @@
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>It increases the current-handling capability of the regulator</string>
+									<string>It controls the current supplied to the load</string>
 									<key>correct</key>
 									<true/>
 								</dict>
@@ -16164,20 +16016,20 @@
 								</dict>
 							</array>
 							<key>figureTitle</key>
-							<string>Figure E7-3</string>
+							<string>Figure E7-2</string>
 							<key>figureFile</key>
-							<string>E7-3.png</string>
+							<string>E7-2.png</string>
 						</dict>
 						<dict>
 							<key>name</key>
 							<string>E7D07</string>
 							<key>question</key>
-							<string>What is the purpose of C2 in the circuit shown in Figure E7-3?</string>
+							<string>What is the purpose of C2 in the circuit shown in Figure E7-2?</string>
 							<key>answers</key>
 							<array>
 								<dict>
 									<key>text</key>
-									<string>It bypasses hum around D1</string>
+									<string>It bypasses rectifier output ripple around D1</string>
 									<key>correct</key>
 									<true/>
 								</dict>
@@ -16201,15 +16053,15 @@
 								</dict>
 							</array>
 							<key>figureTitle</key>
-							<string>Figure E7-3</string>
+							<string>Figure E7-2</string>
 							<key>figureFile</key>
-							<string>E7-3.png</string>
+							<string>E7-2.png</string>
 						</dict>
 						<dict>
 							<key>name</key>
 							<string>E7D08</string>
 							<key>question</key>
-							<string>What type of circuit is shown in Figure E7-3?</string>
+							<string>What type of circuit is shown in Figure E7-2?</string>
 							<key>answers</key>
 							<array>
 								<dict>
@@ -16232,15 +16084,15 @@
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>Emitter follower</string>
+									<string>Monostable multivibrator</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 							</array>
 							<key>figureTitle</key>
-							<string>Figure E7-3</string>
+							<string>Figure E7-2</string>
 							<key>figureFile</key>
-							<string>E7-3.png</string>
+							<string>E7-2.png</string>
 						</dict>
 						<dict>
 							<key>name</key>
@@ -16283,7 +16135,7 @@
 							<key>name</key>
 							<string>E7D10</string>
 							<key>question</key>
-							<string>What is the primary reason that a high-frequency switching type high voltage power supply can be both less expensive and lighter in weight than a conventional power supply?</string>
+							<string>What is the primary reason that a high-frequency switching type high-voltage power supply can be both less expensive and lighter in weight than a conventional power supply?</string>
 							<key>answers</key>
 							<array>
 								<dict>
@@ -16306,7 +16158,7 @@
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>It uses a large power factor compensation capacitor to create free power from the unused portion of the AC cycle</string>
+									<string>It uses a large power factor compensation capacitor to recover power from the unused portion of the AC cycle</string>
 									<key>correct</key>
 									<false/>
 								</dict>
@@ -16320,30 +16172,30 @@
 							<key>name</key>
 							<string>E7D11</string>
 							<key>question</key>
-							<string>What circuit element is controlled by a series analog voltage regulator to maintain a constant output voltage?</string>
+							<string>What is the function of the pass transistor in a linear voltage regulator circuit?</string>
 							<key>answers</key>
 							<array>
 								<dict>
 									<key>text</key>
-									<string>Reference voltage</string>
+									<string>Permits a wide range of output voltage settings</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>Switching inductance</string>
+									<string>Provides a stable input impedance over a wide range of source voltage</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>Error amplifier</string>
+									<string>Maintains nearly constant output impedance over a wide range of load current</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>Pass transistor</string>
+									<string>Maintains nearly constant output voltage over a wide range of load current</string>
 									<key>correct</key>
 									<true/>
 								</dict>
@@ -16394,7 +16246,7 @@
 							<key>name</key>
 							<string>E7D13</string>
 							<key>question</key>
-							<string>What is the equation for calculating power dissipation by a series connected linear voltage regulator?</string>
+							<string>What is the equation for calculating power dissipated by a series linear voltage regulator?</string>
 							<key>answers</key>
 							<array>
 								<dict>
@@ -16431,32 +16283,32 @@
 							<key>name</key>
 							<string>E7D14</string>
 							<key>question</key>
-							<string>What is one purpose of a &quot;bleeder&quot; resistor in a conventional unregulated power supply?</string>
+							<string>What is the purpose of connecting equal-value resistors across power supply filter capacitors connected in series?</string>
 							<key>answers</key>
 							<array>
 								<dict>
 									<key>text</key>
-									<string>To cut down on waste heat generated by the power supply</string>
+									<string>Equalize the voltage across each capacitor</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>To balance the low-voltage filament windings</string>
+									<string>Discharge the capacitors when voltage is removed</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>To improve output voltage regulation</string>
+									<string>Provide a minimum load on the supply</string>
+									<key>correct</key>
+									<false/>
+								</dict>
+								<dict>
+									<key>text</key>
+									<string>All these choices are correct</string>
 									<key>correct</key>
 									<true/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>To boost the amount of output current</string>
-									<key>correct</key>
-									<false/>
 								</dict>
 							</array>
 							<key>figureTitle</key>
@@ -16468,7 +16320,7 @@
 							<key>name</key>
 							<string>E7D15</string>
 							<key>question</key>
-							<string>What is the purpose of a &quot;step-start&quot; circuit in a high voltage power supply?</string>
+							<string>What is the purpose of a step-start circuit in a high-voltage power supply?</string>
 							<key>answers</key>
 							<array>
 								<dict>
@@ -16492,43 +16344,6 @@
 								<dict>
 									<key>text</key>
 									<string>To allow the filter capacitors to charge gradually</string>
-									<key>correct</key>
-									<true/>
-								</dict>
-							</array>
-							<key>figureTitle</key>
-							<string></string>
-							<key>figureFile</key>
-							<string></string>
-						</dict>
-						<dict>
-							<key>name</key>
-							<string>E7D16</string>
-							<key>question</key>
-							<string>When several electrolytic filter capacitors are connected in series to increase the operating voltage of a power supply filter circuit, why should resistors be connected across each capacitor?</string>
-							<key>answers</key>
-							<array>
-								<dict>
-									<key>text</key>
-									<string>To equalize, as much as possible, the voltage drop across each capacitor</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>To provide a safety bleeder to discharge the capacitors when the supply is off</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>To provide a minimum load current to reduce voltage excursions at light loads</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>All of these choices are correct</string>
 									<key>correct</key>
 									<true/>
 								</dict>
@@ -16613,7 +16428,7 @@
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>To produce PM signals by using an electrically variable inductance or capacitance</string>
+									<string>To produce PM or FM signals by using an electrically variable inductance or capacitance</string>
 									<key>correct</key>
 									<true/>
 								</dict>
@@ -16627,32 +16442,32 @@
 							<key>name</key>
 							<string>E7E03</string>
 							<key>question</key>
-							<string>How does an analog phase modulator function?</string>
+							<string>What is a frequency discriminator stage in a FM receiver?</string>
 							<key>answers</key>
 							<array>
 								<dict>
 									<key>text</key>
-									<string>By varying the tuning of a microphone preamplifier to produce PM signals</string>
+									<string>An FM generator circuit</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>By varying the tuning of an amplifier tank circuit to produce AM signals</string>
+									<string>A circuit for filtering two closely adjacent signals</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>By varying the tuning of an amplifier tank circuit to produce PM signals</string>
+									<string>An automatic band-switching circuit</string>
+									<key>correct</key>
+									<false/>
+								</dict>
+								<dict>
+									<key>text</key>
+									<string>A circuit for detecting FM signals</string>
 									<key>correct</key>
 									<true/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>By varying the tuning of a microphone preamplifier to produce AM signals</string>
-									<key>correct</key>
-									<false/>
 								</dict>
 							</array>
 							<key>figureTitle</key>
@@ -16718,7 +16533,7 @@
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>An audio prescaler</string>
+									<string>A heterodyne enhancer</string>
 									<key>correct</key>
 									<false/>
 								</dict>
@@ -16775,7 +16590,7 @@
 							<key>name</key>
 							<string>E7E07</string>
 							<key>question</key>
-							<string>What is meant by the term baseband in radio communications?</string>
+							<string>What is meant by the term &quot;baseband&quot; in radio communications?</string>
 							<key>answers</key>
 							<array>
 								<dict>
@@ -16786,7 +16601,7 @@
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>The frequency components present in the modulating signal</string>
+									<string>The frequency range occupied by a message signal prior to modulation</string>
 									<key>correct</key>
 									<true/>
 								</dict>
@@ -16823,7 +16638,7 @@
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>The sum, difference and square root of the input frequencies</string>
+									<string>The square root of the product of input frequencies</string>
 									<key>correct</key>
 									<false/>
 								</dict>
@@ -16886,7 +16701,7 @@
 							<key>name</key>
 							<string>E7E10</string>
 							<key>question</key>
-							<string>How does a diode detector function?</string>
+							<string>How does a diode envelope detector function?</string>
 							<key>answers</key>
 							<array>
 								<dict>
@@ -16956,43 +16771,6 @@
 							<key>figureFile</key>
 							<string></string>
 						</dict>
-						<dict>
-							<key>name</key>
-							<string>E7E12</string>
-							<key>question</key>
-							<string>What is a frequency discriminator stage in a FM receiver?</string>
-							<key>answers</key>
-							<array>
-								<dict>
-									<key>text</key>
-									<string>An FM generator circuit</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>A circuit for filtering two closely adjacent signals</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>An automatic band-switching circuit</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>A circuit for detecting FM signals</string>
-									<key>correct</key>
-									<true/>
-								</dict>
-							</array>
-							<key>figureTitle</key>
-							<string></string>
-							<key>figureFile</key>
-							<string></string>
-						</dict>
 					</array>
 				</dict>
 				<dict>
@@ -17001,7 +16779,7 @@
 					<key>name</key>
 					<string>E7F</string>
 					<key>description</key>
-					<string>DSP filtering and other operations; Software Defined Radio Fundamentals; DSP modulation and demodulation</string>
+					<string>DSP filtering and other operations; software defined radio fundamentals; DSP modulation and demodulation</string>
 					<key>questions</key>
 					<array>
 						<dict>
@@ -17136,13 +16914,13 @@
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>Emulation of quartz crystal filter characteristics</string>
+									<string>Varying quartz crystal characteristics emulated in digital form</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>Combine signals with a quadrature phase relationship</string>
+									<string>Signals are combined in quadrature phase relationship</string>
 									<key>correct</key>
 									<true/>
 								</dict>
@@ -17167,7 +16945,7 @@
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>At twice the rate of the highest frequency component of the signal</string>
+									<string>At least twice the rate of the highest frequency component of the signal</string>
 									<key>correct</key>
 									<true/>
 								</dict>
@@ -17230,7 +17008,7 @@
 							<key>name</key>
 							<string>E7F07</string>
 							<key>question</key>
-							<string>What function can a Fast Fourier Transform perform?</string>
+							<string>What function is performed by a Fast Fourier Transform?</string>
 							<key>answers</key>
 							<array>
 								<dict>
@@ -17253,7 +17031,7 @@
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>Proper balancing of the mixer diodes</string>
+									<string>Converting 8-bit data to 16-bit data</string>
 									<key>correct</key>
 									<false/>
 								</dict>
@@ -17267,7 +17045,7 @@
 							<key>name</key>
 							<string>E7F08</string>
 							<key>question</key>
-							<string>What is the function of decimation with regard to digital filters?</string>
+							<string>What is the function of decimation?</string>
 							<key>answers</key>
 							<array>
 								<dict>
@@ -17309,7 +17087,7 @@
 							<array>
 								<dict>
 									<key>text</key>
-									<string>It removes high-frequency signal components which would otherwise be reproduced as lower frequency components</string>
+									<string>It removes high-frequency signal components that would otherwise be reproduced as lower frequency components</string>
 									<key>correct</key>
 									<true/>
 								</dict>
@@ -17378,7 +17156,7 @@
 							<key>name</key>
 							<string>E7F11</string>
 							<key>question</key>
-							<string>What sets the minimum detectable signal level for an SDR in the absence of atmospheric or thermal noise?</string>
+							<string>What sets the minimum detectable signal level for a direct-sampling SDR receiver in the absence of atmospheric or thermal noise?</string>
 							<key>answers</key>
 							<array>
 								<dict>
@@ -17415,30 +17193,30 @@
 							<key>name</key>
 							<string>E7F12</string>
 							<key>question</key>
-							<string>What digital process is applied to I and Q signals in order to recover the baseband modulation information?</string>
+							<string>Which of the following is an advantage of a Finite Impulse Response (FIR) filter vs an Infinite Impulse Response (IIR) digital filter?</string>
 							<key>answers</key>
 							<array>
 								<dict>
 									<key>text</key>
-									<string>Fast Fourier Transform</string>
+									<string>FIR filters can delay all frequency components of the signal by the same amount</string>
 									<key>correct</key>
 									<true/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>Decimation</string>
+									<string>FIR filters are easier to implement for a given set of passband rolloff requirements</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>Signal conditioning</string>
+									<string>FIR filters can respond faster to impulses</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>It can directly measure the modulation index of an FM transmitter</string>
+									<string>All these choices are correct</string>
 									<key>correct</key>
 									<false/>
 								</dict>
@@ -17522,117 +17300,6 @@
 							<key>figureFile</key>
 							<string></string>
 						</dict>
-						<dict>
-							<key>name</key>
-							<string>E7F15</string>
-							<key>question</key>
-							<string>Which of the following is an advantage of a Finite Impulse Response (FIR) filter vs an Infinite Impulse Response (IIR) digital filter?</string>
-							<key>answers</key>
-							<array>
-								<dict>
-									<key>text</key>
-									<string>FIR filters delay all frequency components of the signal by the same amount</string>
-									<key>correct</key>
-									<true/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>FIR filters are easier to implement for a given set of passband rolloff requirements</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>FIR filters can respond faster to impulses</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>All of these choices are correct</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-							</array>
-							<key>figureTitle</key>
-							<string></string>
-							<key>figureFile</key>
-							<string></string>
-						</dict>
-						<dict>
-							<key>name</key>
-							<string>E7F16</string>
-							<key>question</key>
-							<string>How might the sampling rate of an existing digital signal be adjusted by a factor of 3/4?</string>
-							<key>answers</key>
-							<array>
-								<dict>
-									<key>text</key>
-									<string>Change the gain by a factor of 3/4</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>Multiply each sample value by a factor of 3/4</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>Add 3 to each input value and subtract 4 from each output value</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>Interpolate by a factor of three, then decimate by a factor of four</string>
-									<key>correct</key>
-									<true/>
-								</dict>
-							</array>
-							<key>figureTitle</key>
-							<string></string>
-							<key>figureFile</key>
-							<string></string>
-						</dict>
-						<dict>
-							<key>name</key>
-							<string>E7F17</string>
-							<key>question</key>
-							<string>What do the letters I and Q in I/Q Modulation represent?</string>
-							<key>answers</key>
-							<array>
-								<dict>
-									<key>text</key>
-									<string>Inactive and Quiescent</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>Instantaneous and Quasi-stable</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>Instantaneous and Quenched</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>In-phase and Quadrature</string>
-									<key>correct</key>
-									<true/>
-								</dict>
-							</array>
-							<key>figureTitle</key>
-							<string></string>
-							<key>figureFile</key>
-							<string></string>
-						</dict>
 					</array>
 				</dict>
 				<dict>
@@ -17648,7 +17315,7 @@
 							<key>name</key>
 							<string>E7G01</string>
 							<key>question</key>
-							<string>What is the typical output impedance of an integrated circuit op-amp?</string>
+							<string>What is the typical output impedance of an op-amp?</string>
 							<key>answers</key>
 							<array>
 								<dict>
@@ -17685,7 +17352,7 @@
 							<key>name</key>
 							<string>E7G02</string>
 							<key>question</key>
-							<string>What is the effect of ringing in a filter?</string>
+							<string>What is ringing in a filter?</string>
 							<key>answers</key>
 							<array>
 								<dict>
@@ -17722,7 +17389,7 @@
 							<key>name</key>
 							<string>E7G03</string>
 							<key>question</key>
-							<string>What is the typical input impedance of an integrated circuit op-amp?</string>
+							<string>What is the typical input impedance of an op-amp?</string>
 							<key>answers</key>
 							<array>
 								<dict>
@@ -17759,7 +17426,7 @@
 							<key>name</key>
 							<string>E7G04</string>
 							<key>question</key>
-							<string>What is meant by the term op-amp input offset voltage?</string>
+							<string>What is meant by the &quot;op-amp input offset voltage&quot;?</string>
 							<key>answers</key>
 							<array>
 								<dict>
@@ -17796,7 +17463,7 @@
 							<key>name</key>
 							<string>E7G05</string>
 							<key>question</key>
-							<string>How can unwanted ringing and audio instability be prevented in a multi-section op-amp RC audio filter circuit?</string>
+							<string>How can unwanted ringing and audio instability be prevented in an op-amp RC audio filter circuit?</string>
 							<key>answers</key>
 							<array>
 								<dict>
@@ -17807,13 +17474,13 @@
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>Restrict gain, but increase Q</string>
+									<string>Restrict gain but increase Q</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>Restrict Q, but increase gain</string>
+									<string>Restrict Q but increase gain</string>
 									<key>correct</key>
 									<false/>
 								</dict>
@@ -17833,32 +17500,32 @@
 							<key>name</key>
 							<string>E7G06</string>
 							<key>question</key>
-							<string>Which of the following is the most appropriate use of an op-amp active filter?</string>
+							<string>What is the gain-bandwidth of an operational amplifier?</string>
 							<key>answers</key>
 							<array>
 								<dict>
 									<key>text</key>
-									<string>As a high-pass filter used to block RFI at the input to receivers</string>
+									<string>The maximum frequency for a filter circuit using that type of amplifier</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>As a low-pass filter used between a transmitter and a transmission line</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>For smoothing power supply output</string>
-									<key>correct</key>
-									<false/>
-								</dict>
-								<dict>
-									<key>text</key>
-									<string>As an audio filter in a receiver</string>
+									<string>The frequency at which the open-loop gain of the amplifier equals one</string>
 									<key>correct</key>
 									<true/>
+								</dict>
+								<dict>
+									<key>text</key>
+									<string>The gain of the amplifier at a filter&apos;s cutoff frequency</string>
+									<key>correct</key>
+									<false/>
+								</dict>
+								<dict>
+									<key>text</key>
+									<string>The frequency at which the amplifier&apos;s offset voltage is zero</string>
+									<key>correct</key>
+									<false/>
 								</dict>
 							</array>
 							<key>figureTitle</key>
@@ -17870,7 +17537,7 @@
 							<key>name</key>
 							<string>E7G07</string>
 							<key>question</key>
-							<string>What magnitude of voltage gain can be expected from the circuit in Figure E7-4 when R1 is 10 ohms and RF is 470 ohms?</string>
+							<string>What magnitude of voltage gain can be expected from the circuit in Figure E73 when R1 is 10 ohms and RF is 470 ohms?</string>
 							<key>answers</key>
 							<array>
 								<dict>
@@ -17899,9 +17566,9 @@
 								</dict>
 							</array>
 							<key>figureTitle</key>
-							<string>Figure E7-4</string>
+							<string>Figure E7-3</string>
 							<key>figureFile</key>
-							<string>E7-4.png</string>
+							<string>E7-3.png</string>
 						</dict>
 						<dict>
 							<key>name</key>
@@ -17944,7 +17611,7 @@
 							<key>name</key>
 							<string>E7G09</string>
 							<key>question</key>
-							<string>What will be the output voltage of the circuit shown in Figure E7-4 if R1 is 1000 ohms, RF is 10,000 ohms, and 0.23 volts DC is applied to the input?</string>
+							<string>What will be the output voltage of the circuit shown in Figure E7-3 if R1 is 1000 ohms, RF is 10,000 ohms, and 0.23 volts DC is applied to the input?</string>
 							<key>answers</key>
 							<array>
 								<dict>
@@ -17973,15 +17640,15 @@
 								</dict>
 							</array>
 							<key>figureTitle</key>
-							<string>Figure E7-4</string>
+							<string>Figure E7-3</string>
 							<key>figureFile</key>
-							<string>E7-4.png</string>
+							<string>E7-3.png</string>
 						</dict>
 						<dict>
 							<key>name</key>
 							<string>E7G10</string>
 							<key>question</key>
-							<string>What absolute voltage gain can be expected from the circuit in Figure E7-4 when R1 is 1800 ohms and RF is 68 kilohms?</string>
+							<string>What absolute voltage gain can be expected from the circuit in Figure E7-3 when R1 is 1800 ohms and RF is 68 kilohms?</string>
 							<key>answers</key>
 							<array>
 								<dict>
@@ -18010,15 +17677,15 @@
 								</dict>
 							</array>
 							<key>figureTitle</key>
-							<string>Figure E7-4</string>
+							<string>Figure E7-3</string>
 							<key>figureFile</key>
-							<string>E7-4.png</string>
+							<string>E7-3.png</string>
 						</dict>
 						<dict>
 							<key>name</key>
 							<string>E7G11</string>
 							<key>question</key>
-							<string>What absolute voltage gain can be expected from the circuit in Figure E7-4 when R1 is 3300 ohms and RF is 47 kilohms?</string>
+							<string>What absolute voltage gain can be expected from the circuit in Figure E7-3 when R1 is 3300 ohms and RF is 47 kilohms?</string>
 							<key>answers</key>
 							<array>
 								<dict>
@@ -18047,15 +17714,15 @@
 								</dict>
 							</array>
 							<key>figureTitle</key>
-							<string>Figure E7-4</string>
+							<string>Figure E7-3</string>
 							<key>figureFile</key>
-							<string>E7-4.png</string>
+							<string>E7-3.png</string>
 						</dict>
 						<dict>
 							<key>name</key>
 							<string>E7G12</string>
 							<key>question</key>
-							<string>What is an integrated circuit operational amplifier?</string>
+							<string>What is an operational amplifier?</string>
 							<key>answers</key>
 							<array>
 								<dict>
@@ -18096,14 +17763,14 @@
 					<key>name</key>
 					<string>E7H</string>
 					<key>description</key>
-					<string>Oscillators and signal sources: types of oscillators; synthesizers and phase-locked loops; direct digital synthesizers; stabilizing thermal drift; microphonics; high accuracy oscillators</string>
+					<string>Oscillators and signal sources: types of oscillators; synthesizers and phase-locked loops; direct digital synthesizers; stabilizing thermal drift; microphonics; high-accuracy oscillators</string>
 					<key>questions</key>
 					<array>
 						<dict>
 							<key>name</key>
 							<string>E7H01</string>
 							<key>question</key>
-							<string>What are three oscillator circuits used in Amateur Radio equipment?</string>
+							<string>What are three oscillator circuits used in amateur radio equipment?</string>
 							<key>answers</key>
 							<array>
 								<dict>
@@ -18311,7 +17978,7 @@
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>Negative feedback and Balanced feedback</string>
+									<string>Negative feedback and balanced feedback</string>
 									<key>correct</key>
 									<false/>
 								</dict>
@@ -18330,25 +17997,25 @@
 							<array>
 								<dict>
 									<key>text</key>
-									<string>Use of NP0 capacitors</string>
+									<string>Use NP0 capacitors</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>Eliminating noise on the oscillator’s power supply</string>
+									<string>Reduce noise on the oscillator&apos;s power supply</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>Using the oscillator only for CW and digital signals</string>
+									<string>Increase the bias voltage</string>
 									<key>correct</key>
 									<false/>
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>Mechanically isolating the oscillator circuitry from its enclosure</string>
+									<string>Mechanically isolate the oscillator circuitry from its enclosure</string>
 									<key>correct</key>
 									<true/>
 								</dict>
@@ -18416,7 +18083,7 @@
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>A phase locked loop synthesizer</string>
+									<string>A phase-locked loop synthesizer</string>
 									<key>correct</key>
 									<false/>
 								</dict>
@@ -18436,7 +18103,7 @@
 							<key>name</key>
 							<string>E7H10</string>
 							<key>question</key>
-							<string>What information is contained in the lookup table of a direct digital frequency synthesizer?</string>
+							<string>What information is contained in the lookup table of a direct digital synthesizer (DDS)?</string>
 							<key>answers</key>
 							<array>
 								<dict>
@@ -18447,7 +18114,7 @@
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>The amplitude values that represent a sine-wave output</string>
+									<string>Amplitude values that represent the desired waveform</string>
 									<key>correct</key>
 									<true/>
 								</dict>
@@ -18459,7 +18126,7 @@
 								</dict>
 								<dict>
 									<key>text</key>
-									<string>The synthesizer frequency limits and frequency values stored in the radio memories</string>
+									<string>Frequently used receiver and transmitter frequencies</string>
 									<key>correct</key>
 									<false/>
 								</dict>
@@ -18510,7 +18177,7 @@
 							<key>name</key>
 							<string>E7H12</string>
 							<key>question</key>
-							<string>Which of the following must be done to insure that a crystal oscillator provides the frequency specified by the crystal manufacturer?</string>
+							<string>Which of the following must be done to ensure that a crystal oscillator provides the frequency specified by the crystal manufacturer?</string>
 							<key>answers</key>
 							<array>
 								<dict>
