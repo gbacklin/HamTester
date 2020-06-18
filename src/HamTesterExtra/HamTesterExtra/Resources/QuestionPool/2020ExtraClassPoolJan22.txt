@@ -3987,7 +3987,6 @@ C. Photovoltaic conversion, optical coupling
 D. Frequency synthesis, FM demodulation
 ~~
 
-----------------------------
 
 SUBELEMENT E8 - SIGNALS AND EMISSIONS [4 Exam Questions - 4 Groups]
 
@@ -4472,6 +4471,7 @@ C. Effective radiated power
 D. Apparent power
 ~~
 
+--------------
 
 E9B Antenna patterns and designs: E and H plane patterns; gain as a function of pattern; antenna modeling
 
