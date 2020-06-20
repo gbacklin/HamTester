@@ -4471,7 +4471,6 @@ C. Effective radiated power
 D. Apparent power
 ~~
 
---------------
 
 E9B Antenna patterns and designs: E and H plane patterns; gain as a function of pattern; antenna modeling
 
