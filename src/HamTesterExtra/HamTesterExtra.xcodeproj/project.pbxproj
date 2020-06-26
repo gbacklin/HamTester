@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E53441724A544AD0099D3FB /* HamTester.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E53441624A544AD0099D3FB /* HamTester.xcframework */; };
-		4E53441824A544AD0099D3FB /* HamTester.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E53441624A544AD0099D3FB /* HamTester.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4E53442424A58CC40099D3FB /* HamTester.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E53442324A58CC40099D3FB /* HamTester.xcframework */; };
+		4E53442524A58CC40099D3FB /* HamTester.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E53442324A58CC40099D3FB /* HamTester.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4ED33F8A2112125D002957EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED33F872112125D002957EF /* ViewController.swift */; };
 		4ED33F8B2112125D002957EF /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED33F892112125D002957EF /* GradientView.swift */; };
 		FB9A1E7B20FCF19E0093807A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A1E7A20FCF19E0093807A /* AppDelegate.swift */; };
@@ -19,13 +19,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4E2D0EE12103CE290035F920 /* Embed Frameworks */ = {
+		4E53442624A58CC40099D3FB /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4E53441824A544AD0099D3FB /* HamTester.xcframework in Embed Frameworks */,
+				4E53442524A58CC40099D3FB /* HamTester.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,6 +35,7 @@
 /* Begin PBXFileReference section */
 		4E53441624A544AD0099D3FB /* HamTester.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = HamTester.xcframework; path = HamTesterExtra/HamTester.xcframework; sourceTree = "<group>"; };
 		4E53441A24A545290099D3FB /* HamTesterExtra.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HamTesterExtra.entitlements; sourceTree = "<group>"; };
+		4E53442324A58CC40099D3FB /* HamTester.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = HamTester.xcframework; path = "../HamTester/Frameworks-iOS/HamTester.xcframework"; sourceTree = "<group>"; };
 		4ED33F872112125D002957EF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4ED33F892112125D002957EF /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		FB9A1E7720FCF19E0093807A /* HamTesterExtra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HamTesterExtra.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E53441724A544AD0099D3FB /* HamTester.xcframework in Frameworks */,
+				4E53442424A58CC40099D3FB /* HamTester.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +62,7 @@
 		4E53441524A544AD0099D3FB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4E53442324A58CC40099D3FB /* HamTester.xcframework */,
 				4E53441624A544AD0099D3FB /* HamTester.xcframework */,
 			);
 			name = Frameworks;
@@ -149,8 +151,8 @@
 				FB9A1E7320FCF19E0093807A /* Sources */,
 				FB9A1E7420FCF19E0093807A /* Frameworks */,
 				FB9A1E7520FCF19E0093807A /* Resources */,
-				4E2D0EE12103CE290035F920 /* Embed Frameworks */,
 				4EA906B92110A293008FD903 /* Increment Build Number */,
+				4E53442624A58CC40099D3FB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
