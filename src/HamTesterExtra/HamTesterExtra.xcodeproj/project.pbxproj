@@ -3,12 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E2D0EDF2103CE280035F920 /* HamTester.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9A1E8C20FCF1AD0093807A /* HamTester.framework */; };
-		4E2D0EE02103CE280035F920 /* HamTester.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB9A1E8C20FCF1AD0093807A /* HamTester.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4E53441724A544AD0099D3FB /* HamTester.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E53441624A544AD0099D3FB /* HamTester.xcframework */; };
+		4E53441824A544AD0099D3FB /* HamTester.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E53441624A544AD0099D3FB /* HamTester.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4ED33F8A2112125D002957EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED33F872112125D002957EF /* ViewController.swift */; };
 		4ED33F8B2112125D002957EF /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED33F892112125D002957EF /* GradientView.swift */; };
 		FB9A1E7B20FCF19E0093807A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A1E7A20FCF19E0093807A /* AppDelegate.swift */; };
@@ -25,7 +25,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4E2D0EE02103CE280035F920 /* HamTester.framework in Embed Frameworks */,
+				4E53441824A544AD0099D3FB /* HamTester.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -33,6 +33,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4E53441624A544AD0099D3FB /* HamTester.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = HamTester.xcframework; path = HamTesterExtra/HamTester.xcframework; sourceTree = "<group>"; };
+		4E53441A24A545290099D3FB /* HamTesterExtra.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HamTesterExtra.entitlements; sourceTree = "<group>"; };
 		4ED33F872112125D002957EF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4ED33F892112125D002957EF /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		FB9A1E7720FCF19E0093807A /* HamTesterExtra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HamTesterExtra.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,7 +43,6 @@
 		FB9A1E8120FCF19F0093807A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB9A1E8420FCF19F0093807A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB9A1E8620FCF19F0093807A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FB9A1E8C20FCF1AD0093807A /* HamTester.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HamTester.framework; path = ../HamTester/Frameworks/HamTester.framework; sourceTree = "<group>"; };
 		FB9A1EA920FCFAE50093807A /* Pool.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Pool.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,13 +51,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E2D0EDF2103CE280035F920 /* HamTester.framework in Frameworks */,
+				4E53441724A544AD0099D3FB /* HamTester.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E53441524A544AD0099D3FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E53441624A544AD0099D3FB /* HamTester.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4ED33F852112125D002957EF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -85,9 +94,9 @@
 		FB9A1E6E20FCF19E0093807A = {
 			isa = PBXGroup;
 			children = (
-				FB9A1E8C20FCF1AD0093807A /* HamTester.framework */,
 				FB9A1E7920FCF19E0093807A /* HamTesterExtra */,
 				FB9A1E7820FCF19E0093807A /* Products */,
+				4E53441524A544AD0099D3FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +111,7 @@
 		FB9A1E7920FCF19E0093807A /* HamTesterExtra */ = {
 			isa = PBXGroup;
 			children = (
+				4E53441A24A545290099D3FB /* HamTesterExtra.entitlements */,
 				FB9A1E7A20FCF19E0093807A /* AppDelegate.swift */,
 				4ED33F852112125D002957EF /* Classes */,
 				FB9A1EA220FCF8890093807A /* Resources */,
@@ -212,7 +222,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"\n\n";
+			shellScript = "#buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\n#buildNumber=$(($buildNumber + 1))\n#/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"\n\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -367,22 +377,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HamTesterExtra/HamTesterExtra.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = 8DT5Y3HP4L;
 				INFOPLIST_FILE = HamTesterExtra/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.5.0;
+				MARKETING_VERSION = 2.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.marizack.HamTesterExtra;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "cfd19c5f-ff23-4180-b180-307d58aab964";
 				PROVISIONING_PROFILE_SPECIFIER = "HamTester Extra AppStore Provisioning Profile";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -390,22 +402,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HamTesterExtra/HamTesterExtra.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = 8DT5Y3HP4L;
 				INFOPLIST_FILE = HamTesterExtra/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.5.0;
+				MARKETING_VERSION = 2.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.marizack.HamTesterExtra;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "cfd19c5f-ff23-4180-b180-307d58aab964";
 				PROVISIONING_PROFILE_SPECIFIER = "HamTester Extra AppStore Provisioning Profile";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
