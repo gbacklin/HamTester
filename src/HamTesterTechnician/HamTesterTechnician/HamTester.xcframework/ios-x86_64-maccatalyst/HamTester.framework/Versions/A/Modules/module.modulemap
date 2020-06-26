@@ -1,0 +1,11 @@
+framework module HamTester {
+  umbrella header "HamTester.h"
+
+  export *
+  module * { export * }
+}
+
+module HamTester.Swift {
+    header "HamTester-Swift.h"
+    requires objc
+}
