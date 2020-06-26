@@ -382,7 +382,7 @@
 				CODE_SIGN_ENTITLEMENTS = HamTesterExtra/HamTesterExtra.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 18;
 				DEVELOPMENT_TEAM = 8DT5Y3HP4L;
 				INFOPLIST_FILE = HamTesterExtra/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -407,7 +407,7 @@
 				CODE_SIGN_ENTITLEMENTS = HamTesterExtra/HamTesterExtra.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 18;
 				DEVELOPMENT_TEAM = 8DT5Y3HP4L;
 				INFOPLIST_FILE = HamTesterExtra/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
