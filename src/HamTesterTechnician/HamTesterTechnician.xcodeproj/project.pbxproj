@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E53441C24A58CA30099D3FB /* HamTester.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E53441B24A58CA30099D3FB /* HamTester.xcframework */; };
-		4E53441D24A58CA30099D3FB /* HamTester.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E53441B24A58CA30099D3FB /* HamTester.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4E53442724A596FB0099D3FB /* HamTester.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E53441B24A58CA30099D3FB /* HamTester.xcframework */; };
+		4E53442824A596FB0099D3FB /* HamTester.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E53441B24A58CA30099D3FB /* HamTester.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4ED33F912112129A002957EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED33F8E2112129A002957EF /* ViewController.swift */; };
 		4ED33F922112129A002957EF /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED33F902112129A002957EF /* GradientView.swift */; };
 		FB9A1E3820FCF1110093807A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A1E3720FCF1110093807A /* AppDelegate.swift */; };
@@ -19,13 +19,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4E53441E24A58CA30099D3FB /* Embed Frameworks */ = {
+		4E53442924A596FB0099D3FB /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4E53441D24A58CA30099D3FB /* HamTester.xcframework in Embed Frameworks */,
+				4E53442824A596FB0099D3FB /* HamTester.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E53441C24A58CA30099D3FB /* HamTester.xcframework in Frameworks */,
+				4E53442724A596FB0099D3FB /* HamTester.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +152,7 @@
 				FB9A1E3120FCF1110093807A /* Frameworks */,
 				FB9A1E3220FCF1110093807A /* Resources */,
 				4EA906B72110A25A008FD903 /* Increment Build Number */,
-				4E53441E24A58CA30099D3FB /* Embed Frameworks */,
+				4E53442924A596FB0099D3FB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -380,8 +380,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = HamTesterTechnician/HamTesterTechnician.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_TEAM = 8DT5Y3HP4L;
@@ -394,8 +394,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.marizack.HamTesterTechnician;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "a5f46e1e-fcff-45b9-8649-9ff9b37af1a1";
-				PROVISIONING_PROFILE_SPECIFIER = "HamTester Technician Dist Prov Profile iOS";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "HamTester Technician Catalyst Dist Prov Prof";
+				PROVISIONING_PROFILE_SPECIFIER = "HamTester Technician Dev Prov Profile iOS";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "HamTester Technician Catalyst Dev Prov Prof";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -407,8 +407,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = HamTesterTechnician/HamTesterTechnician.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_TEAM = 8DT5Y3HP4L;
@@ -421,8 +421,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.marizack.HamTesterTechnician;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "c7840252-f1f8-4ce1-ac29-b05df739416a";
-				PROVISIONING_PROFILE_SPECIFIER = "HamTester Technician Dist Prov Profile iOS";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "HamTester Technician Catalyst Dist Prov Prof";
+				PROVISIONING_PROFILE_SPECIFIER = "HamTester Technician Dev Prov Profile iOS";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "HamTester Technician Catalyst Dev Prov Prof";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

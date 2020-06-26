@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E53442424A58CC40099D3FB /* HamTester.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E53442324A58CC40099D3FB /* HamTester.xcframework */; };
-		4E53442524A58CC40099D3FB /* HamTester.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E53442324A58CC40099D3FB /* HamTester.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4E53442D24A597160099D3FB /* HamTester.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E53442324A58CC40099D3FB /* HamTester.xcframework */; };
+		4E53442E24A597160099D3FB /* HamTester.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E53442324A58CC40099D3FB /* HamTester.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4ED33F8A2112125D002957EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED33F872112125D002957EF /* ViewController.swift */; };
 		4ED33F8B2112125D002957EF /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED33F892112125D002957EF /* GradientView.swift */; };
 		FB9A1E7B20FCF19E0093807A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A1E7A20FCF19E0093807A /* AppDelegate.swift */; };
@@ -19,13 +19,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4E53442624A58CC40099D3FB /* Embed Frameworks */ = {
+		4E53442F24A597160099D3FB /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4E53442524A58CC40099D3FB /* HamTester.xcframework in Embed Frameworks */,
+				4E53442E24A597160099D3FB /* HamTester.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E53442424A58CC40099D3FB /* HamTester.xcframework in Frameworks */,
+				4E53442D24A597160099D3FB /* HamTester.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +152,7 @@
 				FB9A1E7420FCF19E0093807A /* Frameworks */,
 				FB9A1E7520FCF19E0093807A /* Resources */,
 				4EA906B92110A293008FD903 /* Increment Build Number */,
-				4E53442624A58CC40099D3FB /* Embed Frameworks */,
+				4E53442F24A597160099D3FB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -380,7 +380,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = HamTesterExtra/HamTesterExtra.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = 8DT5Y3HP4L;
@@ -393,7 +393,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.marizack.HamTesterExtra;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "cfd19c5f-ff23-4180-b180-307d58aab964";
-				PROVISIONING_PROFILE_SPECIFIER = "HamTester Extra AppStore Provisioning Profile";
+				PROVISIONING_PROFILE_SPECIFIER = "HamTester Extra Dev Prov Profile iOS";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -405,7 +405,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = HamTesterExtra/HamTesterExtra.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = 8DT5Y3HP4L;
@@ -418,7 +418,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.marizack.HamTesterExtra;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "cfd19c5f-ff23-4180-b180-307d58aab964";
-				PROVISIONING_PROFILE_SPECIFIER = "HamTester Extra AppStore Provisioning Profile";
+				PROVISIONING_PROFILE_SPECIFIER = "HamTester Extra Dev Prov Profile iOS";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
