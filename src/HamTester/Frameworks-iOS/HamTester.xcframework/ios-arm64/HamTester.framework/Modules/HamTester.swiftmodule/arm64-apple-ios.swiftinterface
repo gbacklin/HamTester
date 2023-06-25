@@ -1,0 +1,36 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name HamTester
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import HamTester
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+@objc @_inheritsConvenienceInitializers open class HamTester : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers open class PropertyList : ObjectiveC.NSObject {
+  open class func readFromArchive(filename: Swift.String) -> [Swift.String : Swift.AnyObject]?
+  open class func read(filename: Swift.String) -> [Swift.String : Swift.AnyObject]?
+  open class func dictionaryFromPropertyList(filename: Foundation.NSString) -> Foundation.NSDictionary?
+  open class func writePropertyListFromDictionary(filename: Foundation.NSString, plistDict: Foundation.NSDictionary) -> Swift.Bool
+  open class func writeJSON(filename: Foundation.NSString, json: Swift.String)
+  open class func readJSONFIle(filename: Swift.String) -> Foundation.Data?
+  open class func readJSON(filename: Foundation.NSString) -> Swift.String?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class HamTesterTabBarController : UIKit.UITabBarController {
+  @_Concurrency.MainActor(unsafe) open var questionPool: [Swift.String : Swift.AnyObject]?
+  @_Concurrency.MainActor(unsafe) open var licenseClass: Swift.String?
+  @_Concurrency.MainActor(unsafe) open var subelementKeys: [Swift.String]?
+  @_Concurrency.MainActor(unsafe) open var backgroundImage: UIKit.UIImage?
+  @_Concurrency.MainActor(unsafe) open var iconImage: UIKit.UIImage?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func didReceiveMemoryWarning()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}

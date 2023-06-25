@@ -3,14 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E53442724A596FB0099D3FB /* HamTester.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E53441B24A58CA30099D3FB /* HamTester.xcframework */; };
-		4E53442824A596FB0099D3FB /* HamTester.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E53441B24A58CA30099D3FB /* HamTester.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4ED33F912112129A002957EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED33F8E2112129A002957EF /* ViewController.swift */; };
 		4ED33F922112129A002957EF /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED33F902112129A002957EF /* GradientView.swift */; };
+		4ED927AB2862A42E009BDAEA /* HamTester.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED927AA2862A42E009BDAEA /* HamTester.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FB9A1E3820FCF1110093807A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A1E3720FCF1110093807A /* AppDelegate.swift */; };
 		FB9A1E3D20FCF1110093807A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9A1E3B20FCF1110093807A /* Main.storyboard */; };
 		FB9A1E3F20FCF1120093807A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB9A1E3E20FCF1120093807A /* Assets.xcassets */; };
@@ -25,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4E53442824A596FB0099D3FB /* HamTester.xcframework in Embed Frameworks */,
+				4ED927AB2862A42E009BDAEA /* HamTester.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -34,10 +33,9 @@
 
 /* Begin PBXFileReference section */
 		4E53440724A53F2C0099D3FB /* HamTesterTechnician.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HamTesterTechnician.entitlements; sourceTree = "<group>"; };
-		4E53440E24A544690099D3FB /* HamTester.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = HamTester.xcframework; path = HamTesterTechnician/HamTester.xcframework; sourceTree = "<group>"; };
-		4E53441B24A58CA30099D3FB /* HamTester.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = HamTester.xcframework; path = "../HamTester/Frameworks-iOS/HamTester.xcframework"; sourceTree = "<group>"; };
 		4ED33F8E2112129A002957EF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4ED33F902112129A002957EF /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		4ED927AA2862A42E009BDAEA /* HamTester.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HamTester.framework; path = "../HamTester/Framework-iOS-Simulator/HamTester.framework"; sourceTree = "<group>"; };
 		FB9A1E3420FCF1110093807A /* HamTesterTechnician.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HamTesterTechnician.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB9A1E3720FCF1110093807A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB9A1E3C20FCF1110093807A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,7 +50,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E53442724A596FB0099D3FB /* HamTester.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,8 +59,7 @@
 		4E53440D24A544690099D3FB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4E53441B24A58CA30099D3FB /* HamTester.xcframework */,
-				4E53440E24A544690099D3FB /* HamTester.xcframework */,
+				4ED927AA2862A42E009BDAEA /* HamTester.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -385,16 +381,19 @@
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 18;
 				DEVELOPMENT_TEAM = 8DT5Y3HP4L;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8DT5Y3HP4L;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 8DT5Y3HP4L;
 				INFOPLIST_FILE = HamTesterTechnician/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.0;
+				MARKETING_VERSION = 3.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.marizack.HamTesterTechnician;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "a5f46e1e-fcff-45b9-8649-9ff9b37af1a1";
 				PROVISIONING_PROFILE_SPECIFIER = "HamTester Technician Dist Prov Profile iOS";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "HamTester Technician Dist Prov Profile iOS";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "HamTester Technician Catalyst Dist Prov Prof";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -412,16 +411,19 @@
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 18;
 				DEVELOPMENT_TEAM = 8DT5Y3HP4L;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8DT5Y3HP4L;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 8DT5Y3HP4L;
 				INFOPLIST_FILE = HamTesterTechnician/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.0;
+				MARKETING_VERSION = 3.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.marizack.HamTesterTechnician;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "c7840252-f1f8-4ce1-ac29-b05df739416a";
 				PROVISIONING_PROFILE_SPECIFIER = "HamTester Technician Dist Prov Profile iOS";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "HamTester Technician Dist Prov Profile iOS";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "HamTester Technician Catalyst Dist Prov Prof";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;

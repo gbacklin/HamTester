@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="S8P-Qg-QC1">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="TeB-iZ-caG">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" modalPresentationStyle="currentContext" id="S8P-Qg-QC1" customClass="ViewController" customModule="HamTesterExtra" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleAspectFill" id="8zj-iY-zVZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.84999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qkv-sh-cLv" customClass="GradientView" customModule="HamTesterExtra" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                                        <color key="value" red="0.93649578094482422" green="0.76785905939614363" blue="0.81518588152454519" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                                        <color key="value" red="0.63629639148712158" green="0.13094666600227356" blue="0.090133331716060638" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ArtWork" translatesAutoresizingMaskIntoConstraints="NO" id="n6D-ts-cw6">
+                                <rect key="frame" x="112.5" y="258.5" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="IJq-uq-2e6"/>
+                                    <constraint firstAttribute="height" constant="150" id="jIl-xU-y6W"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="n6D-ts-cw6" firstAttribute="centerY" secondItem="8zj-iY-zVZ" secondAttribute="centerY" id="1sR-or-WSD"/>
+                            <constraint firstItem="Qkv-sh-cLv" firstAttribute="bottom" secondItem="Ny1-PE-HlB" secondAttribute="bottom" id="7iY-XE-MSu"/>
+                            <constraint firstItem="n6D-ts-cw6" firstAttribute="centerX" secondItem="8zj-iY-zVZ" secondAttribute="centerX" id="Ope-37-cPL"/>
+                            <constraint firstItem="Qkv-sh-cLv" firstAttribute="leading" secondItem="8zj-iY-zVZ" secondAttribute="leading" id="Pb4-Ke-Cyb"/>
+                            <constraint firstItem="Qkv-sh-cLv" firstAttribute="centerY" secondItem="n6D-ts-cw6" secondAttribute="centerY" id="Xng-hU-gQC"/>
+                            <constraint firstItem="Qkv-sh-cLv" firstAttribute="centerX" secondItem="n6D-ts-cw6" secondAttribute="centerX" id="kHV-Rs-QjZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ny1-PE-HlB"/>
+                    </view>
+                    <connections>
+                        <segue destination="XbW-6l-oiK" kind="presentation" identifier="BeginHamTester" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="ARn-zU-ftv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3F5-7A-0Kp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="58.125" y="33.75"/>
+        </scene>
+        <!--HamTesterTabBarController-->
+        <scene sceneID="VOb-eo-lfi">
+            <objects>
+                <viewControllerPlaceholder storyboardName="HamTester" bundleIdentifier="com.marizack.HamTester" referencedIdentifier="HamTesterTabBarController" id="XbW-6l-oiK" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="3Q6-DX-vls"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pmK-2W-v2C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="859" y="35"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ArtWork" width="1024" height="1024"/>
+    </resources>
+</document>

@@ -6,6 +6,6 @@ framework module HamTester {
 }
 
 module HamTester.Swift {
-    header "HamTester-Swift.h"
-    requires objc
+  header "HamTester-Swift.h"
+  requires objc
 }

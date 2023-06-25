@@ -1,0 +1,3567 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HamTester",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HamTester",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HamTester",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HamTester",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HamTester",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HamTester",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HamTester",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HamTester",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HamTester",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HamTester",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HamTester",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HamTester",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HamTester",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HamTester",
+        "printedName": "HamTester",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HamTester",
+                "printedName": "HamTester.HamTester",
+                "usr": "c:@M@HamTester@objc(cs)HamTester"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HamTester@objc(cs)HamTester(im)init",
+            "mangledName": "$s9HamTesterAACABycfc",
+            "moduleName": "HamTester",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@HamTester@objc(cs)HamTester",
+        "mangledName": "$s9HamTesterAAC",
+        "moduleName": "HamTester",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HamTester",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HamTester",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HamTester",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PropertyList",
+        "printedName": "PropertyList",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "readFromArchive",
+            "printedName": "readFromArchive(filename:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : AnyObject]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : AnyObject]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9HamTester12PropertyListC15readFromArchive8filenameSDySSyXlGSgSS_tFZ",
+            "mangledName": "$s9HamTester12PropertyListC15readFromArchive8filenameSDySSyXlGSgSS_tFZ",
+            "moduleName": "HamTester",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "read",
+            "printedName": "read(filename:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : AnyObject]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : AnyObject]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9HamTester12PropertyListC4read8filenameSDySSyXlGSgSS_tFZ",
+            "mangledName": "$s9HamTester12PropertyListC4read8filenameSDySSyXlGSgSS_tFZ",
+            "moduleName": "HamTester",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dictionaryFromPropertyList",
+            "printedName": "dictionaryFromPropertyList(filename:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSDictionary?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSDictionary",
+                    "printedName": "Foundation.NSDictionary",
+                    "usr": "c:objc(cs)NSDictionary"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSString",
+                "printedName": "Foundation.NSString",
+                "usr": "c:objc(cs)NSString"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9HamTester12PropertyListC014dictionaryFromcD08filenameSo12NSDictionaryCSgSo8NSStringC_tFZ",
+            "mangledName": "$s9HamTester12PropertyListC014dictionaryFromcD08filenameSo12NSDictionaryCSgSo8NSStringC_tFZ",
+            "moduleName": "HamTester",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "writePropertyListFromDictionary",
+            "printedName": "writePropertyListFromDictionary(filename:plistDict:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSString",
+                "printedName": "Foundation.NSString",
+                "usr": "c:objc(cs)NSString"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSDictionary",
+                "printedName": "Foundation.NSDictionary",
+                "usr": "c:objc(cs)NSDictionary"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9HamTester12PropertyListC05writecD14FromDictionary8filename9plistDictSbSo8NSStringC_So12NSDictionaryCtFZ",
+            "mangledName": "$s9HamTester12PropertyListC05writecD14FromDictionary8filename9plistDictSbSo8NSStringC_So12NSDictionaryCtFZ",
+            "moduleName": "HamTester",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "writeJSON",
+            "printedName": "writeJSON(filename:json:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSString",
+                "printedName": "Foundation.NSString",
+                "usr": "c:objc(cs)NSString"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9HamTester12PropertyListC9writeJSON8filename4jsonySo8NSStringC_SStFZ",
+            "mangledName": "$s9HamTester12PropertyListC9writeJSON8filename4jsonySo8NSStringC_SStFZ",
+            "moduleName": "HamTester",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "readJSONFIle",
+            "printedName": "readJSONFIle(filename:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9HamTester12PropertyListC12readJSONFIle8filename10Foundation4DataVSgSS_tFZ",
+            "mangledName": "$s9HamTester12PropertyListC12readJSONFIle8filename10Foundation4DataVSgSS_tFZ",
+            "moduleName": "HamTester",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "readJSON",
+            "printedName": "readJSON(filename:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSString",
+                "printedName": "Foundation.NSString",
+                "usr": "c:objc(cs)NSString"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9HamTester12PropertyListC8readJSON8filenameSSSgSo8NSStringC_tFZ",
+            "mangledName": "$s9HamTester12PropertyListC8readJSON8filenameSSSgSo8NSStringC_tFZ",
+            "moduleName": "HamTester",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PropertyList",
+                "printedName": "HamTester.PropertyList",
+                "usr": "c:@M@HamTester@objc(cs)PropertyList"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HamTester@objc(cs)PropertyList(im)init",
+            "mangledName": "$s9HamTester12PropertyListCACycfc",
+            "moduleName": "HamTester",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@HamTester@objc(cs)PropertyList",
+        "mangledName": "$s9HamTester12PropertyListC",
+        "moduleName": "HamTester",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HamTester",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HamTesterTabBarController",
+        "printedName": "HamTesterTabBarController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "questionPool",
+            "printedName": "questionPool",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : AnyObject]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : AnyObject]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9HamTester0aB16TabBarControllerC12questionPoolSDySSyXlGSgvp",
+            "mangledName": "$s9HamTester0aB16TabBarControllerC12questionPoolSDySSyXlGSgvp",
+            "moduleName": "HamTester",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : AnyObject]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : AnyObject]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "AnyObject"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9HamTester0aB16TabBarControllerC12questionPoolSDySSyXlGSgvg",
+                "mangledName": "$s9HamTester0aB16TabBarControllerC12questionPoolSDySSyXlGSgvg",
+                "moduleName": "HamTester",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : AnyObject]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : AnyObject]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "AnyObject"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9HamTester0aB16TabBarControllerC12questionPoolSDySSyXlGSgvs",
+                "mangledName": "$s9HamTester0aB16TabBarControllerC12questionPoolSDySSyXlGSgvs",
+                "moduleName": "HamTester",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9HamTester0aB16TabBarControllerC12questionPoolSDySSyXlGSgvM",
+                "mangledName": "$s9HamTester0aB16TabBarControllerC12questionPoolSDySSyXlGSgvM",
+                "moduleName": "HamTester",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "licenseClass",
+            "printedName": "licenseClass",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9HamTester0aB16TabBarControllerC12licenseClassSSSgvp",
+            "mangledName": "$s9HamTester0aB16TabBarControllerC12licenseClassSSSgvp",
+            "moduleName": "HamTester",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9HamTester0aB16TabBarControllerC12licenseClassSSSgvg",
+                "mangledName": "$s9HamTester0aB16TabBarControllerC12licenseClassSSSgvg",
+                "moduleName": "HamTester",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9HamTester0aB16TabBarControllerC12licenseClassSSSgvs",
+                "mangledName": "$s9HamTester0aB16TabBarControllerC12licenseClassSSSgvs",
+                "moduleName": "HamTester",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9HamTester0aB16TabBarControllerC12licenseClassSSSgvM",
+                "mangledName": "$s9HamTester0aB16TabBarControllerC12licenseClassSSSgvM",
+                "moduleName": "HamTester",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "subelementKeys",
+            "printedName": "subelementKeys",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9HamTester0aB16TabBarControllerC14subelementKeysSaySSGSgvp",
+            "mangledName": "$s9HamTester0aB16TabBarControllerC14subelementKeysSaySSGSgvp",
+            "moduleName": "HamTester",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9HamTester0aB16TabBarControllerC14subelementKeysSaySSGSgvg",
+                "mangledName": "$s9HamTester0aB16TabBarControllerC14subelementKeysSaySSGSgvg",
+                "moduleName": "HamTester",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9HamTester0aB16TabBarControllerC14subelementKeysSaySSGSgvs",
+                "mangledName": "$s9HamTester0aB16TabBarControllerC14subelementKeysSaySSGSgvs",
+                "moduleName": "HamTester",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9HamTester0aB16TabBarControllerC14subelementKeysSaySSGSgvM",
+                "mangledName": "$s9HamTester0aB16TabBarControllerC14subelementKeysSaySSGSgvM",
+                "moduleName": "HamTester",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundImage",
+            "printedName": "backgroundImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9HamTester0aB16TabBarControllerC15backgroundImageSo7UIImageCSgvp",
+            "mangledName": "$s9HamTester0aB16TabBarControllerC15backgroundImageSo7UIImageCSgvp",
+            "moduleName": "HamTester",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9HamTester0aB16TabBarControllerC15backgroundImageSo7UIImageCSgvg",
+                "mangledName": "$s9HamTester0aB16TabBarControllerC15backgroundImageSo7UIImageCSgvg",
+                "moduleName": "HamTester",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9HamTester0aB16TabBarControllerC15backgroundImageSo7UIImageCSgvs",
+                "mangledName": "$s9HamTester0aB16TabBarControllerC15backgroundImageSo7UIImageCSgvs",
+                "moduleName": "HamTester",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9HamTester0aB16TabBarControllerC15backgroundImageSo7UIImageCSgvM",
+                "mangledName": "$s9HamTester0aB16TabBarControllerC15backgroundImageSo7UIImageCSgvM",
+                "moduleName": "HamTester",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "iconImage",
+            "printedName": "iconImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9HamTester0aB16TabBarControllerC9iconImageSo7UIImageCSgvp",
+            "mangledName": "$s9HamTester0aB16TabBarControllerC9iconImageSo7UIImageCSgvp",
+            "moduleName": "HamTester",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9HamTester0aB16TabBarControllerC9iconImageSo7UIImageCSgvg",
+                "mangledName": "$s9HamTester0aB16TabBarControllerC9iconImageSo7UIImageCSgvg",
+                "moduleName": "HamTester",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9HamTester0aB16TabBarControllerC9iconImageSo7UIImageCSgvs",
+                "mangledName": "$s9HamTester0aB16TabBarControllerC9iconImageSo7UIImageCSgvs",
+                "moduleName": "HamTester",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9HamTester0aB16TabBarControllerC9iconImageSo7UIImageCSgvM",
+                "mangledName": "$s9HamTester0aB16TabBarControllerC9iconImageSo7UIImageCSgvM",
+                "moduleName": "HamTester",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HamTester@objc(cs)HamTesterTabBarController(im)viewDidLoad",
+            "mangledName": "$s9HamTester0aB16TabBarControllerC11viewDidLoadyyF",
+            "moduleName": "HamTester",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveMemoryWarning",
+            "printedName": "didReceiveMemoryWarning()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HamTester@objc(cs)HamTesterTabBarController(im)didReceiveMemoryWarning",
+            "mangledName": "$s9HamTester0aB16TabBarControllerC23didReceiveMemoryWarningyyF",
+            "moduleName": "HamTester",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "didReceiveMemoryWarning",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HamTesterTabBarController",
+                "printedName": "HamTester.HamTesterTabBarController",
+                "usr": "c:@M@HamTester@objc(cs)HamTesterTabBarController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HamTester@objc(cs)HamTesterTabBarController(im)initWithNibName:bundle:",
+            "mangledName": "$s9HamTester0aB16TabBarControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "HamTester",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "HamTester.HamTesterTabBarController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HamTesterTabBarController",
+                    "printedName": "HamTester.HamTesterTabBarController",
+                    "usr": "c:@M@HamTester@objc(cs)HamTesterTabBarController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HamTester@objc(cs)HamTesterTabBarController(im)initWithCoder:",
+            "mangledName": "$s9HamTester0aB16TabBarControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "HamTester",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@HamTester@objc(cs)HamTesterTabBarController",
+        "mangledName": "$s9HamTester0aB16TabBarControllerC",
+        "moduleName": "HamTester",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UITabBarController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UITabBarController",
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
+      "kind": "StringLiteral",
+      "offset": 769,
+      "length": 9,
+      "value": "\"Version\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
+      "kind": "StringLiteral",
+      "offset": 813,
+      "length": 6,
+      "value": "\"From\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
+      "kind": "StringLiteral",
+      "offset": 856,
+      "length": 9,
+      "value": "\"Expires\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
+      "kind": "StringLiteral",
+      "offset": 903,
+      "length": 13,
+      "value": "\"Subelements\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
+      "kind": "StringLiteral",
+      "offset": 3131,
+      "length": 8,
+      "value": "\"groups\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3590,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3786,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
+      "kind": "StringLiteral",
+      "offset": 4037,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
+      "kind": "StringLiteral",
+      "offset": 4047,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
+      "kind": "StringLiteral",
+      "offset": 4056,
+      "length": 1,
+      "value": "\" [X]\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
+      "kind": "StringLiteral",
+      "offset": 4089,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
+      "kind": "StringLiteral",
+      "offset": 4329,
+      "length": 51,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
+      "kind": "StringLiteral",
+      "offset": 4367,
+      "length": 1,
+      "value": "\" - Incorrect\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4448,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4653,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4685,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4703,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
+      "kind": "StringLiteral",
+      "offset": 4841,
+      "length": 9,
+      "value": "\"correct\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4895,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
+      "kind": "StringLiteral",
+      "offset": 5176,
+      "length": 11,
+      "value": "\"questions\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5309,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
+      "kind": "StringLiteral",
+      "offset": 5484,
+      "length": 9,
+      "value": "\"answers\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
+      "kind": "StringLiteral",
+      "offset": 5615,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
+      "kind": "StringLiteral",
+      "offset": 5682,
+      "length": 10,
+      "value": "\"question\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5815,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
+      "kind": "StringLiteral",
+      "offset": 5935,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
+      "kind": "StringLiteral",
+      "offset": 5996,
+      "length": 13,
+      "value": "\"description\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
+      "kind": "StringLiteral",
+      "offset": 6086,
+      "length": 13,
+      "value": "\"figureTitle\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
+      "kind": "StringLiteral",
+      "offset": 6166,
+      "length": 12,
+      "value": "\"figureFile\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1128,
+      "length": 6,
+      "value": "\"Prev\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1260,
+      "length": 6,
+      "value": "\"Next\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1542,
+      "length": 3,
+      "value": "350"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1593,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1635,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2179,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2194,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2298,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2352,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2376,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2523,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2627,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2929,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3033,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3487,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 4121,
+      "length": 4,
+      "value": "95.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4175,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4230,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 4256,
+      "length": 5,
+      "value": "350.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 4306,
+      "length": 4,
+      "value": "95.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 4361,
+      "length": 4,
+      "value": "95.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4481,
+      "length": 79,
+      "value": "\"Question \""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4516,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4518,
+      "length": 1,
+      "value": "\" - \""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4559,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4703,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4733,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4870,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4900,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5037,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5067,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5204,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5234,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5533,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6283,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6333,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6366,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6412,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6482,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/QuestionDetailTableViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6530,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 360,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsTableViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 570,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsTableViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 585,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 644,
+      "length": 6,
+      "value": "\"Done\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 765,
+      "length": 6,
+      "value": "\"Save\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1083,
+      "length": 4,
+      "value": "95.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1420,
+      "length": 5,
+      "value": "100.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1512,
+      "length": 23,
+      "value": "\"Score %.0f%% (Failed)\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1601,
+      "length": 23,
+      "value": "\"Score %.0f%% (Passed)\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1773,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2025,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2356,
+      "length": 6,
+      "value": "\"Cell\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2535,
+      "length": 69,
+      "value": "\"Question \""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2561,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2563,
+      "length": 1,
+      "value": "\" - \""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2603,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2642,
+      "length": 39,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2680,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2841,
+      "length": 4,
+      "value": "95.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsTableViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2926,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3021,
+      "length": 6,
+      "value": "\"Save\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsTableViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3055,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3470,
+      "length": 19,
+      "value": "\"ShowResultsDetail\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionsTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 504,
+      "length": 4,
+      "value": "95.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionsTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 537,
+      "length": 11,
+      "value": "\"questions\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionsTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 692,
+      "length": 30,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionsTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 702,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionsTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 721,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionsTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 848,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionsTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1135,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionsTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1401,
+      "length": 4,
+      "value": "95.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionsTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1592,
+      "length": 6,
+      "value": "\"Cell\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionsTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1794,
+      "length": 51,
+      "value": "\"Question \""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionsTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1834,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionsTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1844,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionsTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1883,
+      "length": 46,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionsTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1914,
+      "length": 10,
+      "value": "\"question\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionsTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1928,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionsTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2337,
+      "length": 29,
+      "value": "\"ShowPoolGroupQuestionDetail\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionsTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2649,
+      "length": 30,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionsTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2659,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionsTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2678,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 749,
+      "length": 8,
+      "value": "\"Cancel\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 874,
+      "length": 7,
+      "value": "\"Grade\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1184,
+      "length": 4,
+      "value": "95.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1868,
+      "length": 7,
+      "value": "\"Class\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2022,
+      "length": 17,
+      "value": "\"Return to Grade\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2324,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2641,
+      "length": 6,
+      "value": "\"Cell\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2806,
+      "length": 69,
+      "value": "\"Question \""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2832,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2834,
+      "length": 1,
+      "value": "\" - \""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2874,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2913,
+      "length": 39,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2951,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3104,
+      "length": 4,
+      "value": "95.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3499,
+      "length": 20,
+      "value": "\"ShowQuestionDetail\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3899,
+      "length": 11,
+      "value": "\"GradeExam\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4112,
+      "length": 12,
+      "value": "\"MinCorrect\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamTableViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4224,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4343,
+      "length": 11,
+      "value": "\"GradeExam\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Extensions\/Array+Shuffle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 309,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Extensions\/Array+Shuffle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 419,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Extensions\/Array+Shuffle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 426,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1096,
+      "length": 6,
+      "value": "\"Prev\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1228,
+      "length": 6,
+      "value": "\"Next\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1518,
+      "length": 3,
+      "value": "350"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1569,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1611,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2076,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2137,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2436,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2497,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2791,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2806,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3036,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3069,
+      "length": 12,
+      "value": "\"figureFile\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3104,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3128,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3309,
+      "length": 4,
+      "value": "95.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3371,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3426,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3452,
+      "length": 5,
+      "value": "350.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3502,
+      "length": 4,
+      "value": "95.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3557,
+      "length": 4,
+      "value": "95.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3673,
+      "length": 52,
+      "value": "\"Question \""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3714,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3724,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3787,
+      "length": 10,
+      "value": "\"question\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3875,
+      "length": 9,
+      "value": "\"answers\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3978,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3982,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4056,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4060,
+      "length": 9,
+      "value": "\"correct\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4159,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4163,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4237,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4241,
+      "length": 9,
+      "value": "\"correct\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4340,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4344,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4418,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4422,
+      "length": 9,
+      "value": "\"correct\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4521,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4525,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4599,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4603,
+      "length": 9,
+      "value": "\"correct\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4669,
+      "length": 13,
+      "value": "\"figureTitle\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4705,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4771,
+      "length": 12,
+      "value": "\"figureFile\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4940,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4990,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5028,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5074,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5144,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolGroupQuestionDetailTableViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5192,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1116,
+      "length": 4,
+      "value": "95.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1168,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1210,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1314,
+      "length": 6,
+      "value": "\"Prev\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1446,
+      "length": 6,
+      "value": "\"Next\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2097,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2112,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2259,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2313,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2337,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2522,
+      "length": 4,
+      "value": "95.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2584,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2639,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2665,
+      "length": 5,
+      "value": "350.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2715,
+      "length": 4,
+      "value": "95.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2770,
+      "length": 4,
+      "value": "95.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2906,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2967,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3283,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3344,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3734,
+      "length": 79,
+      "value": "\"Question \""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3769,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3771,
+      "length": 1,
+      "value": "\" - \""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3812,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4023,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4026,
+      "length": 9,
+      "value": "\"correct\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4081,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4084,
+      "length": 9,
+      "value": "\"correct\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4141,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4144,
+      "length": 9,
+      "value": "\"correct\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4200,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4203,
+      "length": 9,
+      "value": "\"correct\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4281,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4284,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4356,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4438,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4441,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4513,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4595,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4598,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4672,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4754,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4757,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4830,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5228,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5458,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5508,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5548,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5594,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5664,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamResultsDetailTableViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5712,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/BeginExamViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 548,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/BeginExamViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1414,
+      "length": 9,
+      "value": "\"Expires\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/BeginExamViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2054,
+      "length": 11,
+      "value": "\"BeginExam\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/BeginExamViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2404,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/BeginExamViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2544,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/BeginExamViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2577,
+      "length": 4,
+      "value": "50.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/BeginExamViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2763,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/BeginExamViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2771,
+      "length": 5,
+      "value": "-20.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/BeginExamViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2816,
+      "length": 5,
+      "value": "110.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/BeginExamViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2857,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/BeginExamViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2958,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/BeginExamViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3000,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/BeginExamViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3152,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/BeginExamViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3160,
+      "length": 4,
+      "value": "80.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/BeginExamViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3203,
+      "length": 5,
+      "value": "110.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/BeginExamViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3288,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/BeginExamViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3450,
+      "length": 14,
+      "value": "\"MMM dd, yyyy\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/BeginExamViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3593,
+      "length": 56,
+      "value": "\"Pool expired on: \""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/BeginExamViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3648,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 577,
+      "length": 4,
+      "value": "95.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1046,
+      "length": 7,
+      "value": "\"Class\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1236,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolTableViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1687,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1830,
+      "length": 8,
+      "value": "\"groups\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2127,
+      "length": 6,
+      "value": "\"Cell\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2182,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2222,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2368,
+      "length": 8,
+      "value": "\"groups\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2497,
+      "length": 35,
+      "value": "\"Group \""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2512,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2531,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2568,
+      "length": 13,
+      "value": "\"description\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2899,
+      "length": 13,
+      "value": "\"Subelements\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3127,
+      "length": 40,
+      "value": "\"SUBELEMENT \""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3166,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolTableViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3298,
+      "length": 4,
+      "value": "95.0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3697,
+      "length": 30,
+      "value": "\"ShowSubelementGroupQuestions\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/PoolTableViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4071,
+      "length": 8,
+      "value": "\"groups\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/ViewControllers\/ExamNavigationViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 484,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Utility\/PropertyList.swift",
+      "kind": "StringLiteral",
+      "offset": 427,
+      "length": 7,
+      "value": "\"plist\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Utility\/PropertyList.swift",
+      "kind": "StringLiteral",
+      "offset": 1071,
+      "length": 7,
+      "value": "\"plist\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Utility\/PropertyList.swift",
+      "kind": "StringLiteral",
+      "offset": 1552,
+      "length": 7,
+      "value": "\"plist\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Utility\/PropertyList.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1942,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Utility\/PropertyList.swift",
+      "kind": "StringLiteral",
+      "offset": 2044,
+      "length": 7,
+      "value": "\"plist\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Utility\/PropertyList.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2228,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Utility\/PropertyList.swift",
+      "kind": "StringLiteral",
+      "offset": 2469,
+      "length": 6,
+      "value": "\"json\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Utility\/PropertyList.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2618,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Utility\/PropertyList.swift",
+      "kind": "StringLiteral",
+      "offset": 2716,
+      "length": 48,
+      "value": "\"writeJSON error: \""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Utility\/PropertyList.swift",
+      "kind": "StringLiteral",
+      "offset": 2763,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Utility\/PropertyList.swift",
+      "kind": "StringLiteral",
+      "offset": 3195,
+      "length": 6,
+      "value": "\"json\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Utility\/PropertyList.swift",
+      "kind": "StringLiteral",
+      "offset": 3436,
+      "length": 47,
+      "value": "\"readJSON error: \""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Utility\/PropertyList.swift",
+      "kind": "StringLiteral",
+      "offset": 3482,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Utility\/PropertyList.swift",
+      "kind": "StringLiteral",
+      "offset": 3713,
+      "length": 21,
+      "value": "\"%@.\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Utility\/PropertyList.swift",
+      "kind": "StringLiteral",
+      "offset": 3733,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Utility\/PropertyList.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3864,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Utility\/PropertyList.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3870,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}
