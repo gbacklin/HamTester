@@ -388,7 +388,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 18;
+				CURRENT_PROJECT_VERSION = 19;
 				DEVELOPMENT_TEAM = 8DT5Y3HP4L;
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8DT5Y3HP4L;
 				"DEVELOPMENT_TEAM[sdk=macosx*]" = 8DT5Y3HP4L;
@@ -419,7 +419,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 18;
+				CURRENT_PROJECT_VERSION = 19;
 				DEVELOPMENT_TEAM = 8DT5Y3HP4L;
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8DT5Y3HP4L;
 				"DEVELOPMENT_TEAM[sdk=macosx*]" = 8DT5Y3HP4L;
