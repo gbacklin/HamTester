@@ -2121,43 +2121,6 @@
 									<key>correct</key>
 									<false/>
 									<key>text</key>
-									<string>56 kilobaud</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<false/>
-									<key>text</key>
-									<string>19.6 kilobaud</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<false/>
-									<key>text</key>
-									<string>1200 baud</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<true/>
-									<key>text</key>
-									<string>300 baud</string>
-								</dict>
-							</array>
-							<key>figureFile</key>
-							<string></string>
-							<key>figureTitle</key>
-							<string></string>
-							<key>name</key>
-							<string>G1C08</string>
-							<key>question</key>
-							<string>What is the maximum symbol rate permitted for RTTY or data emission transmitted at frequencies below 28 MHz?</string>
-						</dict>
-						<dict>
-							<key>answers</key>
-							<array>
-								<dict>
-									<key>correct</key>
-									<false/>
-									<key>text</key>
 									<string>1500 watts PEP</string>
 								</dict>
 								<dict>
@@ -2187,43 +2150,6 @@
 							<string>G1C09</string>
 							<key>question</key>
 							<string>What is the maximum power limit on the 60-meter band?</string>
-						</dict>
-						<dict>
-							<key>answers</key>
-							<array>
-								<dict>
-									<key>correct</key>
-									<false/>
-									<key>text</key>
-									<string>56 kilobaud</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<false/>
-									<key>text</key>
-									<string>19.6 kilobaud</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<true/>
-									<key>text</key>
-									<string>1200 baud</string>
-								</dict>
-								<dict>
-									<key>correct</key>
-									<false/>
-									<key>text</key>
-									<string>300 baud</string>
-								</dict>
-							</array>
-							<key>figureFile</key>
-							<string></string>
-							<key>figureTitle</key>
-							<string></string>
-							<key>name</key>
-							<string>G1C10</string>
-							<key>question</key>
-							<string>What is the maximum symbol rate permitted for RTTY or data emission transmissions on the 10-meter band?</string>
 						</dict>
 						<dict>
 							<key>answers</key>
