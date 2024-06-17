@@ -104,7 +104,7 @@ class Exam: NSObject {
                     var answers: [[String : AnyObject]] = question.answers! as! [[String : AnyObject]]
                     
                     var answer: [String : AnyObject] = answers[question.selectedAnswerRow!]
-                    let text = "\(answer["text"]!) [X]"
+                    let text = "\(answer["text"]!) [ERROR]"
                     answer["text"] = text as AnyObject
                     
                     answers[question.selectedAnswerRow!] = answer
