@@ -13,7 +13,8 @@ class BeginExamViewController: UIViewController {
     @IBOutlet weak var iconImageView: UIImageView!
     @IBOutlet var drawerView: UIView!
     @IBOutlet weak var expireDateLabel: UILabel!
-    
+    @IBOutlet weak var expiresDateLabel: UILabel!
+
     var questionPool: [String : AnyObject]?
     var backgroundImage: UIImage?
     var iconImage: UIImage?
@@ -100,6 +101,8 @@ class BeginExamViewController: UIViewController {
         if now.compare(expireDate) == .orderedDescending {
             expireDateLabel.text = "Pool expired on: \(formatter.string(from: expireDate))"
             showDrawer(sender: expireDate)
+        } else {
+            expiresDateLabel.text = "Pool valid till: \(formatter.string(from: expireDate))"
         }
     }
 }

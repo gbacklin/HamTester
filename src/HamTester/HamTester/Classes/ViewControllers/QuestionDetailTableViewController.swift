@@ -31,6 +31,8 @@ class QuestionDetailTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.title = question!.name!
 
         previousBarButtonItem = UIBarButtonItem(title: "Prev", style: .plain, target: self, action: #selector(didTapPrevious(sender:)))
         nextBarButtonItem = UIBarButtonItem(title: "Next", style: .plain, target: self, action: #selector(didTapNext(sender:)))
@@ -48,7 +50,7 @@ class QuestionDetailTableViewController: UITableViewController {
         
         displayQuestion()
     }
-    
+        
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         delegate?.updateExam(exam: exam!)
@@ -62,6 +64,9 @@ class QuestionDetailTableViewController: UITableViewController {
 
     @IBAction func resetImageView(_ sender: UITapGestureRecognizer) {
         self.scrollView.setZoomScale(0.0, animated: true)
+    }
+    @IBAction func delayZoomImageview(_ sender: UILongPressGestureRecognizer) {
+        self.scrollView.setZoomScale(1.7, animated: true)
     }
 
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -80,6 +85,7 @@ class QuestionDetailTableViewController: UITableViewController {
             let questionIndex = questionIndexPath!.row - 1
             questionIndexPath!.row = questionIndex
             question = exam![questionIndex] as? Question
+            title = question!.name
             displayQuestion()
         }
         checkNextPrevBarButtonItems()
@@ -91,6 +97,7 @@ class QuestionDetailTableViewController: UITableViewController {
             let questionIndex = questionIndexPath!.row + 1
             questionIndexPath!.row = questionIndex
             question = exam![questionIndex] as? Question
+            title = question!.name
             displayQuestion()
         }
         checkNextPrevBarButtonItems()

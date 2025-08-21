@@ -1,7 +1,7 @@
 framework module HamTester {
   umbrella header "HamTester.h"
-
   export *
+
   module * { export * }
 }
 

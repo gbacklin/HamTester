@@ -72,8 +72,10 @@ class PoolGroupQuestionsTableViewController: UITableViewController {
         if segue.identifier == "ShowPoolGroupQuestionDetail" {
             let controller: PoolGroupQuestionDetailTableViewController = segue.destination as! PoolGroupQuestionDetailTableViewController
             let indexPath = tableView.indexPathForSelectedRow
+            let question: [String : AnyObject]? = questions![indexPath!.row]
+
             controller.questions = questions
-            controller.titleText = "\(group!["name"] as! String)"
+            controller.titleText = "\(question!["name"] as! String)"
             controller.questionIndexPath = indexPath
         }
 

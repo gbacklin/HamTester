@@ -59,6 +59,7 @@ class PoolGroupQuestionDetailTableViewController: UITableViewController {
             let questionIndex = questionIndexPath!.row - 1
             questionIndexPath!.row = questionIndex
             question = questions![questionIndex]
+            title = "\(question!["name"] as! String)"
             displayQuestion()
         }
         checkNextPrevBarButtonItems()
@@ -69,6 +70,7 @@ class PoolGroupQuestionDetailTableViewController: UITableViewController {
             let questionIndex = questionIndexPath!.row + 1
             questionIndexPath!.row = questionIndex
             question = questions![questionIndex]
+            title = "\(question!["name"] as! String)"
             displayQuestion()
         }
         checkNextPrevBarButtonItems()
@@ -77,7 +79,10 @@ class PoolGroupQuestionDetailTableViewController: UITableViewController {
     @IBAction func resetImageView(_ sender: UITapGestureRecognizer) {
         self.scrollView.setZoomScale(0.0, animated: true)
     }
-    
+    @IBAction func delayZoomImageview(_ sender: UILongPressGestureRecognizer) {
+        self.scrollView.setZoomScale(1.7, animated: true)
+    }
+
     override func viewForZooming(in scrollView: UIScrollView) -> UIView? {
         return diagramImageView
     }
