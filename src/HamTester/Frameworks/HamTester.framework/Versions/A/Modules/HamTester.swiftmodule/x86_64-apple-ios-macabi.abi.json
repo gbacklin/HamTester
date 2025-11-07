@@ -1515,10 +1515,126 @@
           },
           {
             "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HamTester"
+      },
+      {
+        "kind": "Import",
+        "name": "AppKit",
+        "printedName": "AppKit",
+        "declKind": "Import",
+        "moduleName": "HamTester"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HamTester"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HamTester"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "HamTester"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NSImage",
+        "printedName": "NSImage",
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSImage",
+        "moduleName": "AppKit",
+        "intro_iOS": "13.0",
+        "objc_name": "NSImage",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       }
@@ -1579,7 +1695,7 @@
       "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
       "kind": "StringLiteral",
       "offset": 4037,
-      "length": 24,
+      "length": 28,
       "value": "\"\""
     },
     {
@@ -1594,138 +1710,138 @@
       "kind": "StringLiteral",
       "offset": 4056,
       "length": 1,
-      "value": "\" [X]\""
+      "value": "\" [ERROR]\""
     },
     {
       "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
       "kind": "StringLiteral",
-      "offset": 4089,
+      "offset": 4093,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
       "kind": "StringLiteral",
-      "offset": 4329,
+      "offset": 4333,
       "length": 51,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
       "kind": "StringLiteral",
-      "offset": 4367,
+      "offset": 4371,
       "length": 1,
       "value": "\" - Incorrect\""
     },
     {
       "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
       "kind": "IntegerLiteral",
-      "offset": 4448,
+      "offset": 4452,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
       "kind": "IntegerLiteral",
-      "offset": 4653,
+      "offset": 4657,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
       "kind": "IntegerLiteral",
-      "offset": 4685,
+      "offset": 4689,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
       "kind": "IntegerLiteral",
-      "offset": 4703,
+      "offset": 4707,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
       "kind": "StringLiteral",
-      "offset": 4841,
+      "offset": 4845,
       "length": 9,
       "value": "\"correct\""
     },
     {
       "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
       "kind": "BooleanLiteral",
-      "offset": 4895,
+      "offset": 4899,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
       "kind": "StringLiteral",
-      "offset": 5176,
+      "offset": 5180,
       "length": 11,
       "value": "\"questions\""
     },
     {
       "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
       "kind": "IntegerLiteral",
-      "offset": 5309,
+      "offset": 5313,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
       "kind": "StringLiteral",
-      "offset": 5484,
+      "offset": 5488,
       "length": 9,
       "value": "\"answers\""
     },
     {
       "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
       "kind": "StringLiteral",
-      "offset": 5615,
+      "offset": 5619,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
       "kind": "StringLiteral",
-      "offset": 5682,
+      "offset": 5686,
       "length": 10,
       "value": "\"question\""
     },
     {
       "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
       "kind": "IntegerLiteral",
-      "offset": 5815,
+      "offset": 5819,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
       "kind": "StringLiteral",
-      "offset": 5935,
+      "offset": 5939,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
       "kind": "StringLiteral",
-      "offset": 5996,
+      "offset": 6000,
       "length": 13,
       "value": "\"description\""
     },
     {
       "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
       "kind": "StringLiteral",
-      "offset": 6086,
+      "offset": 6090,
       "length": 13,
       "value": "\"figureTitle\""
     },
     {
       "filePath": "\/Users\/genebacklin\/Documents\/GitHub\/HamTester\/src\/HamTester\/HamTester\/Classes\/Models\/Exam.swift",
       "kind": "StringLiteral",
-      "offset": 6166,
+      "offset": 6170,
       "length": 12,
       "value": "\"figureFile\""
     },
@@ -3562,6 +3678,27 @@
       "offset": 3870,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Library\/Developer\/Xcode\/DerivedData\/HamTester-dyxgovkrhsjvctapimhklzlxjkmk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HamTester\/IntermediateBuildFilesPath\/HamTester.build\/Release-maccatalyst\/HamTester.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 715,
+      "length": 3,
+      "value": "\"X\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Library\/Developer\/Xcode\/DerivedData\/HamTester-dyxgovkrhsjvctapimhklzlxjkmk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HamTester\/IntermediateBuildFilesPath\/HamTester.build\/Release-maccatalyst\/HamTester.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 836,
+      "length": 6,
+      "value": "\"list\""
+    },
+    {
+      "filePath": "\/Users\/genebacklin\/Library\/Developer\/Xcode\/DerivedData\/HamTester-dyxgovkrhsjvctapimhklzlxjkmk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HamTester\/IntermediateBuildFilesPath\/HamTester.build\/Release-maccatalyst\/HamTester.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 962,
+      "length": 7,
+      "value": "\"pools\""
     }
   ]
 }
